@@ -4,7 +4,8 @@
 - print 1 to n numbers using recursion
 - Reverse an array using recursion  
 - check palindrome using recursion
-- binary search using recursion 
+- binary search using recursion
+- Find power of a number using recursion
 ---
 
 ### 📌 Reverse Array (Recursion)
@@ -45,3 +46,15 @@
 **Complexity:**
 - Time: O(log n)  
 - Space: O(log n)
+  
+  ### 📌 Power of a Number (Recursion)
+
+**Approach:**
+- Multiply x with recursive result of (x, n-1)
+
+**Base Case:**
+- n == 0 → return 1  
+
+**Complexity:**
+- Time: O(n)  
+- Space: O(n)
