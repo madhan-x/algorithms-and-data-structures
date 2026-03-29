@@ -13,3 +13,9 @@
 ### Problems Implemented
 
 - Find middle of linked list using slow & fast pointers
+
+## 📊 Arrays
+
+### Problems Implemented
+- Check if array is sorted
+- trapping rain water
