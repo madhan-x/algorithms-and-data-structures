@@ -19,3 +19,5 @@
 ### Problems Implemented
 - Check if array is sorted
 - trapping rain water
+- Rotate array by k positions (Reversal Algorithm)
+- 
