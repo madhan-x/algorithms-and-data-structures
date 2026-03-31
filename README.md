@@ -20,4 +20,4 @@
 - Check if array is sorted
 - trapping rain water
 - Rotate array by k positions (Reversal Algorithm)
-- 
+-  Two Sum (Sorted Array using Two Pointers)
