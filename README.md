@@ -24,3 +24,4 @@
 - Find all pairs with given sum (Two Pointers)
 - Find all triplets with given sum (3Sum using Two Pointers)
 - Container With Most Water (Two Pointers)
+- Maximum consecutive 1s in array
