@@ -26,3 +26,4 @@
 - Container With Most Water (Two Pointers)
 - Maximum consecutive 1s in array
 - Maximum subarray sum (Kadane’s Algorithm)
+- Find second largest element in array
