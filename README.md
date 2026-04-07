@@ -27,3 +27,4 @@
 - Maximum consecutive 1s in array
 - Maximum subarray sum (Kadane’s Algorithm)
 - Find second largest element in array
+- Best Time to Buy and Sell Stock
