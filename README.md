@@ -1,32 +1,85 @@
-## 🔁 Recursion
+# 🚀 DSA Practice in C
 
-### Problems Implemented
-- print 1 to n numbers using recursion
-- Reverse an array using recursion  
-- check palindrome using recursion
-- binary search using recursion
-- Find power of a number using recursion
+This repository contains my daily practice of **Data Structures and Algorithms (DSA)** using C.
 
-  
-## 🔗 Linked List
+I focus on understanding patterns, optimizing solutions, and improving problem-solving skills.
 
-### Problems Implemented
+---
 
-- Find middle of linked list using slow & fast pointers
+## 📂 Topics Covered
 
-## 📊 Arrays
-
-### Problems Implemented
+### 📊 Arrays
 - Check if array is sorted
-- trapping rain water
-- Rotate array by k positions (Reversal Algorithm)
-- Two Sum (Sorted Array using Two Pointers)
-- Find all pairs with given sum (Two Pointers)
-- Find all triplets with given sum (3Sum using Two Pointers)
-- Container With Most Water (Two Pointers)
-- Maximum consecutive 1s in array
+- Find missing number (sum formula)
+- Maximum consecutive ones
 - Maximum subarray sum (Kadane’s Algorithm)
-- Find second largest element in array
-- Best Time to Buy and Sell Stock
-- Find missing number (using sum formula)
-- Check if array is palindrome (Two Pointers)
+- Second largest element
+- Best time to buy and sell stock
+
+---
+
+### ⚡ Two Pointers
+- Two sum (sorted array)
+- All pairs with given sum
+- Three sum
+- Trapping rain water
+- Container with most water
+- Palindrome array check
+- Rotate array by k positions
+
+---
+
+### 🔁 Recursion
+- Print 1 to N
+- Reverse array
+- Check palindrome
+- Binary search
+- Power of a number
+
+---
+
+### 🔗 Linked List
+- Find middle of linked list (slow & fast pointers)
+
+---
+
+### 📚 Stack
+- Stack implementation in C
+
+---
+
+### 📥 Queue
+- Queue implementation in C
+
+---
+
+### 🔃 Sorting
+- Bubble sort
+- Selection sort
+
+---
+
+## 🧠 Key Concepts Practiced
+
+- Two Pointers Technique
+- Recursion
+- Greedy Approach
+- Kadane’s Algorithm
+- Slow & Fast Pointer Technique
+- Array Traversal & Optimization
+
+---
+
+## ⚡ Goal
+
+To build strong problem-solving skills and master DSA for coding interviews.
+
+---
+
+## 🔗 GitHub Repository
+
+👉 https://github.com/madhan-x/DSA-Practice
+
+---
+
+⭐ Consistency > Perfection
