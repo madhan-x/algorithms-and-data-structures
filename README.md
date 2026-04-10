@@ -1,6 +1,6 @@
-# 🚀 DSA Practice in C
+# 🚀 DSA Practice in C and CPP
 
-This repository contains my daily practice of **Data Structures and Algorithms (DSA)** using C.
+This repository contains my daily practice of **Data Structures and Algorithms (DSA)** using C and CPP.
 
 I focus on understanding patterns, optimizing solutions, and improving problem-solving skills.
 
@@ -59,15 +59,16 @@ I focus on understanding patterns, optimizing solutions, and improving problem-s
 
 ---
 
-## 🧠 Key Concepts Practiced
+# C++ Basics
 
-- Two Pointers Technique
-- Recursion
-- Greedy Approach
-- Kadane’s Algorithm
-- Slow & Fast Pointer Technique
-- Array Traversal & Optimization
+This folder contains my initial learning of C++.
 
+## Topics:
+- cin / cout
+- Functions
+- Vectors (STL)
+
+This is the foundation before solving DSA problems in C++.
 ---
 
 ## ⚡ Goal
@@ -78,7 +79,7 @@ To build strong problem-solving skills and master DSA for coding interviews.
 
 ## 🔗 GitHub Repository
 
-👉 https://github.com/madhan-x/DSA-Practice
+👉 https://github.com/madhan-x/DSA-Practice.git
 
 ---
 
