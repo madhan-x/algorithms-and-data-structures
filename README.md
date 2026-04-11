@@ -68,6 +68,12 @@ This folder contains my initial learning of C++.
 - Functions
 - Vectors (STL)
 
+### 🔹 Patterns
+
+- Triangle pattern using nested loops
+- Inverted triangle pattern using nested loops
+- 
+
 This is the foundation before solving DSA problems in C++.
 ---
 
