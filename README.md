@@ -1,8 +1,11 @@
-# 🚀 DSA Practice in C and CPP
+# 🚀 DSA Practice in C & C++
 
-This repository contains my daily practice of **Data Structures and Algorithms (DSA)** using C and CPP.
+This repository contains my daily practice of **Data Structures and Algorithms (DSA)** using C and C++.
 
-I focus on understanding patterns, optimizing solutions, and improving problem-solving skills.
+I focus on:
+- Understanding patterns 🧠
+- Optimizing solutions ⚡
+- Improving problem-solving skills 🚀
 
 ---
 
@@ -15,6 +18,7 @@ I focus on understanding patterns, optimizing solutions, and improving problem-s
 - Maximum subarray sum (Kadane’s Algorithm)
 - Second largest element
 - Best time to buy and sell stock
+- Find single number using XOR
 
 ---
 
@@ -24,7 +28,6 @@ I focus on understanding patterns, optimizing solutions, and improving problem-s
 - Three sum
 - Trapping rain water
 - Container with most water
-- Palindrome array check
 - Rotate array by k positions
 
 ---
@@ -44,12 +47,12 @@ I focus on understanding patterns, optimizing solutions, and improving problem-s
 ---
 
 ### 📚 Stack
-- Stack implementation in C
+- Stack implementation
 
 ---
 
 ### 📥 Queue
-- Queue implementation in C
+- Queue implementation
 
 ---
 
@@ -59,22 +62,21 @@ I focus on understanding patterns, optimizing solutions, and improving problem-s
 
 ---
 
-# C++ Basics
+## 🧩 C++ Basics
 
-This folder contains my initial learning of C++.
+This section contains my foundation in C++ before diving deeper into DSA.
 
-## Topics:
-- cin / cout
+### 🔹 Concepts
+- Input/Output (cin / cout)
 - Functions
 - Vectors (STL)
 
 ### 🔹 Patterns
+- Triangle pattern
+- Inverted triangle pattern
 
-- Triangle pattern using nested loops
-- Inverted triangle pattern using nested loops
-- 
+💡 These problems help in building logic and understanding loop behavior.
 
-This is the foundation before solving DSA problems in C++.
 ---
 
 ## ⚡ Goal
@@ -83,10 +85,15 @@ To build strong problem-solving skills and master DSA for coding interviews.
 
 ---
 
-## 🔗 GitHub Repository
+## 🔗 Repository Link
 
-👉 https://github.com/madhan-x/DSA-Practice.git
+👉 https://github.com/madhan-x/DSA-Practice
 
 ---
 
-⭐ Consistency > Perfection
+## 📈 Progress Mindset
+
+> Consistency beats intensity.  
+> Small steps every day = big results over time.
+
+⭐ Keep building. Keep improving.
