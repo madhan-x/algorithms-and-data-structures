@@ -19,7 +19,8 @@ I focus on:
 - Second largest element
 - Best time to buy and sell stock
 - Find single number using XOR
-
+- Left rotate array by one position
+- Right rotate array by one position
 ---
 
 ### ⚡ Two Pointers
