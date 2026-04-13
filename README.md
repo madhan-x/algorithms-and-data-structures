@@ -21,6 +21,7 @@ I focus on:
 - Find single number using XOR
 - Left rotate array by one position
 - Right rotate array by one position
+- Rotate array by k positions (Reversal Algorithm)
 ---
 
 ### ⚡ Two Pointers
