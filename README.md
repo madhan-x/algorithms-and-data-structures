@@ -22,6 +22,7 @@ I focus on:
 - Left rotate array by one position
 - Right rotate array by one position
 - Rotate array by k positions (Reversal Algorithm)
+- Check if array is sorted and rotated
 ---
 
 ### ⚡ Two Pointers
