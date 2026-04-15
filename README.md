@@ -23,6 +23,7 @@ I focus on:
 - Right rotate array by one position
 - Rotate array by k positions (Reversal Algorithm)
 - Check if array is sorted and rotated
+- Leaders in array (right-side maximum approach)
 ---
 
 ### ⚡ Two Pointers
