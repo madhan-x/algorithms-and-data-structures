@@ -25,6 +25,7 @@ I focus on:
 - Check if array is sorted and rotated
 - Leaders in array (right-side maximum approach)
 - Longest subarray with equal number of 0s and 1s (prefix sum + hashmap)
+- Union of two sorted arrays (two pointers, remove duplicates)
 ---
 
 ### ⚡ Two Pointers
