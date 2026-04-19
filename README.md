@@ -26,6 +26,7 @@ I focus on:
 - Leaders in array (right-side maximum approach)
 - Longest subarray with equal number of 0s and 1s (prefix sum + hashmap)
 - Union of two sorted arrays (two pointers, remove duplicates)
+- Check if two arrays are equal (sorting approach)
 ---
 
 ### ⚡ Two Pointers
