@@ -28,6 +28,7 @@ I focus on:
 - Union of two sorted arrays (two pointers, remove duplicates)
 - Check if two arrays are equal (sorting approach)
 - Best time to buy and sell stock (greedy, one pass)
+- Intersection of two sorted arrays (two pointers, unique elements)
 ---
 
 ### ⚡ Two Pointers
