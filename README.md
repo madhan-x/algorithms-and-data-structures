@@ -11,6 +11,10 @@ I focus on:
 
 ## 📂 Topics Covered
 
+### 🔢 Maths
+
+- nCr using factorial (functions)
+
 ### 📊 Arrays
 - Check if array is sorted
 - Find missing number (sum formula)
