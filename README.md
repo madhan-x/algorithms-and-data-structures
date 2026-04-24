@@ -34,6 +34,7 @@ I focus on:
 - Best time to buy and sell stock (greedy, one pass)
 - Intersection of two sorted arrays (two pointers, unique elements)
 - Longest consecutive sequence (hashing, O(n))
+- Move all negative numbers to left (two pointers, in-place)
 ---
 
 ### ⚡ Two Pointers
