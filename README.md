@@ -35,6 +35,7 @@ I focus on:
 - Intersection of two sorted arrays (two pointers, unique elements)
 - Longest consecutive sequence (hashing, O(n))
 - Move all negative numbers to left (two pointers, in-place)
+- Sort colors (Dutch National Flag, three pointers)
 ---
 
 ### ⚡ Two Pointers
