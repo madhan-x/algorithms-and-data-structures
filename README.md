@@ -36,6 +36,7 @@ I focus on:
 - Longest consecutive sequence (hashing, O(n))
 - Move all negative numbers to left (two pointers, in-place)
 - Sort colors (Dutch National Flag, three pointers)
+- Sum of array elements (basic traversal)
 ---
 
 ### ⚡ Two Pointers
