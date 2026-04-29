@@ -12,8 +12,11 @@ I focus on:
 ## 📂 Topics Covered
 
 ### 🔢 Maths
-
 - nCr using factorial (functions)
+
+### 🔢 Number System
+- Binary to Decimal conversion  
+- Decimal to Binary conversion  
 
 ### 📊 Arrays
 - Check if array is sorted
