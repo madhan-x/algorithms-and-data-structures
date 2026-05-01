@@ -18,6 +18,12 @@ I focus on:
 - Binary to Decimal conversion  
 - Decimal to Binary conversion  
 
+### ⚙️ C++ Fundamentals
+
+- Data type modifiers (short, long, unsigned)
+- Bitwise operators (&, |, ^, ~, <<, >>)
+- Operator precedence & associativity
+
 ### 📊 Arrays
 - Check if array is sorted
 - Find missing number (sum formula)
