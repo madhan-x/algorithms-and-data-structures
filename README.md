@@ -71,6 +71,7 @@ I focus on:
 - Find middle of linked list (slow & fast pointers)
 - Singly linked list creation and traversal
 - Insert node at beginning (O(1))
+- Insert node at end (O(n))
 ---
 
 ### 📚 Stack
