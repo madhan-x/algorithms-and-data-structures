@@ -72,6 +72,7 @@ I focus on:
 - Singly linked list creation and traversal
 - Insert node at beginning (O(1))
 - Insert node at end (O(n))
+- Delete node at beginning (O(1))
 ---
 
 ### 📚 Stack
