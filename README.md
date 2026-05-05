@@ -46,6 +46,7 @@ I focus on:
 - Move all negative numbers to left (two pointers, in-place)
 - Sort colors (Dutch National Flag, three pointers)
 - Sum of array elements (basic traversal)
+- Majority element using Moore’s Voting Algorithm
 ---
 
 ### ⚡ Two Pointers
