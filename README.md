@@ -74,6 +74,7 @@ I focus on:
 - Insert node at beginning (O(1))
 - Insert node at end (O(n))
 - Delete node at beginning (O(1))
+- Delete node at end (O(n))
 ---
 
 ### 📚 Stack
