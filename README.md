@@ -77,7 +77,8 @@ I focus on:
 - Delete node at end (O(n))
 - Circular linked list insertion at beginning
 - Circular linked list insertion at end
-- Circular linked list delete node from beginning
+- Circular linked list delete node at beginning 
+- Circular linked list delete node at end
 ---
 
 ### 📚 Stack
