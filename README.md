@@ -71,10 +71,11 @@ I focus on:
 ### 🔗 Linked List
 - Find middle of linked list (slow & fast pointers)
 - Singly linked list creation and traversal
-- Insert node at beginning (O(1))
-- Insert node at end (O(n))
-- Delete node at beginning (O(1))
-- Delete node at end (O(n))
+- Singly linked list insert node at beginning
+- Singly linked list insert node at end
+- Singly linked list delete node at beginning
+- Singly linked list delete node at end
+- Doubly linked list insertion at beginning
 - Circular linked list insertion at beginning
 - Circular linked list insertion at end
 - Circular linked list delete node at beginning 
