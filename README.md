@@ -74,10 +74,12 @@ I focus on:
 - Singly linked list insert node at end
 - Singly linked list delete node at beginning
 - Singly linked list delete node at end
+- Doubly linked list creation and traversal
 - Doubly linked list insertion at beginning
 - Doubly linked list insertion at end
 - Doubly linked list delete node at beginning
 - Doubly linked list delete node at end
+- Circluar linked list creation and traversal
 - Circular linked list insertion at beginning
 - Circular linked list insertion at end
 - Circular linked list delete node at beginning 
