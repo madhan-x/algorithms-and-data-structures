@@ -69,7 +69,6 @@ I focus on:
 ---
 
 ### 🔗 Linked List
-- Find middle of linked list (slow & fast pointers)
 - Singly linked list creation and traversal
 - Singly linked list insert node at beginning
 - Singly linked list insert node at end
@@ -78,10 +77,12 @@ I focus on:
 - Doubly linked list insertion at beginning
 - Doubly linked list insertion at end
 - Doubly linked list delete node at beginning
+- Doubly linked list delete node at end
 - Circular linked list insertion at beginning
 - Circular linked list insertion at end
 - Circular linked list delete node at beginning 
 - Circular linked list delete node at end
+- Find middle of linked list (slow & fast pointers)
 ---
 
 ### 📚 Stack
