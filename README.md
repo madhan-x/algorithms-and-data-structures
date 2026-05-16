@@ -89,6 +89,7 @@ I focus on:
 
 ### 📚 Stack
 - Stack implementation
+- Implemented insertion at bottom of stack using an auxiliary stack in C++
 
 ---
 
