@@ -92,6 +92,7 @@ I focus on:
 - Implemented insertion at bottom of stack using an auxiliary stack in C++
 - Solved Stock Span Problem using Monotonic Stack in C++
 - Solved Previous Greater Element using Monotonic Stack in C++
+- Solved Next Smaller Element using Monotonic Stack in C++
 ---
 
 ### 📥 Queue
