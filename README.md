@@ -1,4 +1,4 @@
-🚀 DSA Practice in C & C++
+## 🚀 DSA Practice in C & C++
 
 Welcome to my Data Structures and Algorithms practice repository.
 
@@ -12,7 +12,7 @@ The goal is not just solving problems, but understanding:
 
 ---
 
-📌 What I’m Focused On
+## 📌 What I’m Focused On
 
 - Building strong DSA foundations
 - Improving problem-solving consistency
@@ -22,30 +22,30 @@ The goal is not just solving problems, but understanding:
 
 ---
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 
-- Language: C, C++
+- Language: C, C++.
 - Concepts: Data Structures, Algorithms, STL
 - Tools: Git, GitHub
 
 ---
 
-📂 Topics Covered
+## 📂 Topics Covered
 
-🔢 Maths
+## 🔢 Maths
 
 - nCr using factorial (functions)
 
 ---
 
-🔢 Number System
+## 🔢 Number System
 
 - Binary to Decimal conversion
 - Decimal to Binary conversion
 
 ---
 
-⚙️ C++ Fundamentals
+## ⚙️ C++ Fundamentals
 
 Concepts
 
@@ -55,7 +55,7 @@ Concepts
 
 ---
 
-📊 Arrays
+## 📊 Arrays
 
 - Check if array is sorted
 - Find missing number (sum formula)
@@ -80,7 +80,7 @@ Concepts
 
 ---
 
-⚡ Two Pointers
+## ⚡ Two Pointers
 
 - Two sum (sorted array)
 - All pairs with given sum
@@ -91,7 +91,7 @@ Concepts
 
 ---
 
-🔁 Recursion
+## 🔁 Recursion
 
 - Print 1 to N
 - Reverse array
@@ -101,17 +101,9 @@ Concepts
 
 ---
 
-🔗 Linked List
+## 🔗 Linked List
 
-Singly Linked List
-
-- Creation and traversal
-- Insert at beginning
-- Insert at end
-- Delete at beginning
-- Delete at end
-
-Doubly Linked List
+# Singly Linked List
 
 - Creation and traversal
 - Insert at beginning
@@ -119,7 +111,15 @@ Doubly Linked List
 - Delete at beginning
 - Delete at end
 
-Circular Linked List
+# Doubly Linked List
+
+- Creation and traversal
+- Insert at beginning
+- Insert at end
+- Delete at beginning
+- Delete at end
+
+# Circular Linked List
 
 - Creation and traversal
 - Insert at beginning
@@ -133,7 +133,7 @@ Additional Problems
 
 ---
 
-📚 Stack
+## 📚 Stack
 
 - Stack implementation
 - Insert at bottom using auxiliary stack
@@ -150,33 +150,33 @@ Concepts Practiced
 
 ---
 
-📥 Queue
+## 📥 Queue
 
 - Queue implementation
 
 ---
 
-🔃 Sorting
+## 🔃 Sorting
 
 - Bubble Sort
 - Selection Sort
 
 ---
 
-🧩 C++ Basics
+## 🧩 C++ Basics
 
-Concepts
+# Concepts
 
 - Input / Output ("cin", "cout")
 - Functions
 - Vectors (STL)
 
-Patterns
+# Patterns
 
 - Triangle pattern
 - Inverted triangle pattern
 
-These problems helped build:
+# These problems helped build:
 
 - logical thinking
 - loop understanding
@@ -184,9 +184,9 @@ These problems helped build:
 
 ---
 
-📈 Current Learning Direction
+## 📈 Current Learning Direction
 
-Currently exploring:
+# Currently exploring:
 
 - Linked Lists
 - Stack patterns
@@ -194,7 +194,7 @@ Currently exploring:
 - STL usage
 - Problem-solving optimization
 
-Future roadmap:
+# Future roadmap:
 
 - Trees
 - Graphs
@@ -204,7 +204,7 @@ Future roadmap:
 
 ---
 
-🎯 Goal
+## 🎯 Goal
 
 To become strong in:
 
@@ -221,13 +221,13 @@ and prepare for:
 
 ---
 
-🔗 Repository
+## 🔗 Repository
 
 "github.com" (https://github.com/madhan-x/DSA-Practice)
 
 ---
 
-📅 Progress Mindset
+## 📅 Progress Mindset
 
 «Consistency beats intensity.
 Small improvements every day compound over time.»
