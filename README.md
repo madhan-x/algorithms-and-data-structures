@@ -141,6 +141,7 @@ Additional Problems
 - Previous Greater Element
 - Previous Smaller Element
 - Next Smaller Element
+- Remove Adjacent Duplicates using stack
 
 Concepts Practiced
 
