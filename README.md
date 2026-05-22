@@ -142,6 +142,7 @@ Additional Problems
 - Previous Smaller Element
 - Next Smaller Element
 - Remove Adjacent Duplicates using stack
+- Min Stack using auxiliary stack with O(1)
 
 Concepts Practiced
 
