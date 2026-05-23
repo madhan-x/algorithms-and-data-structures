@@ -143,6 +143,7 @@ Additional Problems
 - Next Smaller Element
 - Remove Adjacent Duplicates using stack
 - Min Stack using auxiliary stack with O(1)
+- Postfix Expression Evaluation
 
 Concepts Practiced
 
