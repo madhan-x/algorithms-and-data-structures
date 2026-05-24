@@ -156,6 +156,7 @@ Concepts Practiced
 ## 📥 Queue
 
 - Queue implementation
+- Implemented Queue using Array in C++
 
 ---
 
