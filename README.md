@@ -157,6 +157,7 @@ Concepts Practiced
 
 - Queue implementation
 - Implemented Queue using Array in C++
+- Practiced STL Queue operations using C++
 
 ---
 
