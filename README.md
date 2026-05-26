@@ -1,206 +1,142 @@
-## 🚀 DSA Practice in C & C++
+# DSA Practice in C & C++
 
-Welcome to my Data Structures and Algorithms practice repository.
+This repository contains my daily practice of Data Structures and Algorithms using C and C++.
 
-This repository documents my daily journey of learning and implementing DSA concepts using C and C++.
-The goal is not just solving problems, but understanding:
-
-- problem-solving patterns
-- optimization techniques
-- algorithmic thinking
-- clean implementation practices
-
----
-
-## 📌 What I’m Focused On
-
-- Building strong DSA foundations
-- Improving problem-solving consistency
-- Understanding patterns instead of memorizing solutions
-- Writing cleaner and more optimized code
-- Tracking long-term engineering growth
+The focus is on:
+- Problem-solving
+- Algorithmic thinking
+- Data structure implementation
+- Pattern recognition
+- Code optimization
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
-- Language: C, C++.
-- Concepts: Data Structures, Algorithms, STL
-- Tools: Git, GitHub
-
----
-
-## 📂 Topics Covered
-
-## 🔢 Maths
-
-- nCr using factorial (functions)
+- C
+- C++
+- STL
+- Git
+- GitHub
 
 ---
 
-## 🔢 Number System
+## Topics Covered
 
+### Maths
+- nCr using factorial
+
+### Number System
 - Binary to Decimal conversion
 - Decimal to Binary conversion
 
----
+### C++ Fundamentals
+- Data type modifiers
+- Bitwise operators
+- Operator precedence and associativity
 
-## ⚙️ C++ Fundamentals
-
-Concepts
-
-- Data type modifiers ("short", "long", "unsigned")
-- Bitwise operators ("&", "|", "^", "~", "<<", ">>")
-- Operator precedence & associativity
-
----
-
-## 📊 Arrays
-
+### Arrays
 - Check if array is sorted
-- Find missing number (sum formula)
+- Find missing number
 - Maximum consecutive ones
 - Maximum subarray sum (Kadane’s Algorithm)
 - Second largest element
 - Best time to buy and sell stock
 - Find single number using XOR
-- Left rotate array by one position
-- Right rotate array by one position
-- Rotate array by k positions (Reversal Algorithm)
-- Check if array is sorted and rotated
-- Leaders in array (right-side maximum approach)
-- Longest subarray with equal number of 0s and 1s
-- Union of two sorted arrays
-- Intersection of two sorted arrays
+- Array rotations
+- Leaders in array
+- Longest subarray with equal 0s and 1s
+- Union and intersection of sorted arrays
 - Longest consecutive sequence
-- Move all negative numbers to left
+- Move negative numbers to left
 - Sort colors (Dutch National Flag Algorithm)
-- Sum of array elements
 - Majority element (Moore’s Voting Algorithm)
 
----
-
-## ⚡ Two Pointers
-
-- Two sum (sorted array)
-- All pairs with given sum
-- Three sum
-- Trapping rain water
+### Two Pointers
+- Two Sum
+- Three Sum
 - Container with most water
+- Trapping rain water
 - Rotate array by k positions
 
----
-
-## 🔁 Recursion
-
+### Recursion
 - Print 1 to N
 - Reverse array
 - Check palindrome
 - Binary search
 - Power of a number
 
----
+### Linked List
 
-## 🔗 Linked List
-
-# Singly Linked List
-
-- Creation and traversal
+#### Singly Linked List
+- Traversal
 - Insert at beginning
 - Insert at end
 - Delete at beginning
 - Delete at end
 
-# Doubly Linked List
-
-- Creation and traversal
+#### Doubly Linked List
+- Traversal
 - Insert at beginning
 - Insert at end
 - Delete at beginning
 - Delete at end
 
-# Circular Linked List
-
-- Creation and traversal
+#### Circular Linked List
+- Traversal
 - Insert at beginning
 - Insert at end
 - Delete at beginning
 - Delete at end
 
-Additional Problems
+#### Additional Problems
+- Find middle of linked list
 
-- Find middle of linked list (slow & fast pointers)
-
----
-
-## 📚 Stack
-
+### Stack
 - Stack implementation
-- Insert at bottom using auxiliary stack
+- Insert at bottom of stack
 - Stock Span Problem
 - Previous Greater Element
 - Previous Smaller Element
 - Next Smaller Element
-- Remove Adjacent Duplicates using stack
-- Min Stack using auxiliary stack with O(1)
+- Remove Adjacent Duplicates
+- Min Stack
 - Postfix Expression Evaluation
 
-Concepts Practiced
-
+#### Concepts Practiced
 - Monotonic Stack
 - Stack-based optimization
 - Previous/Next element patterns
 
----
-
-## 📥 Queue
-
+### Queue
 - Queue implementation
-- Implemented Queue using Array in C++
-- Practiced STL Queue operations using C++
-- Reverse First K Elements of Queue using Stack
+- Queue using array
+- STL Queue
+- Reverse first K elements of queue
 
----
-
-## 🔃 Sorting
-
+### Sorting
 - Bubble Sort
 - Selection Sort
 
----
-
-## 🧩 C++ Basics
-
-# Concepts
-
-- Input / Output ("cin", "cout")
+### C++ Basics
+- Input / Output
 - Functions
 - Vectors (STL)
-
-# Patterns
-
-- Triangle pattern
-- Inverted triangle pattern
-
-# These problems helped build:
-
-- logical thinking
-- loop understanding
-- implementation confidence
+- Pattern printing
 
 ---
 
-## 📈 Current Learning Direction
+## Current Learning Focus
 
-# Currently exploring:
-
-- Linked Lists
+- STL
 - Stack patterns
-- Monotonic Stack problems
-- STL usage
+- Queue problems
+- Linked Lists
 - Problem-solving optimization
 
-# Future roadmap:
+---
+
+## Future Roadmap
 
 - Trees
 - Graphs
@@ -210,34 +146,12 @@ Concepts Practiced
 
 ---
 
-## 🎯 Goal
+## Repository
 
-To become strong in:
-
-- problem solving
-- algorithmic thinking
-- optimization
-- real engineering fundamentals
-
-and prepare for:
-
-- coding interviews
-- competitive programming
-- software engineering roles
+https://github.com/madhan-x/DSA-Practice
 
 ---
 
-## 🔗 Repository
+## Goal
 
-"github.com" (https://github.com/madhan-x/DSA-Practice)
-
----
-
-## 📅 Progress Mindset
-
-«Consistency beats intensity.
-Small improvements every day compound over time.»
-
-This repository is my long-term engineering journal documenting that growth.
-
-⭐ Keep building. Keep learning.
+Build strong problem-solving and software engineering fundamentals through consistent practice and implementation.
