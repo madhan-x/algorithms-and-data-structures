@@ -113,6 +113,7 @@ The focus is on:
 - Queue using array
 - STL Queue
 - Reverse first K elements of queue
+- Generate binary numbers from 1 to N
 
 ### Sorting
 - Bubble Sort
