@@ -114,6 +114,7 @@ The focus is on:
 - STL Queue
 - Reverse first K elements of queue
 - Generate binary numbers from 1 to N
+- Solved Interleave First Half of Queue with Second Half
 
 ### Sorting
 - Bubble Sort
