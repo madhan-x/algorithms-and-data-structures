@@ -65,6 +65,7 @@ The focus is on:
 - Check palindrome
 - Binary search
 - Power of a number
+- Fibonacci number using recursion
 
 ### Linked List
 
