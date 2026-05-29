@@ -115,7 +115,8 @@ The focus is on:
 - Reverse first K elements of queue
 - Generate binary numbers from 1 to N
 - Solved Interleave First Half of Queue with Second Half
-- Solved Reverse Queue using Stack in C++
+- Solved Reverse Queue using Stack
+- STL Priority Queue (Max Heap)
 
 ### Sorting
 - Bubble Sort
