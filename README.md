@@ -30,6 +30,12 @@ The focus is on:
 - Binary to Decimal conversion
 - Decimal to Binary conversion
 
+### C++ Basics
+- Input / Output
+- Functions
+- Vectors (STL)
+- Pattern printing
+
 ### C++ Fundamentals
 - Data type modifiers
 - Bitwise operators
@@ -51,6 +57,10 @@ The focus is on:
 - Move negative numbers to left
 - Sort colors (Dutch National Flag Algorithm)
 - Majority element (Moore’s Voting Algorithm)
+
+### Sorting
+- Bubble Sort
+- Selection Sort
 
 ### Two Pointers
 - Two Sum
@@ -119,15 +129,8 @@ The focus is on:
 - Solved Reverse Queue using Stack
 - STL Priority Queue (Max Heap)
 
-### Sorting
-- Bubble Sort
-- Selection Sort
-
-### C++ Basics
-- Input / Output
-- Functions
-- Vectors (STL)
-- Pattern printing
+### Trees
+- Binary Tree node creation
 
 ---
 
