@@ -131,6 +131,9 @@ The focus is on:
 
 ### Trees
 - Binary Tree node creation
+- Preorder Traversal
+- Inorder Traversal
+- Postorder Traversal
 
 ---
 
