@@ -149,7 +149,6 @@ The focus is on:
 
 ## Future Roadmap
 
-- Trees
 - Graphs
 - Dynamic Programming
 - Advanced STL
