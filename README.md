@@ -134,7 +134,7 @@ The focus is on:
 - Preorder Traversal
 - Inorder Traversal
 - Postorder Traversal
-
+- Count Leaf Nodes in Binary Tree
 ---
 
 ## Current Learning Focus
