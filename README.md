@@ -135,6 +135,7 @@ The focus is on:
 - Inorder Traversal
 - Postorder Traversal
 - Count Leaf Nodes in Binary Tree
+- Height of Binary Tree
 ---
 
 ## Current Learning Focus
