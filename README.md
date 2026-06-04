@@ -137,6 +137,7 @@ The focus is on:
 - Count Leaf Nodes in Binary Tree
 - Height of Binary Tree
 - Sum of All Nodes in Binary Tree
+- Find Maximum Element in Binary Tree
 ---
 
 ## Current Learning Focus
