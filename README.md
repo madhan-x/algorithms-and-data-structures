@@ -138,6 +138,7 @@ The focus is on:
 - Height of Binary Tree
 - Sum of All Nodes in Binary Tree
 - Find Maximum Element in Binary Tree
+- Diameter of Binary Tree
 ---
 
 ## Current Learning Focus
