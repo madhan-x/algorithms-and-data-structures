@@ -139,6 +139,7 @@ The focus is on:
 - Sum of All Nodes in Binary Tree
 - Find Maximum Element in Binary Tree
 - Diameter of Binary Tree
+- Level Order Traversal (BFS)
 ---
 
 ## Current Learning Focus
