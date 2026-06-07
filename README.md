@@ -1,81 +1,86 @@
-Data Structures & Algorithms Practice in C++
+🚀 Data Structures & Algorithms Practice in C++
 
-A structured collection of my Data Structures and Algorithms (DSA) implementations in C and C++.
+A structured repository documenting my journey of learning Data Structures & Algorithms, problem-solving, and software engineering fundamentals using C and C++.
 
-This repository serves as a long-term engineering journal documenting my progress in problem solving, algorithm design, data structures, recursion, STL, and software engineering fundamentals.
+---
 
-Skills Developed
+📌 Overview
+
+This repository contains implementations of:
 
 - Data Structures
 - Algorithms
-- Problem Solving
-- Pattern Recognition
-- Time & Space Complexity Analysis
-- Recursion
-- STL (Standard Template Library)
-- Algorithm Optimization
+- STL Concepts
+- Problem-Solving Patterns
+- Recursive Techniques
+- Tree Traversals
+- Optimization Approaches
+
+The objective is to build strong foundations in computer science through consistent practice and implementation.
 
 ---
 
-Technologies
+🛠️ Tech Stack
 
-- C
-- C++
-- STL
-- Git
-- GitHub
+Category| Technologies
+Languages| C, C++
+Libraries| STL
+Tools| Git, GitHub
+Focus| DSA & Problem Solving
 
 ---
 
-Topics Covered
+📚 Topics Covered
 
-Mathematics
+🔢 Mathematics
 
-- nCr using factorial
+- nCr using Factorial
 
-Number System
+---
 
-- Binary to Decimal Conversion
-- Decimal to Binary Conversion
+🔄 Number System
 
-C++ Basics
+- Binary to Decimal
+- Decimal to Binary
+
+---
+
+⚙️ C++ Fundamentals
+
+Basics
 
 - Input / Output
 - Functions
 - Vectors (STL)
 - Pattern Printing
 
-C++ Fundamentals
+Core Concepts
 
 - Data Type Modifiers
 - Bitwise Operators
-- Operator Precedence & Associativity
+- Operator Precedence
+- Associativity
 
-Arrays
+---
+
+📊 Arrays
 
 - Check if Array is Sorted
-- Find Missing Number
+- Missing Number
 - Maximum Consecutive Ones
-- Maximum Subarray Sum (Kadane's Algorithm)
+- Kadane's Algorithm
 - Second Largest Element
 - Best Time to Buy and Sell Stock
-- Find Single Number using XOR
+- Single Number using XOR
 - Array Rotations
 - Leaders in Array
-- Longest Subarray with Equal 0s and 1s
-- Union of Sorted Arrays
-- Intersection of Sorted Arrays
 - Longest Consecutive Sequence
-- Move Negative Numbers to Left
-- Sort Colors (Dutch National Flag Algorithm)
-- Majority Element (Moore's Voting Algorithm)
+- Majority Element
+- Dutch National Flag Algorithm
 
-Sorting
+---
 
-- Bubble Sort
-- Selection Sort
-
-Two Pointers
+🎯 Two Pointers
 
 - Two Sum
 - Three Sum
@@ -83,16 +88,20 @@ Two Pointers
 - Trapping Rain Water
 - Rotate Array by K Positions
 
-Recursion
+---
+
+🔁 Recursion
 
 - Print 1 to N
 - Reverse Array
-- Check Palindrome
-- Recursive Binary Search
+- Palindrome Check
+- Binary Search
 - Power Function
-- Fibonacci Sequence
+- Fibonacci
 
-Linked Lists
+---
+
+🔗 Linked Lists
 
 Singly Linked List
 
@@ -120,38 +129,46 @@ Circular Linked List
 
 Additional Problems
 
-- Find Middle Node (Slow & Fast Pointers)
+- Find Middle Node
 
-Stack
+---
+
+📚 Stack
+
+Problems
 
 - Stack Implementation
-- Insert at Bottom of Stack
+- Insert at Bottom
 - Stock Span Problem
 - Previous Greater Element
 - Previous Smaller Element
 - Next Smaller Element
 - Remove Adjacent Duplicates
 - Min Stack
-- Postfix Expression Evaluation
+- Postfix Evaluation
 
-Concepts Practiced
+Patterns Practiced
 
 - Monotonic Stack
-- Stack Optimization Patterns
-- Previous / Next Element Problems
+- Previous / Next Element
+- Stack Optimization
 
-Queue
+---
+
+📥 Queue
 
 - Queue Implementation
 - Queue Using Array
 - STL Queue
+- Reverse Queue
 - Reverse First K Elements
-- Generate Binary Numbers from 1 to N
-- Interleave First Half of Queue
-- Reverse Queue Using Stack
-- STL Priority Queue (Max Heap)
+- Interleave Queue
+- Generate Binary Numbers
+- Priority Queue (Max Heap)
 
-Trees
+---
+
+🌳 Trees
 
 - Binary Tree Creation
 - Preorder Traversal
@@ -161,38 +178,42 @@ Trees
 - Count Leaf Nodes
 - Height of Binary Tree
 - Sum of All Nodes
-- Maximum Element in Binary Tree
+- Maximum Element
 - Diameter of Binary Tree
 
 ---
 
-Current Learning Focus
+📈 Current Learning Focus
 
-- Binary Trees
+- Trees
+- Binary Search Trees
 - STL
-- Recursion Patterns
-- Problem Solving
+- Problem Solving Patterns
 - Algorithm Optimization
 
 ---
 
-Future Roadmap
+Roadmap
 
-- Binary Search Trees
-- Graphs
-- Dynamic Programming
-- Advanced STL
-- LeetCode Problem Patterns
+- [x] Arrays
+- [x] Linked Lists
+- [x] Stack
+- [x] Queue
+- [x] Recursion
+- [x] Binary Trees
+- [ ] Binary Search Trees
+- [ ] Graphs
+- [ ] Dynamic Programming
+- [ ] Advanced STL
 
 ---
 
 Repository
 
-GitHub:
 https://github.com/madhan-x/DSA-Practice
 
 ---
 
-Objective
+Goal
 
-To build strong foundations in Data Structures, Algorithms, and Software Engineering through consistent implementation, problem solving, and continuous learning.
+To develop strong problem-solving skills, master fundamental data structures and algorithms, and build a solid foundation for software engineering and technical interviews.
