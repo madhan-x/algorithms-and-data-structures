@@ -1,17 +1,23 @@
-# DSA Practice in C & C++
+Data Structures & Algorithms Practice in C++
 
-This repository contains my daily practice of Data Structures and Algorithms using C and C++.
+A structured collection of my Data Structures and Algorithms (DSA) implementations in C and C++.
 
-The focus is on:
-- Problem-solving
-- Algorithmic thinking
-- Data structure implementation
-- Pattern recognition
-- Code optimization
+This repository serves as a long-term engineering journal documenting my progress in problem solving, algorithm design, data structures, recursion, STL, and software engineering fundamentals.
+
+Skills Developed
+
+- Data Structures
+- Algorithms
+- Problem Solving
+- Pattern Recognition
+- Time & Space Complexity Analysis
+- Recursion
+- STL (Standard Template Library)
+- Algorithm Optimization
 
 ---
 
-## Tech Stack
+Technologies
 
 - C
 - C++
@@ -21,91 +27,105 @@ The focus is on:
 
 ---
 
-## Topics Covered
+Topics Covered
 
-### Maths
+Mathematics
+
 - nCr using factorial
 
-### Number System
-- Binary to Decimal conversion
-- Decimal to Binary conversion
+Number System
 
-### C++ Basics
+- Binary to Decimal Conversion
+- Decimal to Binary Conversion
+
+C++ Basics
+
 - Input / Output
 - Functions
 - Vectors (STL)
-- Pattern printing
+- Pattern Printing
 
-### C++ Fundamentals
-- Data type modifiers
-- Bitwise operators
-- Operator precedence and associativity
+C++ Fundamentals
 
-### Arrays
-- Check if array is sorted
-- Find missing number
-- Maximum consecutive ones
-- Maximum subarray sum (Kadane’s Algorithm)
-- Second largest element
-- Best time to buy and sell stock
-- Find single number using XOR
-- Array rotations
-- Leaders in array
-- Longest subarray with equal 0s and 1s
-- Union and intersection of sorted arrays
-- Longest consecutive sequence
-- Move negative numbers to left
-- Sort colors (Dutch National Flag Algorithm)
-- Majority element (Moore’s Voting Algorithm)
+- Data Type Modifiers
+- Bitwise Operators
+- Operator Precedence & Associativity
 
-### Sorting
+Arrays
+
+- Check if Array is Sorted
+- Find Missing Number
+- Maximum Consecutive Ones
+- Maximum Subarray Sum (Kadane's Algorithm)
+- Second Largest Element
+- Best Time to Buy and Sell Stock
+- Find Single Number using XOR
+- Array Rotations
+- Leaders in Array
+- Longest Subarray with Equal 0s and 1s
+- Union of Sorted Arrays
+- Intersection of Sorted Arrays
+- Longest Consecutive Sequence
+- Move Negative Numbers to Left
+- Sort Colors (Dutch National Flag Algorithm)
+- Majority Element (Moore's Voting Algorithm)
+
+Sorting
+
 - Bubble Sort
 - Selection Sort
 
-### Two Pointers
+Two Pointers
+
 - Two Sum
 - Three Sum
-- Container with most water
-- Trapping rain water
-- Rotate array by k positions
+- Container With Most Water
+- Trapping Rain Water
+- Rotate Array by K Positions
 
-### Recursion
+Recursion
+
 - Print 1 to N
-- Reverse array
-- Check palindrome
-- Binary search
-- Power of a number
-- Fibonacci number using recursion
+- Reverse Array
+- Check Palindrome
+- Recursive Binary Search
+- Power Function
+- Fibonacci Sequence
 
-### Linked List
+Linked Lists
 
-#### Singly Linked List
+Singly Linked List
+
 - Traversal
-- Insert at beginning
-- Insert at end
-- Delete at beginning
-- Delete at end
+- Insert at Beginning
+- Insert at End
+- Delete at Beginning
+- Delete at End
 
-#### Doubly Linked List
+Doubly Linked List
+
 - Traversal
-- Insert at beginning
-- Insert at end
-- Delete at beginning
-- Delete at end
+- Insert at Beginning
+- Insert at End
+- Delete at Beginning
+- Delete at End
 
-#### Circular Linked List
+Circular Linked List
+
 - Traversal
-- Insert at beginning
-- Insert at end
-- Delete at beginning
-- Delete at end
+- Insert at Beginning
+- Insert at End
+- Delete at Beginning
+- Delete at End
 
-#### Additional Problems
-- Find middle of linked list
+Additional Problems
 
-### Stack
-- Stack implementation
-- Insert at bottom of stack
+- Find Middle Node (Slow & Fast Pointers)
+
+Stack
+
+- Stack Implementation
+- Insert at Bottom of Stack
 - Stock Span Problem
 - Previous Greater Element
 - Previous Smaller Element
@@ -114,59 +134,65 @@ The focus is on:
 - Min Stack
 - Postfix Expression Evaluation
 
-#### Concepts Practiced
-- Monotonic Stack
-- Stack-based optimization
-- Previous/Next element patterns
+Concepts Practiced
 
-### Queue
-- Queue implementation
-- Queue using array
+- Monotonic Stack
+- Stack Optimization Patterns
+- Previous / Next Element Problems
+
+Queue
+
+- Queue Implementation
+- Queue Using Array
 - STL Queue
-- Reverse first K elements of queue
-- Generate binary numbers from 1 to N
-- Solved Interleave First Half of Queue with Second Half
-- Solved Reverse Queue using Stack
+- Reverse First K Elements
+- Generate Binary Numbers from 1 to N
+- Interleave First Half of Queue
+- Reverse Queue Using Stack
 - STL Priority Queue (Max Heap)
 
-### Trees
-- Binary Tree node creation
+Trees
+
+- Binary Tree Creation
 - Preorder Traversal
 - Inorder Traversal
 - Postorder Traversal
-- Count Leaf Nodes in Binary Tree
-- Height of Binary Tree
-- Sum of All Nodes in Binary Tree
-- Find Maximum Element in Binary Tree
-- Diameter of Binary Tree
 - Level Order Traversal (BFS)
+- Count Leaf Nodes
+- Height of Binary Tree
+- Sum of All Nodes
+- Maximum Element in Binary Tree
+- Diameter of Binary Tree
+
 ---
 
-## Current Learning Focus
+Current Learning Focus
 
+- Binary Trees
 - STL
-- Stack patterns
-- Queue problems
-- Linked Lists
-- Problem-solving optimization
+- Recursion Patterns
+- Problem Solving
+- Algorithm Optimization
 
 ---
 
-## Future Roadmap
+Future Roadmap
 
+- Binary Search Trees
 - Graphs
 - Dynamic Programming
 - Advanced STL
-- LeetCode problem patterns
+- LeetCode Problem Patterns
 
 ---
 
-## Repository
+Repository
 
+GitHub:
 https://github.com/madhan-x/DSA-Practice
 
 ---
 
-## Goal
+Objective
 
-Build strong problem-solving and software engineering fundamentals through consistent practice and implementation.
+To build strong foundations in Data Structures, Algorithms, and Software Engineering through consistent implementation, problem solving, and continuous learning.
