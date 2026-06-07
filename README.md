@@ -1,10 +1,10 @@
-🚀 Data Structures & Algorithms Practice in C++
+# 🚀 Data Structures & Algorithms Practice in C++
 
-A structured repository documenting my journey of learning Data Structures & Algorithms, problem-solving, and software engineering fundamentals using C and C++.
+A structured repository documenting my journey of learning **Data Structures & Algorithms**, **problem-solving**, and **software engineering fundamentals** using **C** and **C++**.
 
 ---
 
-📌 Overview
+## 📌 Overview
 
 This repository contains implementations of:
 
@@ -20,41 +20,40 @@ The objective is to build strong foundations in computer science through consist
 
 ---
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 
-Category| Technologies
-Languages| C, C++
-Libraries| STL
-Tools| Git, GitHub
-Focus| DSA & Problem Solving
+- **Languages:** C, C++
+- **Libraries:** STL
+- **Tools:** Git, GitHub
+- **Focus:** DSA & Problem Solving
 
 ---
 
-📚 Topics Covered
+# 📚 Topics Covered
 
-🔢 Mathematics
+## 🔢 Mathematics
 
 - nCr using Factorial
 
 ---
 
-🔄 Number System
+## 🔄 Number System
 
 - Binary to Decimal
 - Decimal to Binary
 
 ---
 
-⚙️ C++ Fundamentals
+## ⚙️ C++ Fundamentals
 
-Basics
+### Basics
 
 - Input / Output
 - Functions
 - Vectors (STL)
 - Pattern Printing
 
-Core Concepts
+### Core Concepts
 
 - Data Type Modifiers
 - Bitwise Operators
@@ -63,7 +62,7 @@ Core Concepts
 
 ---
 
-📊 Arrays
+## 📊 Arrays
 
 - Check if Array is Sorted
 - Missing Number
@@ -80,7 +79,7 @@ Core Concepts
 
 ---
 
-🎯 Two Pointers
+## 🎯 Two Pointers
 
 - Two Sum
 - Three Sum
@@ -90,7 +89,7 @@ Core Concepts
 
 ---
 
-🔁 Recursion
+## 🔁 Recursion
 
 - Print 1 to N
 - Reverse Array
@@ -101,17 +100,9 @@ Core Concepts
 
 ---
 
-🔗 Linked Lists
+## 🔗 Linked Lists
 
-Singly Linked List
-
-- Traversal
-- Insert at Beginning
-- Insert at End
-- Delete at Beginning
-- Delete at End
-
-Doubly Linked List
+### Singly Linked List
 
 - Traversal
 - Insert at Beginning
@@ -119,7 +110,7 @@ Doubly Linked List
 - Delete at Beginning
 - Delete at End
 
-Circular Linked List
+### Doubly Linked List
 
 - Traversal
 - Insert at Beginning
@@ -127,15 +118,23 @@ Circular Linked List
 - Delete at Beginning
 - Delete at End
 
-Additional Problems
+### Circular Linked List
+
+- Traversal
+- Insert at Beginning
+- Insert at End
+- Delete at Beginning
+- Delete at End
+
+### Additional Problems
 
 - Find Middle Node
 
 ---
 
-📚 Stack
+## 📚 Stack
 
-Problems
+### Problems
 
 - Stack Implementation
 - Insert at Bottom
@@ -147,7 +146,7 @@ Problems
 - Min Stack
 - Postfix Evaluation
 
-Patterns Practiced
+### Patterns Practiced
 
 - Monotonic Stack
 - Previous / Next Element
@@ -155,7 +154,7 @@ Patterns Practiced
 
 ---
 
-📥 Queue
+## 📥 Queue
 
 - Queue Implementation
 - Queue Using Array
@@ -168,7 +167,7 @@ Patterns Practiced
 
 ---
 
-🌳 Trees
+## 🌳 Trees
 
 - Binary Tree Creation
 - Preorder Traversal
@@ -183,7 +182,7 @@ Patterns Practiced
 
 ---
 
-📈 Current Learning Focus
+## 📈 Current Learning Focus
 
 - Trees
 - Binary Search Trees
@@ -193,7 +192,7 @@ Patterns Practiced
 
 ---
 
-Roadmap
+## 🗺️ Roadmap
 
 - [x] Arrays
 - [x] Linked Lists
@@ -208,12 +207,12 @@ Roadmap
 
 ---
 
-Repository
+## 🔗 Repository
 
 https://github.com/madhan-x/DSA-Practice
 
 ---
 
-Goal
+## 🎯 Goal
 
 To develop strong problem-solving skills, master fundamental data structures and algorithms, and build a solid foundation for software engineering and technical interviews.
