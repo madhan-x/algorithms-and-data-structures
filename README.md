@@ -180,6 +180,7 @@ The objective is to build strong foundations in computer science through consist
 - Maximum Element
 - Diameter of Binary Tree
 - Check Identical Binary Trees
+- Mirror Binary Tree
 
 ---
 
