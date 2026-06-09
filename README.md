@@ -181,6 +181,7 @@ The objective is to build strong foundations in computer science through consist
 - Diameter of Binary Tree
 - Check Identical Binary Trees
 - Mirror Binary Tree
+- Search in Binary Search Tree (BST)
 
 ---
 
@@ -202,7 +203,7 @@ The objective is to build strong foundations in computer science through consist
 - [x] Queue
 - [x] Recursion
 - [x] Binary Trees
-- [ ] Binary Search Trees
+- [x] Binary Search Trees
 - [ ] Graphs
 - [ ] Dynamic Programming
 - [ ] Advanced STL
