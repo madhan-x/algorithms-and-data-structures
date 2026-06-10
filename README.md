@@ -182,6 +182,7 @@ The objective is to build strong foundations in computer science through consist
 - Check Identical Binary Trees
 - Mirror Binary Tree
 - Search in Binary Search Tree (BST)
+- Insert in Binary Search Tree (BST)
 
 ---
 
