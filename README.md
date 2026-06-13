@@ -77,6 +77,7 @@ The objective is to build strong foundations in computer science through consist
 - Majority Element
 - Dutch National Flag Algorithm
 - Maximum Sum Subarray of Size K (Sliding Window)
+- Frequency of Elements in Array
 
 ---
 
