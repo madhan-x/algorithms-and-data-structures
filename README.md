@@ -79,6 +79,7 @@ The objective is to build strong foundations in computer science through consist
 - Maximum Sum Subarray of Size K (Sliding Window)
 - Frequency of Elements
 - First Non-Repeating Element
+- Smallest Positive Missing Number
 
 ---
 
