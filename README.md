@@ -80,6 +80,7 @@ The objective is to build strong foundations in computer science through consist
 - Frequency of Elements
 - First Non-Repeating Element
 - Smallest Positive Missing Number
+- Equilibrium Index in Array
 
 ---
 
