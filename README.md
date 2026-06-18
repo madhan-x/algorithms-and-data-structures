@@ -81,6 +81,7 @@ The objective is to build strong foundations in computer science through consist
 - First Non-Repeating Element
 - Smallest Positive Missing Number
 - Equilibrium Index in Array
+- Maximum Difference Between Largest and Smallest Element
 
 ---
 
