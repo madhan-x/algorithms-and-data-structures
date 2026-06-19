@@ -82,6 +82,7 @@ The objective is to build strong foundations in computer science through consist
 - Smallest Positive Missing Number
 - Equilibrium Index in Array
 - Maximum Difference Between Largest and Smallest Element
+- Longest Increasing Contiguous Subarray
 
 ---
 
