@@ -83,6 +83,7 @@ The objective is to build strong foundations in computer science through consist
 - Equilibrium Index in Array
 - Maximum Difference Between Largest and Smallest Element
 - Longest Increasing Contiguous Subarray
+- Longest Decreasing Contiguous Subarray
 
 ---
 
