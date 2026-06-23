@@ -194,6 +194,7 @@ The objective is to build strong foundations in computer science through consist
 - Insert in Binary Search Tree (BST)
 - Find Minimum Element in BST
 - Count Total Nodes in Binary Tree
+- Count Internal Nodes in Binary Tree
 
 ---
 
