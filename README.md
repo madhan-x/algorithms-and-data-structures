@@ -198,6 +198,22 @@ The objective is to build strong foundations in computer science through consist
 
 ---
 
+LeetCode
+
+Arrays
+
+Easy
+
+- Two Sum (Brute Force)
+
+Hard
+
+- Median of Two Sorted Arrays (Merge Approach)
+
+---
+
+---
+
 ## 📈 Current Learning Focus
 
 - Trees
