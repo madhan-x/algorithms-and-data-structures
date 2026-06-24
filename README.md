@@ -1,6 +1,6 @@
 # 🚀 Data Structures & Algorithms Practice in C++
 
-A structured repository documenting my journey of learning **Data Structures & Algorithms**, **problem-solving**, and **software engineering fundamentals** using **C** and **C++**.
+A structured repository documenting my journey of learning **Data Structures & Algorithms**, **Problem Solving**, and **Software Engineering Fundamentals** using **C** and **C++**.
 
 ---
 
@@ -53,8 +53,6 @@ The objective is to build strong foundations in computer science through consist
 - Vectors (STL)
 - Pattern Printing
 
----- 1st year ----
-
 ### Core Concepts
 
 - Data Type Modifiers
@@ -62,7 +60,7 @@ The objective is to build strong foundations in computer science through consist
 - Operator Precedence
 - Associativity
 
----- 1st year ----
+> 🎓 First-Year Milestone Completed
 
 ---
 
@@ -90,8 +88,7 @@ The objective is to build strong foundations in computer science through consist
 - Longest Decreasing Contiguous Subarray
 - First Duplicate Element in Array
 
-
----- 1st year ----
+> 🎓 First-Year Milestone Completed
 
 ---
 
@@ -102,6 +99,8 @@ The objective is to build strong foundations in computer science through consist
 - Container With Most Water
 - Trapping Rain Water
 - Rotate Array by K Positions
+
+> 🎓 First-Year Milestone Completed
 
 ---
 
@@ -114,7 +113,7 @@ The objective is to build strong foundations in computer science through consist
 - Power Function
 - Fibonacci
 
----- 1st year ----
+> 🎓 First-Year Milestone Completed
 
 ---
 
@@ -128,8 +127,6 @@ The objective is to build strong foundations in computer science through consist
 - Delete at Beginning
 - Delete at End
 
----- 1st year ----
-
 ### Doubly Linked List
 
 - Traversal
@@ -137,8 +134,6 @@ The objective is to build strong foundations in computer science through consist
 - Insert at End
 - Delete at Beginning
 - Delete at End
-
----- 1st year ----
 
 ### Circular Linked List
 
@@ -148,13 +143,11 @@ The objective is to build strong foundations in computer science through consist
 - Delete at Beginning
 - Delete at End
 
----- 1st year ----
-
 ### Additional Problems
 
 - Find Middle Node
 
----- 1st year ----
+> 🎓 First-Year Milestone Completed
 
 ---
 
@@ -172,15 +165,13 @@ The objective is to build strong foundations in computer science through consist
 - Min Stack
 - Postfix Evaluation
 
----- 1st year ----
-
 ### Patterns Practiced
 
 - Monotonic Stack
 - Previous / Next Element
 - Stack Optimization
 
----- 1st year ----
+> 🎓 First-Year Milestone Completed
 
 ---
 
@@ -195,7 +186,7 @@ The objective is to build strong foundations in computer science through consist
 - Generate Binary Numbers
 - Priority Queue (Max Heap)
 
----- 1st year ----
+> 🎓 First-Year Milestone Completed
 
 ---
 
@@ -219,35 +210,31 @@ The objective is to build strong foundations in computer science through consist
 - Count Total Nodes in Binary Tree
 - Count Internal Nodes in Binary Tree
 
-- ---- 1st year ----
+> 🎓 First-Year Milestone Completed
 
 ---
 
-LeetCode
+## 💻 LeetCode
 
-Arrays
+### Arrays
 
-Easy
+#### Easy
 
 - Two Sum (Brute Force)
 
-Hard
+#### Hard
 
 - Median of Two Sorted Arrays (Merge Approach)
 
 ---
 
----
-
 ## 📈 Current Learning Focus
 
-- Trees
+- LeetCode Problem Solving
 - Binary Search Trees
 - STL
 - Problem Solving Patterns
 - Algorithm Optimization
-
----- 1st year ----
 
 ---
 
@@ -275,3 +262,18 @@ https://github.com/madhan-x/DSA-Practice
 ## 🎯 Goal
 
 To develop strong problem-solving skills, master fundamental data structures and algorithms, and build a solid foundation for software engineering and technical interviews.
+
+---
+
+## 📅 Journey Timeline
+
+**Year 1**
+- Built strong foundations in DSA
+- Learned Arrays, Linked Lists, Stack, Queue, Trees, BST
+- Completed 90+ days of consistent DSA practice
+- Started solving LeetCode problems
+
+**Year 2 (Current Phase)**
+- Expanding problem-solving skills through LeetCode
+- Focusing on optimization techniques and patterns
+- Preparing for Graphs, Dynamic Programming, and advanced interview problems
