@@ -53,12 +53,16 @@ The objective is to build strong foundations in computer science through consist
 - Vectors (STL)
 - Pattern Printing
 
+---- 1st year ----
+
 ### Core Concepts
 
 - Data Type Modifiers
 - Bitwise Operators
 - Operator Precedence
 - Associativity
+
+---- 1st year ----
 
 ---
 
@@ -86,6 +90,9 @@ The objective is to build strong foundations in computer science through consist
 - Longest Decreasing Contiguous Subarray
 - First Duplicate Element in Array
 
+
+---- 1st year ----
+
 ---
 
 ## 🎯 Two Pointers
@@ -107,6 +114,8 @@ The objective is to build strong foundations in computer science through consist
 - Power Function
 - Fibonacci
 
+---- 1st year ----
+
 ---
 
 ## 🔗 Linked Lists
@@ -119,6 +128,8 @@ The objective is to build strong foundations in computer science through consist
 - Delete at Beginning
 - Delete at End
 
+---- 1st year ----
+
 ### Doubly Linked List
 
 - Traversal
@@ -126,6 +137,8 @@ The objective is to build strong foundations in computer science through consist
 - Insert at End
 - Delete at Beginning
 - Delete at End
+
+---- 1st year ----
 
 ### Circular Linked List
 
@@ -135,9 +148,13 @@ The objective is to build strong foundations in computer science through consist
 - Delete at Beginning
 - Delete at End
 
+---- 1st year ----
+
 ### Additional Problems
 
 - Find Middle Node
+
+---- 1st year ----
 
 ---
 
@@ -155,11 +172,15 @@ The objective is to build strong foundations in computer science through consist
 - Min Stack
 - Postfix Evaluation
 
+---- 1st year ----
+
 ### Patterns Practiced
 
 - Monotonic Stack
 - Previous / Next Element
 - Stack Optimization
+
+---- 1st year ----
 
 ---
 
@@ -173,6 +194,8 @@ The objective is to build strong foundations in computer science through consist
 - Interleave Queue
 - Generate Binary Numbers
 - Priority Queue (Max Heap)
+
+---- 1st year ----
 
 ---
 
@@ -195,6 +218,8 @@ The objective is to build strong foundations in computer science through consist
 - Find Minimum Element in BST
 - Count Total Nodes in Binary Tree
 - Count Internal Nodes in Binary Tree
+
+- ---- 1st year ----
 
 ---
 
@@ -221,6 +246,8 @@ Hard
 - STL
 - Problem Solving Patterns
 - Algorithm Optimization
+
+---- 1st year ----
 
 ---
 
