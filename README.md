@@ -222,6 +222,9 @@ The objective is to build strong foundations in computer science through consist
 
 - Two Sum (Brute Force)
 - Search Insert Position (Linear Search)
+- Remove Duplicates from Sorted Array (Two Pointers)
+- Remove Element (Two Pointers)
+- Merge Sorted Array
 
 #### Hard
 
