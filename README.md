@@ -221,6 +221,7 @@ The objective is to build strong foundations in computer science through consist
 #### Easy
 
 - Two Sum (Brute Force)
+- Search Insert Position (Linear Search)
 
 #### Hard
 
