@@ -225,6 +225,7 @@ The objective is to build strong foundations in computer science through consist
 - Remove Duplicates from Sorted Array (Two Pointers)
 - Remove Element (Two Pointers)
 - Merge Sorted Array
+- Contains Duplicate (Hash Set)
 
 #### Hard
 
