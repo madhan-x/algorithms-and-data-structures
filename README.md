@@ -233,6 +233,14 @@ The objective is to build strong foundations in computer science through consist
 
 ---
 
+### Strings
+
+#### Easy
+
+- Valid Anagram (Hash Map)
+
+---
+
 ## 📈 Current Learning Focus
 
 - LeetCode Problem Solving
