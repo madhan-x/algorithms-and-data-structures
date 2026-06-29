@@ -227,6 +227,7 @@ The objective is to build strong foundations in computer science through consist
 - Merge Sorted Array
 - Contains Duplicate (Hash Set)
 - Majority Element (Brute Force)
+- Maximum Subarray (Kadane's Algorithm)
 
 #### Hard
 
