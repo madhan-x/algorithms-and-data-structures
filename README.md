@@ -1,225 +1,145 @@
-# 🚀 Data Structures & Algorithms Practice in C++
+# Data Structures & Algorithms Practice in C++
 
-A structured repository documenting my journey of learning **Data Structures & Algorithms**, **Problem Solving**, and **Software Engineering Fundamentals** using **C** and **C++**.
+Hands-on implementations of data structures, algorithms, and problem-solving patterns — built through consistent practice using **C** and **C++**.
 
----
-
-## 📌 Overview
-
-This repository contains implementations of:
-
-- Data Structures
-- Algorithms
-- STL Concepts
-- Problem-Solving Patterns
-- Recursive Techniques
-- Tree Traversals
-- Optimization Approaches
-
-The objective is to build strong foundations in computer science through consistent practice and implementation.
+[![Build](https://github.com/madhan-x/algorithms-and-data-structures/actions/workflows/build.yml/badge.svg)](https://github.com/madhan-x/algorithms-and-data-structures/actions/workflows/build.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
+[![C](https://img.shields.io/badge/C-A8B9CC?logo=c&logoColor=white)](https://en.wikipedia.org/wiki/C_(programming_language))
+[![C++](https://img.shields.io/badge/C++-00599C?logo=c%2B%2B&logoColor=white)](https://isocpp.org/)
+[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?logo=leetcode&logoColor=white)](https://leetcode.com/)
+[![Last Commit](https://img.shields.io/github/last-commit/madhan-x/algorithms-and-data-structures)](https://github.com/madhan-x/algorithms-and-data-structures/commits/main)
 
 ---
 
-## 🛠️ Tech Stack
+## Overview
 
-- **Languages:** C, C++
-- **Libraries:** STL
-- **Tools:** Git, GitHub
-- **Focus:** DSA & Problem Solving
+This repository tracks my journey building strong foundations in **data structures**, **algorithms**, and **problem-solving patterns** — the core skills expected in software engineering interviews and competitive programming.
 
----
+Each solution is implemented from first principles, with emphasis on understanding the technique over memorising the answer.
 
-# 📚 Topics Covered
-
-## 🔢 Mathematics
-
-- nCr using Factorial
+**Goals:**
+- Develop deep intuition for time/space complexity
+- Recognise problem-solving patterns (two pointers, sliding window, monotonic stack, etc.)
+- Build a personal reference for technical interviews
+- Maintain consistent daily practice
 
 ---
 
-## 🔄 Number System
+## Repository Stats
 
-- Binary to Decimal
-- Decimal to Binary
+| Metric              | Count |
+|---------------------|------:|
+| Total solutions     |   113 |
+| C implementations   |    25 |
+| C++ implementations |    88 |
+| LeetCode problems   |    11 |
+| Topics covered      |    10 |
 
----
+**LeetCode by difficulty:**
+| Difficulty | Count |
+|------------|------:|
+| Easy       |     9 |
+| Medium     |     1 |
+| Hard       |     1 |
 
-## ⚙️ C++ Fundamentals
-
-### Basics
-
-- Input / Output
-- Functions
-- Vectors (STL)
-- Pattern Printing
-
-### Core Concepts
-
-- Data Type Modifiers
-- Bitwise Operators
-- Operator Precedence
-- Associativity
-
-> 🎓 First-Year Milestone Completed
-
----
-
-## 📊 Arrays
-
-- Check if Array is Sorted
-- Missing Number
-- Maximum Consecutive Ones
-- Kadane's Algorithm
-- Second Largest Element
-- Best Time to Buy and Sell Stock
-- Single Number using XOR
-- Array Rotations
-- Leaders in Array
-- Longest Consecutive Sequence
-- Majority Element
-- Dutch National Flag Algorithm
-- Maximum Sum Subarray of Size K (Sliding Window)
-- Frequency of Elements
-- First Non-Repeating Element
-- Smallest Positive Missing Number
-- Equilibrium Index in Array
-- Maximum Difference Between Largest and Smallest Element
-- Longest Increasing Contiguous Subarray
-- Longest Decreasing Contiguous Subarray
-- First Duplicate Element in Array
-
-> 🎓 First-Year Milestone Completed
+**Solutions by topic:**
+| Topic          | Files |
+|----------------|------:|
+| Arrays         |    33 |
+| Linked Lists   |    16 |
+| Trees          |    15 |
+| Stack          |     9 |
+| Queue          |     8 |
+| Two Pointers   |     6 |
+| Recursion      |     6 |
+| Basics         |     5 |
+| Sorting        |     2 |
+| Maths          |     1 |
 
 ---
 
-## 🎯 Two Pointers
+## Table of Contents
 
-- Two Sum
-- Three Sum
-- Container With Most Water
-- Trapping Rain Water
-- Rotate Array by K Positions
-
-> 🎓 First-Year Milestone Completed
-
----
-
-## 🔁 Recursion
-
-- Print 1 to N
-- Reverse Array
-- Palindrome Check
-- Binary Search
-- Power Function
-- Fibonacci
-
-> 🎓 First-Year Milestone Completed
+- [Topics Covered](#topics-covered)
+  - [Mathematics](#mathematics)
+  - [C++ Fundamentals](#c-fundamentals)
+  - [Arrays](#arrays)
+  - [Two Pointers](#two-pointers)
+  - [Recursion](#recursion)
+  - [Linked Lists](#linked-lists)
+  - [Stack](#stack)
+  - [Queue](#queue)
+  - [Trees](#trees)
+- [LeetCode](#leetcode)
+- [Patterns Practised](#patterns-practised)
+- [Roadmap](#roadmap)
+- [Conventions](#conventions)
+- [Building Locally](#building-locally)
+- [Connect](#connect)
+- [License](#license)
 
 ---
 
-## 🔗 Linked Lists
+## Topics Covered
 
-### Singly Linked List
+### Mathematics
+- nCr using factorial
 
-- Traversal
-- Insert at Beginning
-- Insert at End
-- Delete at Beginning
-- Delete at End
+### C++ Fundamentals
+**Basics**
+- Input / Output, Functions, STL vectors, Pattern printing
 
-### Doubly Linked List
+**Core Concepts**
+- Data type modifiers, bitwise operators, operator precedence, associativity
 
-- Traversal
-- Insert at Beginning
-- Insert at End
-- Delete at Beginning
-- Delete at End
+### Arrays
+- Check sorted array, missing number, maximum consecutive ones
+- Kadane's algorithm, second largest element
+- Best time to buy and sell stock, single number (XOR), array rotations
+- Leaders in array, longest consecutive sequence, majority element
+- Dutch National Flag algorithm, sliding window (max subarray of size K)
+- Frequency of elements, first non-repeating element, smallest positive missing
+- Equilibrium index, max difference, longest increasing/decreasing subarray, first duplicate
 
-### Circular Linked List
+### Two Pointers
+- Two sum, three sum, container with most water
+- Trapping rain water, rotate array by K positions
 
-- Traversal
-- Insert at Beginning
-- Insert at End
-- Delete at Beginning
-- Delete at End
+### Recursion
+- Print 1 to N, reverse array, palindrome check
+- Binary search, power function, Fibonacci
 
-### Additional Problems
+### Linked Lists
 
-- Find Middle Node
+**Singly / Doubly / Circular:** traversal, insert (begin / end), delete (begin / end)
 
-> 🎓 First-Year Milestone Completed
+**Additional:** find middle node
 
----
+### Stack
 
-## 📚 Stack
+**Problems:** implementation, insert at bottom, stock span, previous/next greater & smaller element, remove adjacent duplicates, min stack, postfix evaluation
 
-### Problems
+**Patterns:** monotonic stack, previous/next element lookups
 
-- Stack Implementation
-- Insert at Bottom
-- Stock Span Problem
-- Previous Greater Element
-- Previous Smaller Element
-- Next Smaller Element
-- Remove Adjacent Duplicates
-- Min Stack
-- Postfix Evaluation
+### Queue
 
-### Patterns Practiced
+- Implementation (array + STL), reverse queue, reverse first K elements
+- Interleave queue, generate binary numbers, priority queue (max heap)
 
-- Monotonic Stack
-- Previous / Next Element
-- Stack Optimization
+### Trees
 
-> 🎓 First-Year Milestone Completed
+- Tree creation, traversals (preorder, inorder, postorder, level order / BFS)
+- Count leaves / internal nodes / total nodes, height, sum, maximum element
+- Diameter, check identical, mirror, search/insert in BST
+- Min element in BST
 
 ---
 
-## 📥 Queue
-
-- Queue Implementation
-- Queue Using Array
-- STL Queue
-- Reverse Queue
-- Reverse First K Elements
-- Interleave Queue
-- Generate Binary Numbers
-- Priority Queue (Max Heap)
-
-> 🎓 First-Year Milestone Completed
-
----
-
-## 🌳 Trees
-
-- Binary Tree Creation
-- Preorder Traversal
-- Inorder Traversal
-- Postorder Traversal
-- Level Order Traversal (BFS)
-- Count Leaf Nodes
-- Height of Binary Tree
-- Sum of All Nodes
-- Maximum Element
-- Diameter of Binary Tree
-- Check Identical Binary Trees
-- Mirror Binary Tree
-- Search in Binary Search Tree (BST)
-- Insert in Binary Search Tree (BST)
-- Find Minimum Element in BST
-- Count Total Nodes in Binary Tree
-- Count Internal Nodes in Binary Tree
-
-> 🎓 First-Year Milestone Completed
-
----
-
-## 💻 LeetCode
+## LeetCode
 
 ### Arrays
 
-#### Easy
-
+**Easy**
 - Two Sum (Brute Force)
 - Search Insert Position (Linear Search)
 - Remove Duplicates from Sorted Array (Two Pointers)
@@ -229,70 +149,94 @@ The objective is to build strong foundations in computer science through consist
 - Majority Element (Brute Force)
 - Move Zeroes (Two Pointers)
 
-#### Medium
-
+**Medium**
 - Maximum Subarray (Kadane's Algorithm)
 
-#### Hard
-
+**Hard**
 - Median of Two Sorted Arrays (Merge Approach)
-
----
 
 ### Strings
 
-#### Easy
-
+**Easy**
 - Valid Anagram (Hash Map)
 
 ---
 
-## 📈 Current Learning Focus
+## Patterns Practised
 
-- LeetCode Problem Solving
-- Binary Search Trees
-- STL
-- Problem Solving Patterns
-- Algorithm Optimization
+These are the problem-solving techniques applied across solutions:
 
----
-
-## 🗺️ Roadmap
-
-- [x] Arrays
-- [x] Linked Lists
-- [x] Stack
-- [x] Queue
-- [x] Recursion
-- [x] Binary Trees
-- [x] Binary Search Trees
-- [ ] Graphs
-- [ ] Dynamic Programming
-- [ ] Advanced STL
+| Pattern             | Used In                                                          |
+|---------------------|------------------------------------------------------------------|
+| Two Pointers        | Remove duplicates, remove element, move zeroes, two sum, three sum |
+| Sliding Window      | Maximum sum subarray of size K                                   |
+| Kadane's Algorithm  | Maximum subarray                                                 |
+| Dutch National Flag | Sort colors                                                      |
+| Monotonic Stack     | Stock span, previous/next greater/smaller element                |
+| Hash Set / Map      | Contains duplicate, valid anagram, intersection                  |
+| Moore's Voting      | Majority element                                                 |
+| Bit Manipulation    | Single number (XOR)                                              |
+| Binary Search       | Search insert position                                           |
+| Linked List Basics  | Insert/delete at both ends, traversal (singly / doubly / circular) |
 
 ---
 
-## 🔗 Repository
+## Roadmap
 
-https://github.com/madhan-x/DSA-Practice
+| Topic                | Status |
+|----------------------|:------:|
+| Arrays               |   ✅   |
+| Linked Lists         |   ✅   |
+| Stack                |   ✅   |
+| Queue                |   ✅   |
+| Recursion            |   ✅   |
+| Binary Trees / BST   |   ✅   |
+| Graphs               |   ⏳   |
+| Dynamic Programming  |   ⏳   |
+| Advanced STL         |   ⏳   |
+
+**Current focus:** expanding LeetCode volume, especially Medium difficulty; introduction to Graphs.
 
 ---
 
-## 🎯 Goal
+## Conventions
 
-To develop strong problem-solving skills, master fundamental data structures and algorithms, and build a solid foundation for software engineering and technical interviews.
+Every solution follows a standard template — problem statement, pattern, approach, time/space complexity, and example. See [`CONTRIBUTING.md`](./CONTRIBUTING.md) for the full template.
+
+Folder structure:
+```
+leetcode/<topic>/<difficulty>/<problem>-<technique>.ext
+arrays/cpp/<problem>.cpp
+linked-list/cpp/<problem>.cpp
+```
+
+Filename style: kebab-case with technique suffix on LeetCode solutions (e.g. `maximum-subarray-kadane.cpp`).
 
 ---
 
-## 📅 Journey Timeline
+## Building Locally
 
-**Year 1**
-- Built strong foundations in DSA
-- Learned Arrays, Linked Lists, Stack, Queue, Trees, BST
-- Completed 90+ days of consistent DSA practice
-- Started solving LeetCode problems
+The repo includes a CI workflow that compiles every source file with strict warnings. To reproduce locally:
 
-**Year 2 (Current Phase)**
-- Expanding problem-solving skills through LeetCode
-- Focusing on optimization techniques and patterns
-- Preparing for Graphs, Dynamic Programming, and advanced interview problems
+```bash
+# Compile-check a single C++ solution
+g++ -std=c++17 -Wall -Wextra -Wpedantic -fsyntax-only <file>.cpp
+
+# Compile-check a single C solution
+gcc -std=c11 -Wall -Wextra -Wpedantic -fsyntax-only <file>.c
+```
+
+Requires `g++` / `gcc` (or any standards-compliant C/C++ compiler).
+
+---
+
+## Connect
+
+- **GitHub:** [madhan-x](https://github.com/madhan-x)
+- **LeetCode:** [madhan-x](https://leetcode.com/)
+
+---
+
+## License
+
+Released under the [MIT License](./LICENSE).
