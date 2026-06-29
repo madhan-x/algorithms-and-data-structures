@@ -1,51 +1,46 @@
-# Data Structures & Algorithms Practice in C++
+# Data Structures & Algorithms in C / C++
 
-**B.Tech AI & DS · DSA · C++ · Python** — hands-on implementations of data structures, algorithms, and problem-solving patterns built through consistent practice.
+**B.Tech AI & Data Science · DSA · C++ · C · Python** — implemented-from-scratch solutions across arrays, linked lists, trees, stacks, queues, recursion, and LeetCode patterns. Built through ~104 days of consistent daily practice.
 
-[![Build](https://github.com/madhan-x/algorithms-and-data-structures/actions/workflows/build.yml/badge.svg)](https://github.com/madhan-x/algorithms-and-data-structures/actions/workflows/build.yml)
+[![Build Status](https://github.com/madhan-x/algorithms-and-data-structures/actions/workflows/build.yml/badge.svg)](https://github.com/madhan-x/algorithms-and-data-structures/actions/workflows/build.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
+[![Last Commit](https://img.shields.io/github/last-commit/madhan-x/algorithms-and-data-structures)](https://github.com/madhan-x/algorithms-and-data-structures/commits/main)
 [![C](https://img.shields.io/badge/C-A8B9CC?logo=c&logoColor=white)](https://en.wikipedia.org/wiki/C_(programming_language))
 [![C++](https://img.shields.io/badge/C++-00599C?logo=c%2B%2B&logoColor=white)](https://isocpp.org/)
 [![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?logo=leetcode&logoColor=white)](https://leetcode.com/u/madhan-x)
-[![Last Commit](https://img.shields.io/github/last-commit/madhan-x/algorithms-and-data-structures)](https://github.com/madhan-x/algorithms-and-data-structures/commits/main)
 
 ---
 
-## Overview
+## What this demonstrates
 
-This repository tracks my journey building strong foundations in **data structures**, **algorithms**, and **problem-solving patterns** — the core skills expected in software engineering interviews and competitive programming.
-
-Each solution is implemented from first principles, with emphasis on understanding the technique over memorising the answer.
-
-**Started:** March 17, 2026 · **Status:** Active, daily practice
-
-**Goals:**
-- Develop deep intuition for time/space complexity
-- Recognise problem-solving patterns (two pointers, sliding window, monotonic stack, etc.)
-- Build a personal reference for technical interviews
-- Maintain consistent daily practice
+- **From-first-principles implementations** of every core data structure (linked lists, BSTs, stacks, queues) — not just library calls.
+- **Pattern recognition across 11 LeetCode problems** — two pointers, sliding window, Kadane's, Dutch National Flag, Moore's Voting, XOR, monotonic stack, binary search.
+- **Discipline** — 113 solutions committed, CI-enforced strict-warnings compilation (`-Wall -Wextra -Wpedantic`) on every push.
+- **Readable, documented code** — every file documents problem, approach, time/space complexity (see [`CONTRIBUTING.md`](./CONTRIBUTING.md)).
 
 ---
 
 ## Repository Stats
 
-| Metric              | Count |
-|---------------------|------:|
-| Total solutions     |   113 |
-| C implementations   |    25 |
-| C++ implementations |    88 |
-| LeetCode problems   |    11 |
-| Topics covered      |    10 |
+| Metric              |  Count |
+|---------------------|-------:|
+| Total solutions     |    113 |
+| C++ implementations |     88 |
+| C implementations    |     25 |
+| LeetCode problems   |     11 |
+| Topics covered      |     10 |
 
-**LeetCode by difficulty:**
+**LeetCode by difficulty**
+
 | Difficulty | Count |
 |------------|------:|
 | Easy       |     9 |
 | Medium     |     1 |
 | Hard       |     1 |
 
-**Solutions by topic:**
+**Solutions by topic**
+
 | Topic          | Files |
 |----------------|------:|
 | Arrays         |    33 |
@@ -53,8 +48,8 @@ Each solution is implemented from first principles, with emphasis on understandi
 | Trees          |    15 |
 | Stack          |     9 |
 | Queue          |     8 |
-| Two Pointers   |     6 |
 | Recursion      |     6 |
+| Two Pointers   |     6 |
 | Basics         |     5 |
 | Sorting        |     2 |
 | Maths          |     1 |
@@ -63,20 +58,12 @@ Each solution is implemented from first principles, with emphasis on understandi
 
 ## Table of Contents
 
+- [What this demonstrates](#what-this-demonstrates)
 - [Topics Covered](#topics-covered)
-  - [Mathematics](#mathematics)
-  - [C++ Fundamentals](#c-fundamentals)
-  - [Arrays](#arrays)
-  - [Two Pointers](#two-pointers)
-  - [Recursion](#recursion)
-  - [Linked Lists](#linked-lists)
-  - [Stack](#stack)
-  - [Queue](#queue)
-  - [Trees](#trees)
-- [LeetCode](#leetcode)
+- [LeetCode by Difficulty](#leetcode-by-difficulty)
 - [Patterns Practised](#patterns-practised)
 - [Roadmap](#roadmap)
-- [Conventions](#conventions)
+- [Conventions & Structure](#conventions--structure)
 - [Building Locally](#building-locally)
 - [Connect](#connect)
 - [License](#license)
@@ -89,19 +76,16 @@ Each solution is implemented from first principles, with emphasis on understandi
 - nCr using factorial
 
 ### C++ Fundamentals
-**Basics**
-- Input / Output, Functions, STL vectors, Pattern printing
-
-**Core Concepts**
-- Data type modifiers, bitwise operators, operator precedence, associativity
+- **Basics** — input/output, functions, STL vectors, pattern printing
+- **Core concepts** — type modifiers, bitwise operators, precedence & associativity
 
 ### Arrays
-- Check sorted array, missing number, maximum consecutive ones
-- Kadane's algorithm, second largest element
-- Best time to buy and sell stock, single number (XOR), array rotations
+- Check sorted, missing number, max consecutive ones
+- Kadane's algorithm, second-largest element
+- Best time to buy & sell stock, single number (XOR), array rotations
 - Leaders in array, longest consecutive sequence, majority element
-- Dutch National Flag algorithm, sliding window (max subarray of size K)
-- Frequency of elements, first non-repeating element, smallest positive missing
+- Dutch National Flag, sliding window (max subarray of size K)
+- Frequency counting, first non-repeating element, smallest positive missing
 - Equilibrium index, max difference, longest increasing/decreasing subarray, first duplicate
 
 ### Two Pointers
@@ -113,113 +97,106 @@ Each solution is implemented from first principles, with emphasis on understandi
 - Binary search, power function, Fibonacci
 
 ### Linked Lists
-
-**Singly / Doubly / Circular:** traversal, insert (begin / end), delete (begin / end)
-
-**Additional:** find middle node
+- **Singly / doubly / circular** — traversal, insert (begin / end), delete (begin / end)
+- Find middle node
 
 ### Stack
-
-**Problems:** implementation, insert at bottom, stock span, previous/next greater & smaller element, remove adjacent duplicates, min stack, postfix evaluation
-
-**Patterns:** monotonic stack, previous/next element lookups
+- **Problems** — implementation, insert at bottom, stock span, prev/next greater & smaller, remove adjacent duplicates, min stack, postfix evaluation
+- **Patterns** — monotonic stack, prev/next element lookups
 
 ### Queue
-
-- Implementation (array + STL), reverse queue, reverse first K elements
+- Implementation (array + STL), reverse queue, reverse first K
 - Interleave queue, generate binary numbers, priority queue (max heap)
 
 ### Trees
-
-- Tree creation, traversals (preorder, inorder, postorder, level order / BFS)
-- Count leaves / internal nodes / total nodes, height, sum, maximum element
-- Diameter, check identical, mirror, search/insert in BST
-- Min element in BST
+- Tree creation, traversals (preorder, inorder, postorder, level-order / BFS)
+- Count leaves / internal nodes / total nodes, height, sum, max element
+- Diameter, check identical, mirror, search/insert in BST, min element in BST
 
 ---
 
-## LeetCode
+## LeetCode by Difficulty
 
 ### Arrays
 
-**Easy**
-- Two Sum (Brute Force)
-- Search Insert Position (Linear Search)
-- Remove Duplicates from Sorted Array (Two Pointers)
-- Remove Element (Two Pointers)
-- Merge Sorted Array
-- Contains Duplicate (Hash Set)
-- Majority Element (Brute Force)
-- Move Zeroes (Two Pointers)
+**Easy (8)**
+- Two Sum *(Brute Force)* · Search Insert Position *(Linear)* · Remove Duplicates from Sorted Array *(Two Pointers)* · Remove Element *(Two Pointers)* · Merge Sorted Array · Contains Duplicate *(Hash Set)* · Majority Element *(Brute Force)* · Move Zeroes *(Two Pointers)*
 
-**Medium**
-- Maximum Subarray (Kadane's Algorithm)
+**Medium (1)**
+- Maximum Subarray *(Kadane's Algorithm)*
 
-**Hard**
-- Median of Two Sorted Arrays (Merge Approach)
+**Hard (1)**
+- Median of Two Sorted Arrays *(Merge Approach)*
 
 ### Strings
 
-**Easy**
-- Valid Anagram (Hash Map)
+**Easy (1)**
+- Valid Anagram *(Hash Map)*
 
 ---
 
 ## Patterns Practised
 
-These are the problem-solving techniques applied across solutions:
-
-| Pattern             | Used In                                                          |
-|---------------------|------------------------------------------------------------------|
+| Pattern             | Applied In |
+|---------------------|------------|
 | Two Pointers        | Remove duplicates, remove element, move zeroes, two sum, three sum |
-| Sliding Window      | Maximum sum subarray of size K                                   |
-| Kadane's Algorithm  | Maximum subarray                                                 |
-| Dutch National Flag | Sort colors                                                      |
-| Monotonic Stack     | Stock span, previous/next greater/smaller element                |
-| Hash Set / Map      | Contains duplicate, valid anagram, intersection                  |
-| Moore's Voting      | Majority element                                                 |
-| Bit Manipulation    | Single number (XOR)                                              |
-| Binary Search       | Search insert position                                           |
+| Sliding Window      | Maximum sum subarray of size K |
+| Kadane's Algorithm  | Maximum subarray |
+| Dutch National Flag | Sort colors |
+| Monotonic Stack     | Stock span, prev/next greater/smaller |
+| Hash Set / Map      | Contains duplicate, valid anagram, intersection |
+| Moore's Voting      | Majority element |
+| Bit Manipulation    | Single number (XOR) |
+| Binary Search       | Search insert position |
 | Linked List Basics  | Insert/delete at both ends, traversal (singly / doubly / circular) |
 
 ---
 
 ## Roadmap
 
-| Topic                | Status |
-|----------------------|:------:|
-| Arrays               |   ✅   |
-| Linked Lists         |   ✅   |
-| Stack                |   ✅   |
-| Queue                |   ✅   |
-| Recursion            |   ✅   |
-| Binary Trees / BST   |   ✅   |
-| Graphs               |   ⏳   |
-| Dynamic Programming  |   ⏳   |
-| Advanced STL         |   ⏳   |
+| Phase | Topic                       | Status |
+|-------|-----------------------------|:------:|
+| Core  | Arrays, Linked Lists, Stack, Queue | ✅ |
+| Core  | Recursion, Binary Trees / BST      | ✅ |
+| Core  | Strings, Sorting                    | ✅ |
+| Next  | Graphs (BFS / DFS / Topo Sort)      | 🔄 |
+| Next  | Dynamic Programming                 | 🔄 |
+| Next  | Advanced STL (maps, sets, heaps)    | 🔄 |
+| Scale | LeetCode Medium / Hard volume       | 🔄 |
 
-**Current focus:** expanding LeetCode volume, especially Medium difficulty; introduction to Graphs.
+**Current focus:** Graphs foundations · 30 Medium LeetCode target · one new solution per day.
 
 ---
 
-## Conventions
+## Conventions & Structure
 
-Every solution follows a standard template — problem statement, pattern, approach, time/space complexity, and example. See [`CONTRIBUTING.md`](./CONTRIBUTING.md) for the full template.
+Every solution follows a documented template — problem statement, pattern, approach, time/space complexity, example. See [`CONTRIBUTING.md`](./CONTRIBUTING.md) for the full template.
 
-Folder structure:
 ```
-leetcode/<topic>/<difficulty>/<problem>-<technique>.ext
-arrays/cpp/<problem>.cpp
-linked-list/cpp/<problem>.cpp
+algorithms-and-data-structures/
+├── arrays/                # topic folders
+│   ├── c/
+│   └── cpp/
+├── linked-list/
+├── trees/
+├── stack/
+├── queue/
+├── recursion/
+├── sorting/
+├── two-pointers/
+├── maths/
+├── basics/
+└── leetcode/
+    └── <topic>/<difficulty>/<problem>-<technique>.ext
 ```
 
-Filename style: kebab-case with technique suffix on LeetCode solutions (e.g. `maximum-subarray-kadane.cpp`).
+- **Filenames:** kebab-case · technique suffix on LeetCode (e.g. `maximum-subarray-kadane.cpp`)
+- **Languages:** C (`<topic>/c/`), C++ (`<topic>/cpp/`) — kebab-case file names in either language
+- **CI:** every push compiles all `.c` and `.cpp` files with `-Wall -Wextra -Wpedantic`
 
 ---
 
 ## Building Locally
-
-The repo includes a CI workflow that compiles every source file with strict warnings. To reproduce locally:
 
 ```bash
 # Compile-check a single C++ solution
@@ -235,9 +212,9 @@ Requires `g++` / `gcc` (or any standards-compliant C/C++ compiler).
 
 ## Connect
 
-- **GitHub:** [madhan-x](https://github.com/madhan-x)
-- **LeetCode:** [madhan-x](https://leetcode.com/u/madhan-x)
-- **LinkedIn:** [Madhan Thalloju](https://www.linkedin.com/in/madhan-thalloju-7a79993ab)
+- **GitHub** — [@madhan-x](https://github.com/madhan-x)
+- **LeetCode** — [madhan-x](https://leetcode.com/u/madhan-x)
+- **LinkedIn** — [Madhan Thalloju](https://www.linkedin.com/in/madhan-thalloju-7a79903ab)
 
 ---
 
