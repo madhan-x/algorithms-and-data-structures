@@ -1,12 +1,13 @@
 # Data Structures & Algorithms Practice in C++
 
-Hands-on implementations of data structures, algorithms, and problem-solving patterns — built through consistent practice using **C** and **C++**.
+**B.Tech AI & DS · DSA · C++ · Python** — hands-on implementations of data structures, algorithms, and problem-solving patterns built through consistent practice.
 
 [![Build](https://github.com/madhan-x/algorithms-and-data-structures/actions/workflows/build.yml/badge.svg)](https://github.com/madhan-x/algorithms-and-data-structures/actions/workflows/build.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
 [![C](https://img.shields.io/badge/C-A8B9CC?logo=c&logoColor=white)](https://en.wikipedia.org/wiki/C_(programming_language))
 [![C++](https://img.shields.io/badge/C++-00599C?logo=c%2B%2B&logoColor=white)](https://isocpp.org/)
-[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?logo=leetcode&logoColor=white)](https://leetcode.com/)
+[![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)](https://www.python.org/)
+[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?logo=leetcode&logoColor=white)](https://leetcode.com/u/madhan-x)
 [![Last Commit](https://img.shields.io/github/last-commit/madhan-x/algorithms-and-data-structures)](https://github.com/madhan-x/algorithms-and-data-structures/commits/main)
 
 ---
@@ -233,7 +234,8 @@ Requires `g++` / `gcc` (or any standards-compliant C/C++ compiler).
 ## Connect
 
 - **GitHub:** [madhan-x](https://github.com/madhan-x)
-- **LeetCode:** [madhan-x](https://leetcode.com/)
+- **LeetCode:** [madhan-x](https://leetcode.com/u/madhan-x)
+- **LinkedIn:** [Madhan Thalloju](https://www.linkedin.com/in/madhan-thalloju-7a79993ab)
 
 ---
 
