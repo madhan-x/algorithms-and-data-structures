@@ -1,3 +1,50 @@
 .claude/
-*.exe
 .vscode/practice.cpp
+
+# Compiled binaries
+*.exe
+*.out
+*.o
+*.obj
+*.a
+*.so
+*.dll
+*.dylib
+
+# Build directories
+build/
+bin/
+obj/
+out/
+
+# IDE / editor
+.idea/
+.vscode/*
+!.vscode/tasks.json
+!.vscode/extensions.json
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Debug / coverage
+*.pdb
+*.idb
+*.gcda
+*.gcno
+*.gcov
+
+# Python (for future)
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Logs / temp
+*.log
+*.tmp
+*.bak
