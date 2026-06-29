@@ -18,6 +18,8 @@ This repository tracks my journey building strong foundations in **data structur
 
 Each solution is implemented from first principles, with emphasis on understanding the technique over memorising the answer.
 
+**Started:** March 17, 2026 · **Status:** Active, daily practice
+
 **Goals:**
 - Develop deep intuition for time/space complexity
 - Recognise problem-solving patterns (two pointers, sliding window, monotonic stack, etc.)
