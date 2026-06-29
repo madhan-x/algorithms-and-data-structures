@@ -1,6 +1,6 @@
 # Data Structures & Algorithms in C / C++
 
-**B.Tech AI & Data Science · DSA · C++ · C · Python** — implemented-from-scratch solutions across arrays, linked lists, trees, stacks, queues, recursion, and LeetCode patterns. Built through ~104 days of consistent daily practice.
+**B.Tech AI & Data Science · DSA · C++ · C · Python** — implemented-from-scratch solutions across arrays, linked lists, trees, stacks, queues, recursion, and LeetCode patterns. Consistent daily practice since March 2026.
 
 [![Build Status](https://github.com/madhan-x/algorithms-and-data-structures/actions/workflows/build.yml/badge.svg)](https://github.com/madhan-x/algorithms-and-data-structures/actions/workflows/build.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
