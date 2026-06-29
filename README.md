@@ -228,6 +228,7 @@ The objective is to build strong foundations in computer science through consist
 - Contains Duplicate (Hash Set)
 - Majority Element (Brute Force)
 - Maximum Subarray (Kadane's Algorithm)
+- Move Zeroes (Two Pointers)
 
 #### Hard
 
