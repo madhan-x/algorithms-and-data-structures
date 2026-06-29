@@ -1,0 +1,54 @@
+name: Build
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build-cpp:
+    name: Compile C++ Solutions
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Install compiler
+        run: sudo apt-get update && sudo apt-get install -y g++
+
+      - name: Find and compile all .cpp files
+        run: |
+          set -e
+          mkdir -p build
+          status=0
+          while IFS= read -r f; do
+            echo "Compiling: $f"
+            if ! g++ -std=c++17 -Wall -Wextra -Wpedantic -fsyntax-only "$f"; then
+              status=1
+            fi
+          done < <(find . -type f -name "*.cpp" -not -path "./.git/*")
+          exit $status
+
+  build-c:
+    name: Compile C Solutions
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Install compiler
+        run: sudo apt-get update && sudo apt-get install -y gcc
+
+      - name: Find and compile all .c files
+        run: |
+          set -e
+          mkdir -p build
+          status=0
+          while IFS= read -r f; do
+            echo "Compiling: $f"
+            if ! gcc -std=c11 -Wall -Wextra -Wpedantic -fsyntax-only "$f"; then
+              status=1
+            fi
+          done < <(find . -type f -name "*.c" -not -path "./.git/*")
+          exit $status

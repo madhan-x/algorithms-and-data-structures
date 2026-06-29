@@ -1,0 +1,20 @@
+{
+  "recommendations": [
+    {
+      "name": "C/C++",
+      "publisher": "ms-vscode"
+    },
+    {
+      "name": "C/C++ Extension Pack",
+      "publisher": "ms-vscode"
+    },
+    {
+      "name": "Code Runner",
+      "publisher": "formulahendry"
+    },
+    {
+      "name": "Markdown All in One",
+      "publisher": "yzhang"
+    }
+  ]
+}
