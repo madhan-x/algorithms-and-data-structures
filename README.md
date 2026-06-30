@@ -15,7 +15,7 @@
 ## What this demonstrates
 
 - **From-first-principles implementations** of every core data structure (linked lists, BSTs, stacks, queues) — not just library calls.
-- **Pattern recognition across 12 LeetCode problems** — two pointers, sliding window, Kadane's, Dutch National Flag, Moore's Voting, XOR, monotonic stack, binary search, frequency counting.
+- **Pattern recognition across 13 LeetCode problems** — two pointers, sliding window, Kadane's, Dutch National Flag, Moore's Voting, XOR, monotonic stack, priority queue, binary search, frequency counting.
 - **Discipline** — 113 solutions committed, CI-enforced strict-warnings compilation (`-Wall -Wextra -Wpedantic`) on every push.
 - **Readable, documented code** — every file documents problem, approach, time/space complexity (see [`CONTRIBUTING.md`](./CONTRIBUTING.md)).
 
@@ -28,7 +28,7 @@
 | Total solutions     |    113 |
 | C++ implementations |     88 |
 | C implementations    |     25 |
-| LeetCode problems   |     12 |
+| LeetCode problems   |     13 |
 | Topics covered      |     10 |
 
 **LeetCode by difficulty**
@@ -36,7 +36,7 @@
 | Difficulty | Count |
 |------------|------:|
 | Easy       |    10 |
-| Medium     |     1 |
+| Medium     |     2 |
 | Hard       |     1 |
 
 **Solutions by topic**
@@ -122,8 +122,8 @@
 **Easy (10)**
 - Two Sum *(Brute Force)* · Search Insert Position *(Linear)* · Remove Duplicates from Sorted Array *(Two Pointers)* · Remove Element *(Two Pointers)* · Merge Sorted Array · Contains Duplicate *(Hash Set)* · Majority Element *(Brute Force)* · Majority Element *(Hash Map)* · Move Zeroes *(Two Pointers)* · Number of Good Pairs *(Hash Map)*
 
-**Medium (1)**
-- Maximum Subarray *(Kadane's Algorithm)*
+**Medium (2)**
+- Maximum Subarray *(Kadane's Algorithm)* · Top K Frequent Elements *(Hash Map + Priority Queue)*
 
 **Hard (1)**
 - Median of Two Sorted Arrays *(Merge Approach)*
@@ -144,7 +144,8 @@
 | Kadane's Algorithm  | Maximum subarray |
 | Dutch National Flag | Sort colors |
 | Monotonic Stack     | Stock span, prev/next greater/smaller |
-| Hash Set / Map      | Contains duplicate, valid anagram, number of good pairs, majority element |
+| Hash Set / Map      | Contains duplicate, valid anagram, number of good pairs, majority element, top K frequent elements |
+| Priority Queue / Heap | Top K frequent elements |
 | Moore's Voting      | Majority element |
 | Bit Manipulation    | Single number (XOR) |
 | Binary Search       | Search insert position |
