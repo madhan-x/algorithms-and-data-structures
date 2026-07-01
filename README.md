@@ -15,8 +15,8 @@
 ## What this demonstrates
 
 - **From-first-principles implementations** of every core data structure (linked lists, BSTs, stacks, queues) — not just library calls.
-- **Pattern recognition across 13 LeetCode problems** — two pointers, sliding window, Kadane's, Dutch National Flag, Moore's Voting, XOR, monotonic stack, priority queue, binary search, frequency counting.
-- **Discipline** — 113 solutions committed, CI-enforced strict-warnings compilation (`-Wall -Wextra -Wpedantic`) on every push.
+- **Pattern recognition across 15 LeetCode problems** — two pointers, sliding window, Kadane's, Dutch National Flag, Moore's Voting, XOR, monotonic stack, priority queue, binary search, frequency counting, overflow bounds check.
+- **Discipline** — 116 solutions committed, CI-enforced strict-warnings compilation (`-Wall -Wextra -Wpedantic`) on every push.
 - **Readable, documented code** — every file documents problem, approach, time/space complexity (see [`CONTRIBUTING.md`](./CONTRIBUTING.md)).
 
 ---
@@ -25,10 +25,10 @@
 
 | Metric              |  Count |
 |---------------------|-------:|
-| Total solutions     |    113 |
-| C++ implementations |     88 |
-| C implementations    |     25 |
-| LeetCode problems   |     13 |
+| Total solutions     |    116 |
+| C++ implementations |     93 |
+| C implementations    |     23 |
+| LeetCode problems   |     15 |
 | Topics covered      |     10 |
 
 **LeetCode by difficulty**
@@ -36,7 +36,7 @@
 | Difficulty | Count |
 |------------|------:|
 | Easy       |    10 |
-| Medium     |     2 |
+| Medium     |     3 |
 | Hard       |     1 |
 
 **Solutions by topic**
@@ -132,6 +132,11 @@
 
 **Easy (1)**
 - Valid Anagram *(Hash Map)*
+
+### Maths
+
+**Medium (1)**
+- Reverse Integer *(Overflow Bounds Check)*
 
 ---
 
