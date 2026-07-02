@@ -28,7 +28,7 @@
 | Total solutions     |    116 |
 | C++ implementations |     93 |
 | C implementations    |     23 |
-| LeetCode problems   |     15 |
+| LeetCode problems   |     17 |
 | Topics covered      |     10 |
 
 **LeetCode by difficulty**
@@ -123,7 +123,7 @@
 - Two Sum *(Brute Force)* · Search Insert Position *(Linear)* · Remove Duplicates from Sorted Array *(Two Pointers)* · Remove Element *(Two Pointers)* · Merge Sorted Array · Contains Duplicate *(Hash Set)* · Majority Element *(Brute Force)* · Majority Element *(Hash Map)* · Move Zeroes *(Two Pointers)* · Number of Good Pairs *(Hash Map)*
 
 **Medium (2)**
-- Maximum Subarray *(Kadane's Algorithm)* · Top K Frequent Elements *(Hash Map + Priority Queue)*
+- Maximum Subarray *(Kadane's Algorithm)* · Top K Frequent Elements *(Hash Map + Priority Queue)* · - Three Sum *(Sorting + Two Pointers)* ·
 
 **Hard (1)**
 - Median of Two Sorted Arrays *(Merge Approach)*
