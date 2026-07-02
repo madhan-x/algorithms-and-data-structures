@@ -133,6 +133,11 @@
 **Easy (1)**
 - Valid Anagram *(Hash Map)*
 
+### Linked List
+
+**Medium (1)**
+
+- Remove Nth Node From End of List *(Fast & Slow Pointers)*
 ### Maths
 
 **Easy (1)**
