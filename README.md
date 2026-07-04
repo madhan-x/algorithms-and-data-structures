@@ -132,6 +132,7 @@
 
 **Easy (1)**
 - Valid Anagram *(Hash Map)*
+- Find the Index of the First Occurrence in a String (STL find)
 
 ### Linked List
 
