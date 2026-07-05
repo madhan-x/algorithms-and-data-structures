@@ -120,7 +120,7 @@
 ### Arrays
 
 **Easy (10)**
-- Two Sum *(Brute Force)* · Search Insert Position *(Linear)* · Remove Duplicates from Sorted Array *(Two Pointers)* · Remove Element *(Two Pointers)* · Merge Sorted Array · Contains Duplicate *(Hash Set)* · Majority Element *(Brute Force)* · Majority Element *(Hash Map)* · Move Zeroes *(Two Pointers)* · Number of Good Pairs *(Hash Map)* · Sort Array By Parity *(Two Pointers)*
+- Two Sum *(Brute Force)* · Search Insert Position *(Linear)* · Remove Duplicates from Sorted Array *(Two Pointers)* · Remove Element *(Two Pointers)* · Merge Sorted Array · Contains Duplicate *(Hash Set)* · Majority Element *(Brute Force)* · Majority Element *(Hash Map)* · Move Zeroes *(Two Pointers)* · Number of Good Pairs *(Hash Map)* · Sort Array By Parity *(Two Pointers)* · Squares of a Sorted Array *(Sort)*
 
 **Medium (2)**
 - Maximum Subarray *(Kadane's Algorithm)* · Top K Frequent Elements *(Hash Map + Priority Queue)* · - Three Sum *(Sorting + Two Pointers)* ·
