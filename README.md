@@ -28,15 +28,15 @@
 | Total solutions     |    116 |
 | C++ implementations |     93 |
 | C implementations    |     23 |
-| LeetCode problems   |     17 |
+| LeetCode problems   |     24 |
 | Topics covered      |     10 |
 
 **LeetCode by difficulty**
 
 | Difficulty | Count |
 |------------|------:|
-| Easy       |    11 |
-| Medium     |     3 |
+| Easy       |    16 |
+| Medium     |     7 |
 | Hard       |     1 |
 
 **Solutions by topic**
@@ -120,7 +120,7 @@
 ### Arrays
 
 **Easy (10)**
-- Two Sum *(Brute Force)* · Search Insert Position *(Linear)* · Remove Duplicates from Sorted Array *(Two Pointers)* · Remove Element *(Two Pointers)* · Merge Sorted Array · Contains Duplicate *(Hash Set)* · Majority Element *(Brute Force)* · Majority Element *(Hash Map)* · Move Zeroes *(Two Pointers)* · Number of Good Pairs *(Hash Map)* · Sort Array By Parity *(Two Pointers)* · Squares of a Sorted Array *(Sort)*
+- Two Sum *(Brute Force)* · Search Insert Position *(Linear)* · Remove Duplicates from Sorted Array *(Two Pointers)* · Remove Element *(Two Pointers)* · Merge Sorted Array · Contains Duplicate *(Hash Set)* · Majority Element *(Brute Force)* · Majority Element *(Hash Map)* · Move Zeroes *(Two Pointers)* · Number of Good Pairs *(Hash Map)* · Sort Array By Parity *(Two Pointers)* · Squares of a Sorted Array *(Sort)* · Find Pivot Index *(Brute Force)*
 
 **Medium (2)**
 - Maximum Subarray *(Kadane's Algorithm)* · Top K Frequent Elements *(Hash Map + Priority Queue)* · - Three Sum *(Sorting + Two Pointers)* ·
