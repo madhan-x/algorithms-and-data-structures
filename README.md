@@ -15,8 +15,8 @@
 ## What this demonstrates
 
 - **From-first-principles implementations** of every core data structure (linked lists, BSTs, stacks, queues) — not just library calls.
-- **Pattern recognition across 15 LeetCode problems** — two pointers, sliding window, Kadane's, Dutch National Flag, Moore's Voting, XOR, monotonic stack, priority queue, binary search, frequency counting, overflow bounds check, digit reversal.
-- **Discipline** — 116 solutions committed, CI-enforced strict-warnings compilation (`-Wall -Wextra -Wpedantic`) on every push.
+- **Pattern recognition across 16 LeetCode problems** — two pointers, sliding window, Kadane's, Dutch National Flag, Moore's Voting, XOR, monotonic stack, priority queue, binary search, frequency counting, overflow bounds check, digit reversal, prefix sum.
+- **Discipline** — 117 solutions committed, CI-enforced strict-warnings compilation (`-Wall -Wextra -Wpedantic`) on every push.
 - **Readable, documented code** — every file documents problem, approach, time/space complexity (see [`CONTRIBUTING.md`](./CONTRIBUTING.md)).
 
 ---
@@ -25,8 +25,8 @@
 
 | Metric              |  Count |
 |---------------------|-------:|
-| Total solutions     |    116 |
-| C++ implementations |     93 |
+| Total solutions     |    127 |
+| C++ implementations |    104 |
 | C implementations    |     23 |
 | LeetCode problems   |     24 |
 | Topics covered      |     10 |
@@ -86,7 +86,7 @@
 - Leaders in array, longest consecutive sequence, majority element
 - Dutch National Flag, sliding window (max subarray of size K)
 - Frequency counting, first non-repeating element, smallest positive missing
-- Equilibrium index, max difference, longest increasing/decreasing subarray, first duplicate
+- Equilibrium index, max difference, longest increasing/decreasing subarray, first duplicate, pivot index
 
 ### Two Pointers
 - Two sum, three sum, container with most water
@@ -119,8 +119,8 @@
 
 ### Arrays
 
-**Easy (10)**
-- Two Sum *(Brute Force)* · Search Insert Position *(Linear)* · Remove Duplicates from Sorted Array *(Two Pointers)* · Remove Element *(Two Pointers)* · Merge Sorted Array · Contains Duplicate *(Hash Set)* · Majority Element *(Brute Force)* · Majority Element *(Hash Map)* · Move Zeroes *(Two Pointers)* · Number of Good Pairs *(Hash Map)* · Sort Array By Parity *(Two Pointers)* · Squares of a Sorted Array *(Sort)* · Find Pivot Index *(Brute Force)*
+**Easy (13)**
+- Two Sum *(Brute Force)* · Best Time to Buy and Sell Stock · Search Insert Position *(Linear)* · Remove Duplicates from Sorted Array *(Two Pointers)* · Remove Element *(Two Pointers)* · Merge Sorted Array · Contains Duplicate *(Hash Set)* · Majority Element *(Brute Force)* · Majority Element *(Hash Map)* · Move Zeroes *(Two Pointers)* · Number of Good Pairs *(Hash Map)* · Find Pivot Index *(Prefix Sum)* · Sort Array By Parity *(Two Pointers)* · Squares of a Sorted Array *(Sort)*
 
 **Medium (2)**
 - Maximum Subarray *(Kadane's Algorithm)* · Top K Frequent Elements *(Hash Map + Priority Queue)* · - Three Sum *(Sorting + Two Pointers)* ·
@@ -163,6 +163,7 @@
 | Moore's Voting      | Majority element |
 | Bit Manipulation    | Single number (XOR) |
 | Binary Search       | Search insert position |
+| Prefix Sum          | Find pivot index |
 | Linked List Basics  | Insert/delete at both ends, traversal (singly / doubly / circular) |
 
 ---
