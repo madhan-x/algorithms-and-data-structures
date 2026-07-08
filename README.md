@@ -15,8 +15,8 @@
 ## What this demonstrates
 
 - **From-first-principles implementations** of every core data structure (linked lists, BSTs, stacks, queues) — not just library calls.
-- **Pattern recognition across 24 LeetCode problems** — two pointers, sliding window, Kadane's, Dutch National Flag, Moore's Voting, XOR, monotonic stack, priority queue, binary search, frequency counting, overflow bounds check, digit reversal, prefix sum.
-- **Discipline** — 127 solutions committed, CI-enforced strict-warnings compilation (`-Wall -Wextra -Wpedantic`) on every push.
+- **Pattern recognition across 25 LeetCode problems** — two pointers, sliding window, Kadane's, Dutch National Flag, Moore's Voting, XOR, monotonic stack, priority queue, binary search, frequency counting, overflow bounds check, digit reversal, prefix sum.
+- **Discipline** — 132 solutions committed, CI-enforced strict-warnings compilation (`-Wall -Wextra -Wpedantic`) on every push.
 - **Readable, documented code** — every file documents problem, approach, time/space complexity (see [`CONTRIBUTING.md`](./CONTRIBUTING.md)).
 
 ---
@@ -25,8 +25,8 @@
 
 | Metric              |  Count |
 |---------------------|-------:|
-| Total solutions     |    127 |
-| C++ implementations |    104 |
+| Total solutions     |    132 |
+| C++ implementations |    109 |
 | C implementations    |     23 |
 | LeetCode problems   |     25 |
 | Topics covered      |     10 |
@@ -43,8 +43,8 @@
 
 | Topic          | Files |
 |----------------|------:|
-| Arrays         |    36 |
-| Linked Lists   |    17 |
+| Arrays         |    33 |
+| Linked Lists   |    16 |
 | Trees          |    15 |
 | Stack          |     9 |
 | Queue          |     8 |
@@ -119,8 +119,8 @@
 
 ### Arrays
 
-**Easy (13)**
-- Two Sum *(Brute Force)* · Best Time to Buy and Sell Stock · Search Insert Position *(Linear)* · Remove Duplicates from Sorted Array *(Two Pointers)* · Remove Element *(Two Pointers)* · Merge Sorted Array · Contains Duplicate *(Hash Set)* · Majority Element *(Brute Force)* · Majority Element *(Hash Map)* · Move Zeroes *(Two Pointers)* · Number of Good Pairs *(Hash Map)* · Find Pivot Index *(Prefix Sum)* · Sort Array By Parity *(Two Pointers)* · Squares of a Sorted Array *(Sort)*
+**Easy (14)**
+- Two Sum *(Brute Force)* · Best Time to Buy and Sell Stock · Search Insert Position *(Linear)* · Remove Duplicates from Sorted Array *(Two Pointers)* · Remove Element *(Two Pointers)* · Merge Sorted Array · Contains Duplicate *(Hash Set)* · Majority Element *(Brute Force)* · Majority Element *(Hash Map)* · Move Zeroes *(Two Pointers)* · Number of Good Pairs *(Hash Map)* · Find Pivot Index *(Prefix Sum)* · Sort Array By Parity *(Two Pointers)* · Squares of a Sorted Array *(Sort)* · Maximum Average Subarray I *(Sliding Window)*
 
 **Medium (5)**
 - Maximum Subarray *(Kadane's Algorithm)* · Top K Frequent Elements *(Hash Map + Priority Queue)* · 3Sum *(Two Pointers)* · Sort Colors *(Dutch National Flag)* · Container With Most Water *(Two Pointers)*
@@ -130,9 +130,8 @@
 
 ### Strings
 
-**Easy (2)**
-- Valid Anagram *(Hash Map)* · Find the Index of the First Occurrence in a String *(STL)*
-· Reverse String *(Two Pointers)*  
+**Easy (3)**
+- Valid Anagram *(Hash Map)* · Find the Index of the First Occurrence in a String *(STL)* · Reverse String *(Two Pointers)*
 
 ### Stack
 
@@ -159,7 +158,7 @@
 | Pattern             | Applied In |
 |---------------------|------------|
 | Two Pointers        | Remove duplicates, remove element, move zeroes, two sum, three sum, sort array by parity, squares of sorted array, container with most water, find first occurrence, remove nth node from end of list |
-| Sliding Window      | Maximum sum subarray of size K |
+| Sliding Window      | Maximum sum subarray of size K, Maximum Average Subarray I |
 | Stack               | Valid parentheses |
 | Kadane's Algorithm  | Maximum subarray |
 | Dutch National Flag | Sort colors |
