@@ -28,7 +28,7 @@
 | Total solutions     |    132 |
 | C++ implementations |    109 |
 | C implementations    |     23 |
-| LeetCode problems   |     26 |
+| LeetCode problems   |     27 |
 | Topics covered      |     10 |
 
 **LeetCode by difficulty**
@@ -36,7 +36,7 @@
 | Difficulty | Count |
 |------------|------:|
 | Easy       |    18 |
-| Medium     |     7 |
+| Medium     |     8 |
 | Hard       |     1 |
 
 **Solutions by topic**
