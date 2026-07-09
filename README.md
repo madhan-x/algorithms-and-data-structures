@@ -133,6 +133,10 @@
 **Easy (3)**
 - Valid Anagram *(Hash Map)* · Find the Index of the First Occurrence in a String *(STL)* · Reverse String *(Two Pointers)*
 
+**Medium (2)**
+
+- Maximum Number of Vowels in a Substring of Given Length *(Sliding Window)*
+
 ### Stack
 
 **Easy (1)**
