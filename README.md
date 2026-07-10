@@ -28,14 +28,14 @@
 | Total solutions     |    132 |
 | C++ implementations |    109 |
 | C implementations    |     23 |
-| LeetCode problems   |     27 |
+| LeetCode problems   |     28 |
 | Topics covered      |     10 |
 
 **LeetCode by difficulty**
 
 | Difficulty | Count |
 |------------|------:|
-| Easy       |    18 |
+| Easy       |    19 |
 | Medium     |     8 |
 | Hard       |     1 |
 
@@ -131,7 +131,7 @@
 ### Strings
 
 **Easy (3)**
-- Valid Anagram *(Hash Map)* · Find the Index of the First Occurrence in a String *(STL)* · Reverse String *(Two Pointers)*
+- Valid Anagram *(Hash Map)* · Find the Index of the First Occurrence in a String *(STL)* · Reverse String *(Two Pointers)* · First Unique Character in a String *(Hash Map)*
 
 **Medium (2)**
 
