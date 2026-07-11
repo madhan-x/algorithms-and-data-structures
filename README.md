@@ -28,7 +28,7 @@
 | Total solutions     |    132 |
 | C++ implementations |    109 |
 | C implementations    |     23 |
-| LeetCode problems   |     28 |
+| LeetCode problems   |     30 |
 | Topics covered      |     10 |
 
 **LeetCode by difficulty**
@@ -36,7 +36,7 @@
 | Difficulty | Count |
 |------------|------:|
 | Easy       |    19 |
-| Medium     |     8 |
+| Medium     |     10 |
 | Hard       |     1 |
 
 **Solutions by topic**
@@ -133,9 +133,9 @@
 **Easy (3)**
 - Valid Anagram *(Hash Map)* · Find the Index of the First Occurrence in a String *(STL)* · Reverse String *(Two Pointers)* · First Unique Character in a String *(Hash Map)*
 
-**Medium (2)**
+**Medium (3)**
 
-- Maximum Number of Vowels in a Substring of Given Length *(Sliding Window)*
+- Maximum Number of Vowels in a Substring of Given Length *(Sliding Window)* · Longest Substring Without Repeating Characters *(Sliding Window + Hash Map)* · Longest Repeating Character Replacement *(Sliding Window + Hash Map)*
 
 ### Stack
 
