@@ -28,14 +28,14 @@
 | Total solutions     |    132 |
 | C++ implementations |    109 |
 | C implementations    |     23 |
-| LeetCode problems   |     30 |
+| LeetCode problems   |     31 |
 | Topics covered      |     10 |
 
 **LeetCode by difficulty**
 
 | Difficulty | Count |
 |------------|------:|
-| Easy       |    19 |
+| Easy       |    20 |
 | Medium     |     10 |
 | Hard       |     1 |
 
@@ -120,7 +120,7 @@
 ### Arrays
 
 **Easy (15)**
-- Two Sum *(Brute Force)* · Best Time to Buy and Sell Stock · Search Insert Position *(Linear)* · Remove Duplicates from Sorted Array *(Two Pointers)* · Remove Element *(Two Pointers)* · Merge Sorted Array · Contains Duplicate *(Hash Set)* · Majority Element *(Brute Force)* · Majority Element *(Hash Map)* · Move Zeroes *(Two Pointers)* · Number of Good Pairs *(Hash Map)* · Find Pivot Index *(Prefix Sum)* · Sort Array By Parity *(Two Pointers)* · Squares of a Sorted Array *(Sort)* · Maximum Average Subarray I *(Sliding Window)*
+- Two Sum *(Brute Force)* · Best Time to Buy and Sell Stock · Search Insert Position *(Linear)* · Remove Duplicates from Sorted Array *(Two Pointers)* · Remove Element *(Two Pointers)* · Merge Sorted Array · Contains Duplicate *(Hash Set)* · Majority Element *(Brute Force)* · Majority Element *(Hash Map)* · Move Zeroes *(Two Pointers)* · Number of Good Pairs *(Hash Map)* · Find Pivot Index *(Prefix Sum)* · Sort Array By Parity *(Two Pointers)* · Squares of a Sorted Array *(Sort)* · Maximum Average Subarray I *(Sliding Window)* · Third Maximum Number *(Three Variables)*
 
 **Medium (5)**
 - Maximum Subarray *(Kadane's Algorithm)* · Top K Frequent Elements *(Hash Map + Priority Queue)* · 3Sum *(Two Pointers)* · Sort Colors *(Dutch National Flag)* · Container With Most Water *(Two Pointers)*
