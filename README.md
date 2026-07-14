@@ -15,8 +15,8 @@
 ## What this demonstrates
 
 - **From-first-principles implementations** of every core data structure (linked lists, BSTs, stacks, queues) — not just library calls.
-- **Pattern recognition across 26 LeetCode problems** — two pointers, sliding window, Kadane's, Dutch National Flag, Moore's Voting, XOR, monotonic stack, priority queue, binary search, frequency counting, overflow bounds check, digit reversal, prefix sum.
-- **Discipline** — 132 solutions committed, CI-enforced strict-warnings compilation (`-Wall -Wextra -Wpedantic`) on every push.
+- **Pattern recognition across 34 LeetCode problems** — two pointers, sliding window, Kadane's, Dutch National Flag, Moore's Voting, XOR, monotonic stack, priority queue, binary search, frequency counting, overflow bounds check, digit reversal, prefix sum, stack-based deletion.
+- **Discipline** — 133 solutions committed, CI-enforced strict-warnings compilation (`-Wall -Wextra -Wpedantic`) on every push.
 - **Readable, documented code** — every file documents problem, approach, time/space complexity (see [`CONTRIBUTING.md`](./CONTRIBUTING.md)).
 
 ---
@@ -25,10 +25,10 @@
 
 | Metric              |  Count |
 |---------------------|-------:|
-| Total solutions     |    132 |
-| C++ implementations |    109 |
+| Total solutions     |    133 |
+| C++ implementations |    110 |
 | C implementations    |     23 |
-| LeetCode problems   |     33 |
+| LeetCode problems   |     34 |
 | Topics covered      |     10 |
 
 **LeetCode by difficulty**
@@ -36,7 +36,7 @@
 | Difficulty | Count |
 |------------|------:|
 | Easy       |    21 |
-| Medium     |     11 |
+| Medium     |    12 |
 | Hard       |     1 |
 
 **Solutions by topic**
@@ -46,7 +46,7 @@
 | Arrays         |    33 |
 | Linked Lists   |    16 |
 | Trees          |    15 |
-| Stack          |     9 |
+| Stack          |    10 |
 | Queue          |     8 |
 | Recursion      |     6 |
 | Two Pointers   |     6 |
@@ -142,6 +142,9 @@
 **Easy (1)**
 - Valid Parentheses *(Stack)*
 
+**Medium (1)**
+- Removing Stars From a String *(Stack)*
+
 ### Linked List
 
 **Medium (1)**
@@ -163,7 +166,7 @@
 |---------------------|------------|
 | Two Pointers        | Remove duplicates, remove element, move zeroes, two sum, three sum, sort array by parity, squares of sorted array, container with most water, find first occurrence, remove nth node from end of list |
 | Sliding Window      | Maximum sum subarray of size K, Maximum Average Subarray I |
-| Stack               | Valid parentheses |
+| Stack               | Valid parentheses, removing stars from a string |
 | Kadane's Algorithm  | Maximum subarray |
 | Dutch National Flag | Sort colors |
 | Stack               | Valid parentheses |
