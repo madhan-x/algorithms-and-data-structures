@@ -48,3 +48,4 @@ venv/
 *.log
 *.tmp
 *.bak
+commits.txt
