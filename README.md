@@ -1,6 +1,6 @@
 # Data Structures & Algorithms in C / C++
 
-**B.Tech AI & Data Science · DSA · C++ · C · Python** — implemented-from-scratch solutions across arrays, linked lists, trees, stacks, queues, recursion, and LeetCode patterns. Consistent daily practice since March 2026.
+**B.Tech AI & Data Science · DSA · C++ · C · Python** — implemented-from-scratch solutions across arrays, linked lists, trees, stacks, queues, strings, recursion, and LeetCode patterns. Consistent daily practice since March 2026.
 
 [![Build Status](https://github.com/madhan-x/algorithms-and-data-structures/actions/workflows/build.yml/badge.svg)](https://github.com/madhan-x/algorithms-and-data-structures/actions/workflows/build.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
@@ -15,8 +15,8 @@
 ## What this demonstrates
 
 - **From-first-principles implementations** of every core data structure (linked lists, BSTs, stacks, queues) — not just library calls.
-- **Pattern recognition across 40 LeetCode problems** — two pointers, slow & fast, sliding window, Kadane's, Dutch National Flag, Moore's Voting, XOR, monotonic stack, priority queue, binary search, frequency counting, overflow bounds check, digit reversal, prefix sum, stack-based deletion.
-- **Discipline** — 135 solutions committed, CI-enforced strict-warnings compilation (`-Wall -Wextra -Wpedantic`) on every push.
+- **Pattern recognition across 42 LeetCode solutions** — two pointers, slow & fast, sliding window, Kadane's, Dutch National Flag, Moore's Voting, XOR, monotonic stack, priority queue, binary search, frequency counting, overflow bounds check, digit reversal, prefix sum, stack-based deletion.
+- **Discipline** — 143 solutions committed, CI-enforced strict-warnings compilation (`-Wall -Wextra -Wpedantic`) on every push.
 - **Readable, documented code** — every file documents problem, approach, time/space complexity (see [`CONTRIBUTING.md`](./CONTRIBUTING.md)).
 
 ---
@@ -25,18 +25,18 @@
 
 | Metric              |  Count |
 |---------------------|-------:|
-| Total solutions     |    135 |
-| C++ implementations |    112 |
+| Total solutions     |    143 |
+| C++ implementations |    120 |
 | C implementations    |     23 |
-| LeetCode problems   |     40 |
+| LeetCode solutions  |     42 |
 | Topics covered      |     10 |
 
 **LeetCode by difficulty**
 
 | Difficulty | Count |
 |------------|------:|
-| Easy       |    26 |
-| Medium     |    12 |
+| Easy       |    27 |
+| Medium     |    14 |
 | Hard       |     1 |
 
 **Solutions by topic**
@@ -44,9 +44,9 @@
 | Topic          | Files |
 |----------------|------:|
 | Arrays         |    33 |
-| Linked Lists   |    17 |
+| Linked Lists   |    16 |
 | Trees          |    15 |
-| Stack          |    10 |
+| Stack          |     9 |
 | Queue          |     8 |
 | Recursion      |     6 |
 | Two Pointers   |     6 |
@@ -119,10 +119,10 @@
 
 ### Arrays
 
-**Easy (15)**
-- Two Sum *(Brute Force)* · Best Time to Buy and Sell Stock · Search Insert Position *(Linear)* · Remove Duplicates from Sorted Array *(Two Pointers)* · Remove Element *(Two Pointers)* · Merge Sorted Array · Contains Duplicate *(Hash Set)* · Majority Element *(Brute Force)* · Majority Element *(Hash Map)* · Move Zeroes *(Two Pointers)* · Number of Good Pairs *(Hash Map)* · Find Pivot Index *(Prefix Sum)* · Sort Array By Parity *(Two Pointers)* · Squares of a Sorted Array *(Sort)* · Maximum Average Subarray I *(Sliding Window)* · Third Maximum Number *(Three Variables)* · Max Consecutive Ones *(Array Traversal)* · Intersection of Two Arrays *(Hash Set)* · Binary Search *(Binary Search)*
+**Easy (20)**
+- Two Sum *(Brute Force)* · Best Time to Buy and Sell Stock · Search Insert Position *(Linear)* · Remove Duplicates from Sorted Array *(Two Pointers)* · Remove Element *(Two Pointers)* · Merge Sorted Array · Contains Duplicate *(Hash Set)* · Majority Element *(Brute Force)* · Majority Element *(Hash Map)* · Move Zeroes *(Two Pointers)* · Number of Good Pairs *(Hash Map)* · Find Pivot Index *(Brute Force)* · Find Pivot Index *(Prefix Sum)* · Sort Array By Parity *(Two Pointers)* · Squares of a Sorted Array *(Sort)* · Maximum Average Subarray I *(Sliding Window)* · Third Maximum Number *(Three Variables)* · Max Consecutive Ones *(Array Traversal)* · Intersection of Two Arrays *(Hash Set)* · Binary Search *(Binary Search)*
 
-**Medium (5)**
+**Medium (6)**
 - Maximum Subarray *(Kadane's Algorithm)* · Top K Frequent Elements *(Hash Map + Priority Queue)* · 3Sum *(Two Pointers)* · Sort Colors *(Dutch National Flag)* · Container With Most Water *(Two Pointers)* · Subarray Sum Equals K *(Prefix Sum + Hash Map)*
 
 **Hard (1)**
@@ -130,8 +130,9 @@
 
 ### Strings
 
-**Easy (3)**
+**Easy (5)**
 - Valid Anagram *(Hash Map)* · Find the Index of the First Occurrence in a String *(STL)* · Reverse String *(Two Pointers)* · First Unique Character in a String *(Hash Map)*
+  - _Note: two implementation variants of LC 28 (Find First Occurrence) are kept side-by-side — `find-first-occurrence-stl.cpp` is the templated/main-tested version, `find-the-index-of-the-first-occurrence-in-a-string-stl.cpp` is the earlier draft._
 
 **Medium (3)**
 
@@ -150,8 +151,9 @@
 **Easy (1)**
 - Middle of the Linked List *(Slow & Fast Pointers)*
 
-**Medium (1)**
+**Medium (2)**
 - Remove Nth Node From End of List *(Two Pointers)*
+  - _Note: `remove-nth-node-from-end-twopointers.cpp` (templated, in `02_medium/`) and `remove-nth-node-from-end-of-list-two-pointers.cpp` (legacy, in `medium/`) both solve LC 19; the newer file is the recommended version._
 
 ### Maths
 
@@ -167,19 +169,18 @@
 
 | Pattern             | Applied In |
 |---------------------|------------|
-| Two Pointers        | Remove duplicates, remove element, move zeroes, two sum, three sum, sort array by parity, squares of sorted array, container with most water, find first occurrence, remove nth node from end of list, middle of the linked list |
-| Sliding Window      | Maximum sum subarray of size K, Maximum Average Subarray I |
+| Two Pointers        | Remove duplicates, remove element, move zeroes, two sum, three sum, sort array by parity, squares of sorted array, container with most water, find first occurrence, reverse string, remove nth node from end of list, middle of the linked list |
+| Sliding Window      | Maximum sum subarray of size K, Maximum Average Subarray I, Maximum Number of Vowels, Longest Substring Without Repeating Characters, Longest Repeating Character Replacement |
 | Stack               | Valid parentheses, removing stars from a string |
 | Kadane's Algorithm  | Maximum subarray |
 | Dutch National Flag | Sort colors |
-| Stack               | Valid parentheses |
 | Monotonic Stack     | Stock span, prev/next greater/smaller |
-| Hash Set / Map      | Contains duplicate, valid anagram, number of good pairs, majority element, top K frequent elements |
-| Priority Queue / Heap | Top K frequent elements |
+| Hash Set / Map      | Contains duplicate, valid anagram, number of good pairs, majority element, intersection of two arrays, first unique character, top K frequent elements |
+| Priority Queue / Heap | Top K frequent elements, max heap (priority queue) |
 | Moore's Voting      | Majority element |
 | Bit Manipulation    | Single number (XOR) |
-| Binary Search       | Search insert position |
-| Prefix Sum          | Find pivot index |
+| Binary Search       | LC 704 binary search, recursion-based binary search |
+| Prefix Sum          | Find pivot index, subarray sum equals K |
 | Linked List Basics  | Insert/delete at both ends, traversal (singly / doubly / circular) |
 
 ---
