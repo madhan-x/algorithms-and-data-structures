@@ -15,8 +15,8 @@
 ## What this demonstrates
 
 - **From-first-principles implementations** of every core data structure (linked lists, BSTs, stacks, queues) — not just library calls.
-- **Pattern recognition across 34 LeetCode problems** — two pointers, sliding window, Kadane's, Dutch National Flag, Moore's Voting, XOR, monotonic stack, priority queue, binary search, frequency counting, overflow bounds check, digit reversal, prefix sum, stack-based deletion.
-- **Discipline** — 133 solutions committed, CI-enforced strict-warnings compilation (`-Wall -Wextra -Wpedantic`) on every push.
+- **Pattern recognition across 40 LeetCode problems** — two pointers, slow & fast, sliding window, Kadane's, Dutch National Flag, Moore's Voting, XOR, monotonic stack, priority queue, binary search, frequency counting, overflow bounds check, digit reversal, prefix sum, stack-based deletion.
+- **Discipline** — 135 solutions committed, CI-enforced strict-warnings compilation (`-Wall -Wextra -Wpedantic`) on every push.
 - **Readable, documented code** — every file documents problem, approach, time/space complexity (see [`CONTRIBUTING.md`](./CONTRIBUTING.md)).
 
 ---
@@ -25,17 +25,17 @@
 
 | Metric              |  Count |
 |---------------------|-------:|
-| Total solutions     |    133 |
-| C++ implementations |    110 |
+| Total solutions     |    135 |
+| C++ implementations |    112 |
 | C implementations    |     23 |
-| LeetCode problems   |     39 |
+| LeetCode problems   |     40 |
 | Topics covered      |     10 |
 
 **LeetCode by difficulty**
 
 | Difficulty | Count |
 |------------|------:|
-| Easy       |    25 |
+| Easy       |    26 |
 | Medium     |    12 |
 | Hard       |     1 |
 
@@ -44,7 +44,7 @@
 | Topic          | Files |
 |----------------|------:|
 | Arrays         |    33 |
-| Linked Lists   |    16 |
+| Linked Lists   |    17 |
 | Trees          |    15 |
 | Stack          |    10 |
 | Queue          |     8 |
@@ -147,6 +147,9 @@
 
 ### Linked List
 
+**Easy (1)**
+- Middle of the Linked List *(Slow & Fast Pointers)*
+
 **Medium (1)**
 - Remove Nth Node From End of List *(Two Pointers)*
 
@@ -164,7 +167,7 @@
 
 | Pattern             | Applied In |
 |---------------------|------------|
-| Two Pointers        | Remove duplicates, remove element, move zeroes, two sum, three sum, sort array by parity, squares of sorted array, container with most water, find first occurrence, remove nth node from end of list |
+| Two Pointers        | Remove duplicates, remove element, move zeroes, two sum, three sum, sort array by parity, squares of sorted array, container with most water, find first occurrence, remove nth node from end of list, middle of the linked list |
 | Sliding Window      | Maximum sum subarray of size K, Maximum Average Subarray I |
 | Stack               | Valid parentheses, removing stars from a string |
 | Kadane's Algorithm  | Maximum subarray |
