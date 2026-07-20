@@ -28,15 +28,15 @@
 | Total solutions     |    143 |
 | C++ implementations |    120 |
 | C implementations    |     23 |
-| LeetCode solutions  |     42 |
+| LeetCode solutions  |     39 |
 | Topics covered      |     10 |
 
 **LeetCode by difficulty**
 
 | Difficulty | Count |
 |------------|------:|
-| Easy       |    27 |
-| Medium     |    14 |
+| Easy       |    25 |
+| Medium     |    13 |
 | Hard       |     1 |
 
 **Solutions by topic**
@@ -119,7 +119,7 @@
 
 ### Arrays
 
-**Easy (20)**
+**Easy (19)**
 - Two Sum *(Brute Force)* · Best Time to Buy and Sell Stock · Search Insert Position *(Linear)* · Remove Duplicates from Sorted Array *(Two Pointers)* · Remove Element *(Two Pointers)* · Merge Sorted Array · Contains Duplicate *(Hash Set)* · Majority Element *(Brute Force)* · Majority Element *(Hash Map)* · Move Zeroes *(Two Pointers)* · Number of Good Pairs *(Hash Map)* · Find Pivot Index *(Brute Force)* · Find Pivot Index *(Prefix Sum)* · Sort Array By Parity *(Two Pointers)* · Squares of a Sorted Array *(Sort)* · Maximum Average Subarray I *(Sliding Window)* · Third Maximum Number *(Three Variables)* · Max Consecutive Ones *(Array Traversal)* · Intersection of Two Arrays *(Hash Set)* · Binary Search *(Binary Search)*
 
 **Medium (6)**
@@ -130,7 +130,7 @@
 
 ### Strings
 
-**Easy (5)**
+**Easy (4)**
 - Valid Anagram *(Hash Map)* · Find the Index of the First Occurrence in a String *(STL)* · Reverse String *(Two Pointers)* · First Unique Character in a String *(Hash Map)*
   - _Note: two implementation variants of LC 28 (Find First Occurrence) are kept side-by-side — `find-first-occurrence-stl.cpp` is the templated/main-tested version, `find-the-index-of-the-first-occurrence-in-a-string-stl.cpp` is the earlier draft._
 
