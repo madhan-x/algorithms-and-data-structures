@@ -28,7 +28,7 @@
 | Total solutions     |    143 |
 | C++ implementations |    120 |
 | C implementations    |     23 |
-| LeetCode solutions  |     39 |
+| LeetCode solutions  |     40 |
 | Topics covered      |     10 |
 
 **LeetCode by difficulty**
@@ -36,7 +36,7 @@
 | Difficulty | Count |
 |------------|------:|
 | Easy       |    25 |
-| Medium     |    13 |
+| Medium     |    14 |
 | Hard       |     1 |
 
 **Solutions by topic**
@@ -123,7 +123,7 @@
 - Two Sum *(Brute Force)* · Best Time to Buy and Sell Stock · Search Insert Position *(Linear)* · Remove Duplicates from Sorted Array *(Two Pointers)* · Remove Element *(Two Pointers)* · Merge Sorted Array · Contains Duplicate *(Hash Set)* · Majority Element *(Brute Force)* · Majority Element *(Hash Map)* · Move Zeroes *(Two Pointers)* · Number of Good Pairs *(Hash Map)* · Find Pivot Index *(Brute Force)* · Find Pivot Index *(Prefix Sum)* · Sort Array By Parity *(Two Pointers)* · Squares of a Sorted Array *(Sort)* · Maximum Average Subarray I *(Sliding Window)* · Third Maximum Number *(Three Variables)* · Max Consecutive Ones *(Array Traversal)* · Intersection of Two Arrays *(Hash Set)* · Binary Search *(Binary Search)*
 
 **Medium (6)**
-- Maximum Subarray *(Kadane's Algorithm)* · Top K Frequent Elements *(Hash Map + Priority Queue)* · 3Sum *(Two Pointers)* · Sort Colors *(Dutch National Flag)* · Container With Most Water *(Two Pointers)* · Subarray Sum Equals K *(Prefix Sum + Hash Map)*
+- Maximum Subarray *(Kadane's Algorithm)* · Top K Frequent Elements *(Hash Map + Priority Queue)* · 3Sum *(Two Pointers)* · Sort Colors *(Dutch National Flag)* · Container With Most Water *(Two Pointers)* · Subarray Sum Equals K *(Prefix Sum + Hash Map)* · Find First and Last Position of Element in Sorted Array *(Binary Search)*
 
 **Hard (1)**
 - Median of Two Sorted Arrays *(Merge Approach)*
