@@ -28,14 +28,14 @@
 | Total solutions     |    143 |
 | C++ implementations |    120 |
 | C implementations    |     23 |
-| LeetCode solutions  |     40 |
+| LeetCode solutions  |     41 |
 | Topics covered      |     10 |
 
 **LeetCode by difficulty**
 
 | Difficulty | Count |
 |------------|------:|
-| Easy       |    25 |
+| Easy       |    26 |
 | Medium     |    14 |
 | Hard       |     1 |
 
@@ -159,6 +159,7 @@
 
 **Easy (1)**
 - Palindrome Number *(Digit Reversal)*
+- Sqrt(x) *(Binary Search on Answer)*
 
 **Medium (1)**
 - Reverse Integer *(Overflow Bounds Check)*
