@@ -28,14 +28,14 @@
 | Total solutions     |    143 |
 | C++ implementations |    120 |
 | C implementations    |     23 |
-| LeetCode solutions  |     41 |
+| LeetCode solutions  |     45 |
 | Topics covered      |     10 |
 
 **LeetCode by difficulty**
 
 | Difficulty | Count |
 |------------|------:|
-| Easy       |    26 |
+| Easy       |    28 |
 | Medium     |    14 |
 | Hard       |     1 |
 
@@ -131,8 +131,7 @@
 ### Strings
 
 **Easy (4)**
-- Valid Anagram *(Hash Map)* · Find the Index of the First Occurrence in a String *(STL)* · Reverse String *(Two Pointers)* · First Unique Character in a String *(Hash Map)*
-  - _Note: two implementation variants of LC 28 (Find First Occurrence) are kept side-by-side — `find-first-occurrence-stl.cpp` is the templated/main-tested version, `find-the-index-of-the-first-occurrence-in-a-string-stl.cpp` is the earlier draft._
+- Valid Anagram *(Hash Map)* · Find the Index of the First Occurrence in a String *(STL)* · Reverse String *(Two Pointers)* · First Unique Character in a String *(Hash Map)* · Find Smallest Letter Greater Than Target *(Binary Search)*
 
 **Medium (3)**
 
