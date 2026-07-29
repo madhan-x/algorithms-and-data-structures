@@ -1,0 +1,26 @@
+#!/usr/bin/env bash
+# Auto-refresh dynamic sections of README.md before commit.
+# Installed via: git config core.hooksPath .githooks
+# (the update-readme-stats.py script does this on first run).
+
+set -e
+
+changed=$(git diff --cached --name-only)
+needs_update=0
+
+# Run when any source file changed, OR when the script itself changed,
+# OR when README.md itself was edited (so manual edits get refreshed too).
+if echo "$changed" | grep -qE '\.(cpp|c)$'; then
+    needs_update=1
+fi
+if echo "$changed" | grep -q '^scripts/update-readme-stats\.py$'; then
+    needs_update=1
+fi
+if echo "$changed" | grep -q '^README\.md$'; then
+    needs_update=1
+fi
+
+if [ "$needs_update" -eq 1 ]; then
+    python scripts/update-readme-stats.py
+    git add README.md
+fi

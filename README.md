@@ -23,28 +23,19 @@
 
 ## Repository Stats
 
+<!-- AUTO-STATS:START -->
 | Metric              |  Count |
 |---------------------|-------:|
-| Total solutions     |    143 |
-| C++ implementations |    120 |
-| C implementations    |     23 |
-| LeetCode solutions  |     46 |
-| Topics covered      |     10 |
-
-**LeetCode by difficulty**
-
-| Difficulty | Count |
-|------------|------:|
-| Easy       |    28 |
-| Medium     |    15 |
-| Hard       |     1 |
+| Total solutions     |   151 |
+| C++ implementations |   128 |
+| C implementations   |    23 |
 
 **Solutions by topic**
 
 | Topic          | Files |
 |----------------|------:|
 | Arrays         |    33 |
-| Linked Lists   |    16 |
+| Linked List    |    16 |
 | Trees          |    15 |
 | Stack          |     9 |
 | Queue          |     8 |
@@ -53,6 +44,19 @@
 | Basics         |     5 |
 | Sorting        |     2 |
 | Maths          |     1 |
+
+**LeetCode by difficulty** (49 solved on [LeetCode profile](https://leetcode.com/u/madhan-x))
+
+| Difficulty | Count |
+|------------|------:|
+| Easy       |    30 |
+| Medium     |    18 |
+| Hard       |     1 |
+<!-- AUTO-STATS:END -->
+
+> Stats are auto-generated from the repo by `scripts/update-readme-stats.py`
+> (runs on every commit via the pre-commit hook). Don't edit the table above
+> by hand — it gets overwritten.
 
 ---
 
@@ -117,51 +121,51 @@
 
 ## LeetCode by Difficulty
 
+<!-- AUTO-LEETCODE:START -->
 ### Arrays
 
-**Easy (19)**
-- Two Sum *(Brute Force)* · Best Time to Buy and Sell Stock · Search Insert Position *(Linear)* · Remove Duplicates from Sorted Array *(Two Pointers)* · Remove Element *(Two Pointers)* · Merge Sorted Array · Contains Duplicate *(Hash Set)* · Majority Element *(Brute Force)* · Majority Element *(Hash Map)* · Move Zeroes *(Two Pointers)* · Number of Good Pairs *(Hash Map)* · Find Pivot Index *(Brute Force)* · Find Pivot Index *(Prefix Sum)* · Sort Array By Parity *(Two Pointers)* · Squares of a Sorted Array *(Sort)* · Maximum Average Subarray I *(Sliding Window)* · Third Maximum Number *(Three Variables)* · Max Consecutive Ones *(Array Traversal)* · Intersection of Two Arrays *(Hash Set)* · Binary Search *(Binary Search)* · Plus One *(Array Simulation)*
+**Easy (22)**
+- `binary-search.cpp` · `contains-duplicate-hashset.cpp` · `find-pivot-index-bruteforce.cpp` · `find-smallest-letter-greater-than-target-binary-search.cpp` · `intersection-of-two-arrays-hash-set.cpp` · `majority-element-bruteforce.cpp` · `majority-element-hashmap.cpp` · `max-consecutive-ones.cpp` · `maximum-average-subarray-i-sliding-window.cpp` · `merge-sorted-array.cpp` · `move-zeroes-two-pointers.cpp` · `number-of-good-pairs-hashmap.cpp` · `pivot-index-prefixsum.cpp` · `plus-one.cpp` · `remove-duplicates-from-sorted-array.cpp` · `remove-element.cpp` · `search-insert-position-linear.cpp` · `sort-array-by-parity-two-pointers.cpp` · `squares-of-a-sorted-array-sort.cpp` · `squares-of-sorted-array-sort.cpp` · `third-maximum-number-three-variables.cpp` · `two-sum-bruteforce.cpp`
 
-**Medium (6)**
-- Maximum Subarray *(Kadane's Algorithm)* · Top K Frequent Elements *(Hash Map + Priority Queue)* · 3Sum *(Two Pointers)* · Sort Colors *(Dutch National Flag)* · Container With Most Water *(Two Pointers)* · Subarray Sum Equals K *(Prefix Sum + Hash Map)* · Find First and Last Position of Element in Sorted Array *(Binary Search)* · Search in Rotated Sorted Array *(Modified Binary Search)* · Find Minimum in Rotated Sorted Array *(Modified Binary Search)* · Koko Eating Bananas *(Binary Search on Answer)* · Find the Smallest Divisor Given a Threshold *(Binary Search on Answer)*
-  
+**Medium (11)**
+- `container-with-most-water-two-pointers.cpp` · `find-first-and-last-position-of-element-binary-search.cpp` · `find-minimum-in-rotated-sorted-array-binary-search.cpp` · `find-the-smallest-divisor-given-a-threshold-binary-search-on-answer.cpp` · `koko-eating-bananas-binary-search-on-answer.cpp` · `maximum-subarray-kadane.cpp` · `search-in-rotated-sorted-array-binary-search.cpp` · `sort-colors-dutch-national-flag.cpp` · `subarray-sum-equals-k-prefix-sum-hash-map.cpp` · `three-sum-two-pointers.cpp` · `top-k-frequent-elements-priorityqueue.cpp`
+
 **Hard (1)**
-- Median of Two Sorted Arrays *(Merge Approach)*
+- `median-of-two-sorted-arrays.cpp`
 
-### Strings
+### Linked List
 
-**Easy (4)**
-- Valid Anagram *(Hash Map)* · Find the Index of the First Occurrence in a String *(STL)* · Reverse String *(Two Pointers)* · First Unique Character in a String *(Hash Map)* · Find Smallest Letter Greater Than Target *(Binary Search)*
+**Medium (2)**
+- `middle-of-the-linked-list-slow-fast.cpp` · `remove-nth-node-from-end-twopointers.cpp`
 
-**Medium (3)**
+### Maths
 
-- Maximum Number of Vowels in a Substring of Given Length *(Sliding Window)* · Longest Substring Without Repeating Characters *(Sliding Window + Hash Map)* · Longest Repeating Character Replacement *(Sliding Window + Hash Map)*
+**Easy (2)**
+- `palindrome-number-reversal.cpp` · `sqrtx-binary-search.cpp`
+
+**Medium (1)**
+- `reverse-integer-overflowcheck.cpp`
 
 ### Stack
 
 **Easy (1)**
-- Valid Parentheses *(Stack)*
+- `valid-parentheses-stack.cpp`
 
 **Medium (1)**
-- Removing Stars From a String *(Stack)*
+- `removing-stars-from-a-string-stack.cpp`
 
-### Linked List
+### Strings
 
-**Easy (1)**
-- Middle of the Linked List *(Slow & Fast Pointers)*
+**Easy (5)**
+- `find-first-occurrence-stl.cpp` · `find-the-index-of-the-first-occurrence-in-a-string-stl.cpp` · `first-unique-character-in-a-string-hash-map.cpp` · `reverse-string-two-pointers.cpp` · `valid-anagram-hashmap.cpp`
 
-**Medium (2)**
-- Remove Nth Node From End of List *(Two Pointers)*
-  - _Note: `remove-nth-node-from-end-twopointers.cpp` (templated, in `02_medium/`) and `remove-nth-node-from-end-of-list-two-pointers.cpp` (legacy, in `medium/`) both solve LC 19; the newer file is the recommended version._
+**Medium (3)**
+- `longest-repeating-character-replacement-sliding-window.cpp` · `longest-substring-without-repeating-characters-sliding-window.cpp` · `maximum-number-of-vowels-in-a-substring-of-given-length-sliding-window.cpp`
+<!-- AUTO-LEETCODE:END -->
 
-### Maths
-
-**Easy (1)**
-- Palindrome Number *(Digit Reversal)*
-- Sqrt(x) *(Binary Search on Answer)*
-
-**Medium (1)**
-- Reverse Integer *(Overflow Bounds Check)*
+> List is auto-generated from `leetcode/` by `scripts/update-readme-stats.py`
+> (runs on every commit via the pre-commit hook). Don't edit the list above
+> by hand — it gets overwritten.
 
 ---
 
