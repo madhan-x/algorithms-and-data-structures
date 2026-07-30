@@ -32,6 +32,15 @@ DIFFICULTY_MAP = {
     "03_hard": ("Hard", "hard"),
 }
 
+# Common naming mistakes we still recognise, so a stray folder doesn't silently
+# drop solutions from the README. Add to this set if you spot another variant
+# in the wild — better to warn than to undercount.
+DIFFICULTY_ALIASES = {
+    "easy": "01_easy",
+    "medium": "02_medium",
+    "hard": "03_hard",
+}
+
 
 def count_files() -> dict:
     """Return totals and per-topic file counts.
@@ -81,8 +90,15 @@ def count_leetcode() -> dict:
         for diff_dir in topic_dir.iterdir():
             if not diff_dir.is_dir():
                 continue
-            key = DIFFICULTY_MAP.get(diff_dir.name)
+            name = DIFFICULTY_ALIASES.get(diff_dir.name, diff_dir.name)
+            key = DIFFICULTY_MAP.get(name)
             if not key:
+                print(
+                    f"warning: unrecognised difficulty folder "
+                    f"{topic_dir.name}/{diff_dir.name}/ — skipping. "
+                    f"Rename it to 01_easy / 02_medium / 03_hard.",
+                    file=sys.stderr,
+                )
                 continue
             label, slug = key
             files = sorted(p.name for p in diff_dir.glob("*.cpp"))

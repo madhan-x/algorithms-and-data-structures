@@ -45,12 +45,12 @@
 | Sorting        |     2 |
 | Maths          |     1 |
 
-**LeetCode by difficulty** (49 solved on [LeetCode profile](https://leetcode.com/u/madhan-x))
+**LeetCode by difficulty** (50 solved on [LeetCode profile](https://leetcode.com/u/madhan-x))
 
 | Difficulty | Count |
 |------------|------:|
 | Easy       |    30 |
-| Medium     |    18 |
+| Medium     |    19 |
 | Hard       |     1 |
 <!-- AUTO-STATS:END -->
 
@@ -135,8 +135,8 @@
 
 ### Linked List
 
-**Medium (2)**
-- `middle-of-the-linked-list-slow-fast.cpp` · `remove-nth-node-from-end-twopointers.cpp`
+**Medium (3)**
+- `middle-of-the-linked-list-slow-fast.cpp` · `remove-nth-node-from-end-of-list-two-pointers.cpp` · `remove-nth-node-from-end-twopointers.cpp`
 
 ### Maths
 
