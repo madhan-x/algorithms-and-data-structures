@@ -22,5 +22,11 @@ fi
 
 if [ "$needs_update" -eq 1 ]; then
     python scripts/update-readme-stats.py
-    git add README.md
+    # On Windows Git-Bash, a freshly-rewritten README sometimes isn't picked
+    # up by `git add` (CRLF normalisation can race the index refresh).
+    # Refresh stat info first, and only stage if there is actually a diff.
+    git update-index --refresh README.md >/dev/null 2>&1 || true
+    if ! git diff --quiet README.md; then
+        git add README.md
+    fi
 fi
