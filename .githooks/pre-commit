@@ -5,6 +5,13 @@
 
 set -e
 
+# Skip auto-commits made by the refresh-readme workflow — they only
+# touch README.md, the script is already idempotent, and we don't want
+# to re-stage a no-op edit on top of the bot's commit.
+if git log -1 --pretty=%s HEAD 2>/dev/null | grep -q '\[skip hook\]'; then
+    exit 0
+fi
+
 changed=$(git diff --cached --name-only)
 needs_update=0
 

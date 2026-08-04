@@ -55,8 +55,10 @@
 <!-- AUTO-STATS:END -->
 
 > Stats are auto-generated from the repo by `scripts/update-readme-stats.py`
-> (runs on every commit via the pre-commit hook). Don't edit the table above
-> by hand — it gets overwritten.
+> (runs on every commit via the pre-commit hook on laptop, and on every
+> push to `main` via the `Refresh README` GitHub Action — so it works
+> from mobile clients too). Don't edit the table above by hand — it
+> gets overwritten.
 
 ---
 
@@ -167,8 +169,9 @@
 <!-- AUTO-LEETCODE:END -->
 
 > List is auto-generated from `leetcode/` by `scripts/update-readme-stats.py`
-> (runs on every commit via the pre-commit hook). Don't edit the list above
-> by hand — it gets overwritten.
+> (runs on every commit via the pre-commit hook on laptop, and on every
+> push to `main` via the `Refresh README` GitHub Action). Don't edit the
+> list above by hand — it gets overwritten.
 
 ---
 
