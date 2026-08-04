@@ -15,8 +15,8 @@
 ## What this demonstrates
 
 - **From-first-principles implementations** of every core data structure (linked lists, BSTs, stacks, queues) — not just library calls.
-- **Pattern recognition across 42 LeetCode solutions** — two pointers, slow & fast, sliding window, Kadane's, Dutch National Flag, Moore's Voting, XOR, monotonic stack, priority queue, binary search, frequency counting, overflow bounds check, digit reversal, prefix sum, stack-based deletion.
-- **Discipline** — 143 solutions committed, CI-enforced strict-warnings compilation (`-Wall -Wextra -Wpedantic`) on every push.
+- **Pattern recognition across <!-- AUTO-LC-COUNT -->55<!-- /AUTO-LC-COUNT --> LeetCode solutions** — two pointers, slow & fast, sliding window, Kadane's, Dutch National Flag, Moore's Voting, XOR, monotonic stack, priority queue, binary search, frequency counting, overflow bounds check, digit reversal, prefix sum, stack-based deletion.
+- **Discipline** — <!-- AUTO-TOTAL-COUNT -->156<!-- /AUTO-TOTAL-COUNT --> solutions committed, CI-enforced strict-warnings compilation (`-Wall -Wextra -Wpedantic`) on every push.
 - **Readable, documented code** — every file documents problem, approach, time/space complexity (see [`CONTRIBUTING.md`](./CONTRIBUTING.md)).
 
 ---

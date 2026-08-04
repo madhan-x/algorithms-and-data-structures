@@ -2,9 +2,17 @@
 """Regenerate the dynamic sections of README.md from the repo filesystem.
 
 Run this manually after adding files, or let the pre-commit hook run it for
-you. It rewrites only the fenced blocks delimited by
-`<!-- AUTO-STATS:START -->` / `<!-- AUTO-STATS:END -->` and
-`<!-- AUTO-LEETCODE:START -->` / `<!-- AUTO-LEETCODE:END -->`.
+you. It rewrites:
+
+* The fenced block delimited by
+  `<!-- AUTO-STATS:START -->` / `<!-- AUTO-STATS:END -->`.
+* The fenced block delimited by
+  `<!-- AUTO-LEETCODE:START -->` / `<!-- AUTO-LEETCODE:END -->`.
+* The two narrative counters in the "What this demonstrates" bullets:
+  `**Pattern recognition across N LeetCode solutions**` and
+  `**N solutions committed, ...**`. These are matched with the
+  sentinels `<!-- AUTO-LC-COUNT -->` / `<!-- AUTO-TOTAL-COUNT -->` so the
+  hook can refresh them on every commit instead of letting them drift.
 
 Sections that are hand-curated (Topics Covered bullet list, Patterns table,
 Roadmap) are left untouched.
@@ -194,6 +202,21 @@ def replace_block(content: str, marker: str, new_body: str) -> str:
     return pattern.sub(replacement, content, count=1)
 
 
+def replace_inline_counter(content: str, marker: str, value: int) -> str:
+    """Replace `<!-- AUTO-X -->{N}<!-- /AUTO-X -->` with the new value.
+
+    The sentinel lives inline inside a sentence so it has to stay a tiny
+    comment pair around a single number, not a fenced block.
+    """
+    pattern = re.compile(
+        rf"<!-- {marker} -->\d+<!-- /{marker} -->",
+    )
+    replacement = f"<!-- {marker} -->{value}<!-- /{marker} -->"
+    if not pattern.search(content):
+        sys.exit(f"ERROR: inline counter <!-- {marker} --> not found in README.md")
+    return pattern.sub(replacement, content, count=1)
+
+
 def ensure_hooks_path() -> None:
     """Best-effort: point git at .githooks/ on first run.
 
@@ -227,6 +250,8 @@ def main() -> int:
 
     content = replace_block(content, "AUTO-STATS", render_stats(stats, lc))
     content = replace_block(content, "AUTO-LEETCODE", render_leetcode(lc))
+    content = replace_inline_counter(content, "AUTO-LC-COUNT", lc["total"])
+    content = replace_inline_counter(content, "AUTO-TOTAL-COUNT", stats["total"])
 
     README.write_text(content, encoding="utf-8")
     print(
