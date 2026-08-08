@@ -15,8 +15,8 @@
 ## What this demonstrates
 
 - **From-first-principles implementations** of every core data structure (linked lists, BSTs, stacks, queues) — not just library calls.
-- **Pattern recognition across <!-- AUTO-LC-COUNT -->57<!-- /AUTO-LC-COUNT --> LeetCode solutions** — two pointers, slow & fast, sliding window, Kadane's, Dutch National Flag, Moore's Voting, XOR, monotonic stack, priority queue, binary search, frequency counting, overflow bounds check, digit reversal, prefix sum, stack-based deletion.
-- **Discipline** — <!-- AUTO-TOTAL-COUNT -->158<!-- /AUTO-TOTAL-COUNT --> solutions committed, CI-enforced strict-warnings compilation (`-Wall -Wextra -Wpedantic`) on every push.
+- **Pattern recognition across <!-- AUTO-LC-COUNT -->58<!-- /AUTO-LC-COUNT --> LeetCode solutions** — two pointers, slow & fast, sliding window, Kadane's, Dutch National Flag, Moore's Voting, XOR, monotonic stack, priority queue, binary search, frequency counting, overflow bounds check, digit reversal, prefix sum, stack-based deletion.
+- **Discipline** — <!-- AUTO-TOTAL-COUNT -->159<!-- /AUTO-TOTAL-COUNT --> solutions committed, CI-enforced strict-warnings compilation (`-Wall -Wextra -Wpedantic`) on every push.
 - **Readable, documented code** — every file documents problem, approach, time/space complexity (see [`CONTRIBUTING.md`](./CONTRIBUTING.md)).
 
 ---
@@ -26,8 +26,8 @@
 <!-- AUTO-STATS:START -->
 | Metric              |  Count |
 |---------------------|-------:|
-| Total solutions     |   158 |
-| C++ implementations |   135 |
+| Total solutions     |   159 |
+| C++ implementations |   136 |
 | C implementations   |    23 |
 
 **Solutions by topic**
@@ -45,12 +45,12 @@
 | Sorting        |     2 |
 | Maths          |     1 |
 
-**LeetCode by difficulty** (57 solved on [LeetCode profile](https://leetcode.com/u/madhan-x))
+**LeetCode by difficulty** (58 solved on [LeetCode profile](https://leetcode.com/u/madhan-x))
 
 | Difficulty | Count |
 |------------|------:|
 | Easy       |    33 |
-| Medium     |    23 |
+| Medium     |    24 |
 | Hard       |     1 |
 <!-- AUTO-STATS:END -->
 
@@ -140,8 +140,8 @@
 **Easy (5)**
 - `intersection-of-two-linked-lists-two-pointers.cpp` · `linked-list-cycle-floyd-cycle-detection.cpp` · `merge-two-sorted-lists-dummy-node.cpp` · `remove-duplicates-from-sorted-list.cpp` · `reverse-linked-list-iterative.cpp`
 
-**Medium (5)**
-- `add-two-numbers-linked-list.cpp` · `delete-node-in-a-linked-list.cpp` · `middle-of-the-linked-list-slow-fast.cpp` · `odd-even-linked-list.cpp` · `remove-nth-node-from-end-of-list-two-pointers.cpp`
+**Medium (6)**
+- `add-two-numbers-linked-list.cpp` · `delete-node-in-a-linked-list.cpp` · `middle-of-the-linked-list-slow-fast.cpp` · `odd-even-linked-list.cpp` · `palindrome-linked-list-fast-slow-reversal.cpp` · `remove-nth-node-from-end-of-list-two-pointers.cpp`
 
 ### Maths
 
