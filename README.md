@@ -15,8 +15,8 @@
 ## What this demonstrates
 
 - **From-first-principles implementations** of every core data structure (linked lists, BSTs, stacks, queues) — not just library calls.
-- **Pattern recognition across <!-- AUTO-LC-COUNT -->55<!-- /AUTO-LC-COUNT --> LeetCode solutions** — two pointers, slow & fast, sliding window, Kadane's, Dutch National Flag, Moore's Voting, XOR, monotonic stack, priority queue, binary search, frequency counting, overflow bounds check, digit reversal, prefix sum, stack-based deletion.
-- **Discipline** — <!-- AUTO-TOTAL-COUNT -->156<!-- /AUTO-TOTAL-COUNT --> solutions committed, CI-enforced strict-warnings compilation (`-Wall -Wextra -Wpedantic`) on every push.
+- **Pattern recognition across <!-- AUTO-LC-COUNT -->52<!-- /AUTO-LC-COUNT --> LeetCode solutions** — two pointers, slow & fast, sliding window, Kadane's, Dutch National Flag, Moore's Voting, XOR, monotonic stack, priority queue, binary search, frequency counting, overflow bounds check, digit reversal, prefix sum, stack-based deletion.
+- **Discipline** — <!-- AUTO-TOTAL-COUNT -->153<!-- /AUTO-TOTAL-COUNT --> solutions committed, CI-enforced strict-warnings compilation (`-Wall -Wextra -Wpedantic`) on every push.
 - **Readable, documented code** — every file documents problem, approach, time/space complexity (see [`CONTRIBUTING.md`](./CONTRIBUTING.md)).
 
 ---
@@ -26,8 +26,8 @@
 <!-- AUTO-STATS:START -->
 | Metric              |  Count |
 |---------------------|-------:|
-| Total solutions     |   156 |
-| C++ implementations |   133 |
+| Total solutions     |   153 |
+| C++ implementations |   130 |
 | C implementations   |    23 |
 
 **Solutions by topic**
@@ -45,12 +45,12 @@
 | Sorting        |     2 |
 | Maths          |     1 |
 
-**LeetCode by difficulty** (55 solved on [LeetCode profile](https://leetcode.com/u/madhan-x))
+**LeetCode by difficulty** (52 solved on [LeetCode profile](https://leetcode.com/u/madhan-x))
 
 | Difficulty | Count |
 |------------|------:|
-| Easy       |    33 |
-| Medium     |    21 |
+| Easy       |    31 |
+| Medium     |    20 |
 | Hard       |     1 |
 <!-- AUTO-STATS:END -->
 
@@ -126,8 +126,8 @@
 <!-- AUTO-LEETCODE:START -->
 ### Arrays
 
-**Easy (22)**
-- `binary-search.cpp` · `contains-duplicate-hashset.cpp` · `find-pivot-index-bruteforce.cpp` · `find-smallest-letter-greater-than-target-binary-search.cpp` · `intersection-of-two-arrays-hash-set.cpp` · `majority-element-bruteforce.cpp` · `majority-element-hashmap.cpp` · `max-consecutive-ones.cpp` · `maximum-average-subarray-i-sliding-window.cpp` · `merge-sorted-array.cpp` · `move-zeroes-two-pointers.cpp` · `number-of-good-pairs-hashmap.cpp` · `pivot-index-prefixsum.cpp` · `plus-one.cpp` · `remove-duplicates-from-sorted-array.cpp` · `remove-element.cpp` · `search-insert-position-linear.cpp` · `sort-array-by-parity-two-pointers.cpp` · `squares-of-a-sorted-array-sort.cpp` · `squares-of-sorted-array-sort.cpp` · `third-maximum-number-three-variables.cpp` · `two-sum-bruteforce.cpp`
+**Easy (21)**
+- `binary-search.cpp` · `contains-duplicate-hashset.cpp` · `find-pivot-index-bruteforce.cpp` · `find-smallest-letter-greater-than-target-binary-search.cpp` · `intersection-of-two-arrays-hash-set.cpp` · `majority-element-bruteforce.cpp` · `majority-element-hashmap.cpp` · `max-consecutive-ones.cpp` · `maximum-average-subarray-i-sliding-window.cpp` · `merge-sorted-array.cpp` · `move-zeroes-two-pointers.cpp` · `number-of-good-pairs-hashmap.cpp` · `pivot-index-prefixsum.cpp` · `plus-one.cpp` · `remove-duplicates-from-sorted-array.cpp` · `remove-element.cpp` · `search-insert-position-linear.cpp` · `sort-array-by-parity-two-pointers.cpp` · `squares-of-sorted-array-sort.cpp` · `third-maximum-number-three-variables.cpp` · `two-sum-bruteforce.cpp`
 
 **Medium (13)**
 - `container-with-most-water-two-pointers.cpp` · `find-first-and-last-position-of-element-binary-search.cpp` · `find-minimum-in-rotated-sorted-array-binary-search.cpp` · `find-the-smallest-divisor-given-a-threshold-binary-search-on-answer.cpp` · `koko-eating-bananas-binary-search-on-answer.cpp` · `maximum-subarray-kadane.cpp` · `product-of-array-except-self-prefix-suffix.cpp` · `rotate-array-reversal-algorithm.cpp` · `search-in-rotated-sorted-array-binary-search.cpp` · `sort-colors-dutch-national-flag.cpp` · `subarray-sum-equals-k-prefix-sum-hash-map.cpp` · `three-sum-two-pointers.cpp` · `top-k-frequent-elements-priorityqueue.cpp`
@@ -140,8 +140,8 @@
 **Easy (3)**
 - `merge-two-sorted-lists-dummy-node.cpp` · `remove-duplicates-from-sorted-list.cpp` · `reverse-linked-list-iterative.cpp`
 
-**Medium (3)**
-- `middle-of-the-linked-list-slow-fast.cpp` · `remove-nth-node-from-end-of-list-two-pointers.cpp` · `remove-nth-node-from-end-twopointers.cpp`
+**Medium (2)**
+- `middle-of-the-linked-list-slow-fast.cpp` · `remove-nth-node-from-end-of-list-two-pointers.cpp`
 
 ### Maths
 
@@ -161,8 +161,8 @@
 
 ### Strings
 
-**Easy (5)**
-- `find-first-occurrence-stl.cpp` · `find-the-index-of-the-first-occurrence-in-a-string-stl.cpp` · `first-unique-character-in-a-string-hash-map.cpp` · `reverse-string-two-pointers.cpp` · `valid-anagram-hashmap.cpp`
+**Easy (4)**
+- `find-first-occurrence-stl.cpp` · `first-unique-character-in-a-string-hash-map.cpp` · `reverse-string-two-pointers.cpp` · `valid-anagram-hashmap.cpp`
 
 **Medium (3)**
 - `longest-repeating-character-replacement-sliding-window.cpp` · `longest-substring-without-repeating-characters-sliding-window.cpp` · `maximum-number-of-vowels-in-a-substring-of-given-length-sliding-window.cpp`
