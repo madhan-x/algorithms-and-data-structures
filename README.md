@@ -15,8 +15,8 @@
 ## What this demonstrates
 
 - **From-first-principles implementations** of every core data structure (linked lists, BSTs, stacks, queues) — not just library calls.
-- **Pattern recognition across <!-- AUTO-LC-COUNT -->72<!-- /AUTO-LC-COUNT --> LeetCode solutions** — two pointers, slow & fast, sliding window, Kadane's, Dutch National Flag, Moore's Voting, XOR, monotonic stack, priority queue, binary search, frequency counting, overflow bounds check, digit reversal, prefix sum, stack-based deletion.
-- **Discipline** — <!-- AUTO-TOTAL-COUNT -->173<!-- /AUTO-TOTAL-COUNT --> solutions committed, CI-enforced strict-warnings compilation (`-Wall -Wextra -Wpedantic`) on every push.
+- **Pattern recognition across <!-- AUTO-LC-COUNT -->73<!-- /AUTO-LC-COUNT --> LeetCode solutions** — two pointers, slow & fast, sliding window, Kadane's, Dutch National Flag, Moore's Voting, XOR, monotonic stack, priority queue, binary search, frequency counting, overflow bounds check, digit reversal, prefix sum, stack-based deletion.
+- **Discipline** — <!-- AUTO-TOTAL-COUNT -->174<!-- /AUTO-TOTAL-COUNT --> solutions committed, CI-enforced strict-warnings compilation (`-Wall -Wextra -Wpedantic`) on every push.
 - **Readable, documented code** — every file documents problem, approach, time/space complexity (see [`CONTRIBUTING.md`](./CONTRIBUTING.md)).
 
 ---
@@ -26,8 +26,8 @@
 <!-- AUTO-STATS:START -->
 | Metric              |  Count |
 |---------------------|-------:|
-| Total solutions     |   173 |
-| C++ implementations |   150 |
+| Total solutions     |   174 |
+| C++ implementations |   151 |
 | C implementations   |    23 |
 
 **Solutions by topic**
@@ -45,11 +45,11 @@
 | Sorting        |     2 |
 | Maths          |     1 |
 
-**LeetCode by difficulty** (72 solved on [LeetCode profile](https://leetcode.com/u/madhan-x))
+**LeetCode by difficulty** (73 solved on [LeetCode profile](https://leetcode.com/u/madhan-x))
 
 | Difficulty | Count |
 |------------|------:|
-| Easy       |    42 |
+| Easy       |    43 |
 | Medium     |    29 |
 | Hard       |     1 |
 <!-- AUTO-STATS:END -->
@@ -153,8 +153,8 @@
 
 ### Stack
 
-**Easy (6)**
-- `backspace-string-compare.cpp` · `baseball-game-stack.cpp` · `make-the-string-great.cpp` · `next-greater-element-i-monotonic-stack.cpp` · `remove-all-adjacent-duplicates-in-string.cpp` · `valid-parentheses-stack.cpp`
+**Easy (7)**
+- `backspace-string-compare.cpp` · `baseball-game-stack.cpp` · `implement-stack-using-queues.cpp` · `make-the-string-great.cpp` · `next-greater-element-i-monotonic-stack.cpp` · `remove-all-adjacent-duplicates-in-string.cpp` · `valid-parentheses-stack.cpp`
 
 **Medium (1)**
 - `removing-stars-from-a-string-stack.cpp`
