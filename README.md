@@ -15,8 +15,8 @@
 ## What this demonstrates
 
 - **From-first-principles implementations** of every core data structure (linked lists, BSTs, stacks, queues) — not just library calls.
-- **Pattern recognition across <!-- AUTO-LC-COUNT -->73<!-- /AUTO-LC-COUNT --> LeetCode solutions** — two pointers, slow & fast, sliding window, Kadane's, Dutch National Flag, Moore's Voting, XOR, monotonic stack, priority queue, binary search, frequency counting, overflow bounds check, digit reversal, prefix sum, stack-based deletion.
-- **Discipline** — <!-- AUTO-TOTAL-COUNT -->174<!-- /AUTO-TOTAL-COUNT --> solutions committed, CI-enforced strict-warnings compilation (`-Wall -Wextra -Wpedantic`) on every push.
+- **Pattern recognition across <!-- AUTO-LC-COUNT -->74<!-- /AUTO-LC-COUNT --> LeetCode solutions** — two pointers, slow & fast, sliding window, Kadane's, Dutch National Flag, Moore's Voting, XOR, monotonic stack, priority queue, binary search, frequency counting, overflow bounds check, digit reversal, prefix sum, stack-based deletion.
+- **Discipline** — <!-- AUTO-TOTAL-COUNT -->175<!-- /AUTO-TOTAL-COUNT --> solutions committed, CI-enforced strict-warnings compilation (`-Wall -Wextra -Wpedantic`) on every push.
 - **Readable, documented code** — every file documents problem, approach, time/space complexity (see [`CONTRIBUTING.md`](./CONTRIBUTING.md)).
 
 ---
@@ -26,8 +26,8 @@
 <!-- AUTO-STATS:START -->
 | Metric              |  Count |
 |---------------------|-------:|
-| Total solutions     |   174 |
-| C++ implementations |   151 |
+| Total solutions     |   175 |
+| C++ implementations |   152 |
 | C implementations   |    23 |
 
 **Solutions by topic**
@@ -45,12 +45,12 @@
 | Sorting        |     2 |
 | Maths          |     1 |
 
-**LeetCode by difficulty** (73 solved on [LeetCode profile](https://leetcode.com/u/madhan-x))
+**LeetCode by difficulty** (74 solved on [LeetCode profile](https://leetcode.com/u/madhan-x))
 
 | Difficulty | Count |
 |------------|------:|
 | Easy       |    43 |
-| Medium     |    29 |
+| Medium     |    30 |
 | Hard       |     1 |
 <!-- AUTO-STATS:END -->
 
@@ -129,8 +129,8 @@
 **Easy (22)**
 - `binary-search.cpp` · `contains-duplicate-hashset.cpp` · `find-pivot-index-bruteforce.cpp` · `find-smallest-letter-greater-than-target-binary-search.cpp` · `intersection-of-two-arrays-hash-set.cpp` · `majority-element-bruteforce.cpp` · `majority-element-hashmap.cpp` · `max-consecutive-ones.cpp` · `maximum-average-subarray-i-sliding-window.cpp` · `merge-sorted-array.cpp` · `move-zeroes-two-pointers.cpp` · `number-of-good-pairs-hashmap.cpp` · `pivot-index-prefixsum.cpp` · `plus-one.cpp` · `remove-duplicates-from-sorted-array.cpp` · `remove-element.cpp` · `search-insert-position-linear.cpp` · `sort-array-by-parity-two-pointers.cpp` · `squares-of-a-sorted-array-sort.cpp` · `squares-of-sorted-array-sort.cpp` · `third-maximum-number-three-variables.cpp` · `two-sum-bruteforce.cpp`
 
-**Medium (13)**
-- `container-with-most-water-two-pointers.cpp` · `find-first-and-last-position-of-element-binary-search.cpp` · `find-minimum-in-rotated-sorted-array-binary-search.cpp` · `find-the-smallest-divisor-given-a-threshold-binary-search-on-answer.cpp` · `koko-eating-bananas-binary-search-on-answer.cpp` · `maximum-subarray-kadane.cpp` · `product-of-array-except-self-prefix-suffix.cpp` · `rotate-array-reversal-algorithm.cpp` · `search-in-rotated-sorted-array-binary-search.cpp` · `sort-colors-dutch-national-flag.cpp` · `subarray-sum-equals-k-prefix-sum-hash-map.cpp` · `three-sum-two-pointers.cpp` · `top-k-frequent-elements-priorityqueue.cpp`
+**Medium (14)**
+- `container-with-most-water-two-pointers.cpp` · `find-first-and-last-position-of-element-binary-search.cpp` · `find-minimum-in-rotated-sorted-array-binary-search.cpp` · `find-the-smallest-divisor-given-a-threshold-binary-search-on-answer.cpp` · `koko-eating-bananas-binary-search-on-answer.cpp` · `maximum-subarray-kadane.cpp` · `product-of-array-except-self-prefix-suffix.cpp` · `rotate-array-reversal-algorithm.cpp` · `search-a-2d-matrix-binary-search.cpp` · `search-in-rotated-sorted-array-binary-search.cpp` · `sort-colors-dutch-national-flag.cpp` · `subarray-sum-equals-k-prefix-sum-hash-map.cpp` · `three-sum-two-pointers.cpp` · `top-k-frequent-elements-priorityqueue.cpp`
 
 **Hard (1)**
 - `median-of-two-sorted-arrays.cpp`
