@@ -59,6 +59,7 @@ def count_files() -> dict:
     skip_dirs = {".git", "practice", "archive", "scripts", ".github", ".vscode", "node_modules"}
     cpp_total = 0
     c_total = 0
+    py_total = 0
     per_topic: dict[str, int] = {t: 0 for t in TOPIC_DIRS}
 
     for path in ROOT.rglob("*"):
@@ -70,18 +71,23 @@ def count_files() -> dict:
             cpp_total += 1
         elif path.suffix == ".c":
             c_total += 1
+        elif path.suffix == ".py":
+            py_total += 1
 
     for topic in TOPIC_DIRS:
+        py_subdir = ROOT / topic / "python"
+        py_count = sum(1 for _ in py_subdir.rglob("*.py")) if py_subdir.exists() else 0
         per_topic[topic] = sum(
             1 for _ in (ROOT / topic).rglob("*.cpp")
         ) + sum(
             1 for _ in (ROOT / topic).rglob("*.c")
-        )
+        ) + py_count
 
     return {
         "cpp": cpp_total,
         "c": c_total,
-        "total": cpp_total + c_total,
+        "py": py_total,
+        "total": cpp_total + c_total + py_total,
         "per_topic": per_topic,
     }
 
@@ -109,7 +115,9 @@ def count_leetcode() -> dict:
                 )
                 continue
             label, slug = key
-            files = sorted(p.name for p in diff_dir.glob("*.cpp"))
+            files = sorted(
+                p.name for p in (*diff_dir.glob("*.cpp"), *diff_dir.glob("*.py"))
+            )
             if not files:
                 continue
             by_subtopic.setdefault(topic_dir.name, {}).setdefault(slug, []).extend(
@@ -138,6 +146,7 @@ def render_stats(stats: dict, lc: dict) -> str:
         f"| Total solutions     | {stats['total']:>5} |",
         f"| C++ implementations | {stats['cpp']:>5} |",
         f"| C implementations   | {stats['c']:>5} |",
+        f"| Python implementations | {stats['py']:>3} |",
         "",
         "**Solutions by topic**",
         "",

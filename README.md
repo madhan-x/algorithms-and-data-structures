@@ -1,6 +1,8 @@
 # Data Structures & Algorithms in C / C++
 
-**B.Tech AI & Data Science · DSA · C++ · C · Python** — implemented-from-scratch solutions across arrays, linked lists, trees, stacks, queues, strings, recursion, and LeetCode patterns. Consistent daily practice since March 2026.
+> A from-first-principles DSA library — implemented from scratch, tested by CI, and tagged by topic, technique, and difficulty. Built through consistent daily practice since March 2026.
+
+**B.Tech AI & Data Science · DSA · C++ · C · Python** — solutions across arrays, linked lists, trees, stacks, queues, strings, recursion, and LeetCode patterns.
 
 [![Build Status](https://github.com/madhan-x/algorithms-and-data-structures/actions/workflows/build.yml/badge.svg)](https://github.com/madhan-x/algorithms-and-data-structures/actions/workflows/build.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
@@ -16,8 +18,8 @@
 
 - **From-first-principles implementations** of every core data structure (linked lists, BSTs, stacks, queues) — not just library calls.
 - **Pattern recognition across <!-- AUTO-LC-COUNT -->78<!-- /AUTO-LC-COUNT --> LeetCode solutions** — two pointers, slow & fast, sliding window, Kadane's, Dutch National Flag, Moore's Voting, XOR, monotonic stack, priority queue, binary search, frequency counting, overflow bounds check, digit reversal, prefix sum, stack-based deletion.
-- **Discipline** — <!-- AUTO-TOTAL-COUNT -->179<!-- /AUTO-TOTAL-COUNT --> solutions committed, CI-enforced strict-warnings compilation (`-Wall -Wextra -Wpedantic`) on every push.
-- **Readable, documented code** — every file documents problem, approach, time/space complexity (see [`CONTRIBUTING.md`](./CONTRIBUTING.md)).
+- **Discipline & process** — <!-- AUTO-TOTAL-COUNT -->179<!-- /AUTO-TOTAL-COUNT --> solutions committed, CI-enforced strict-warnings compilation (`-Wall -Wextra -Wpedantic`) on every push, and stats auto-refreshed on every commit.
+- **Readable, documented code** — every file documents problem, approach, time/space complexity, and worked example (see [`CONTRIBUTING.md`](./CONTRIBUTING.md)).
 
 ---
 
@@ -29,6 +31,7 @@
 | Total solutions     |   179 |
 | C++ implementations |   156 |
 | C implementations   |    23 |
+| Python implementations |   0 |
 
 **Solutions by topic**
 
@@ -223,8 +226,9 @@ Every solution follows a documented template — problem statement, pattern, app
 ```
 algorithms-and-data-structures/
 ├── arrays/                # topic folders
-│   ├── c/
-│   └── cpp/
+│   ├── c/                 # C implementations
+│   ├── cpp/               # C++ implementations
+│   └── python/            # Python implementations
 ├── linked-list/
 ├── trees/
 ├── stack/
@@ -235,12 +239,12 @@ algorithms-and-data-structures/
 ├── maths/
 ├── basics/
 └── leetcode/
-    └── <topic>/<difficulty>/<problem>-<technique>.ext
+    └── <topic>/<difficulty>/<problem>-<technique>.<ext>
 ```
 
 - **Filenames:** kebab-case · technique suffix on LeetCode (e.g. `maximum-subarray-kadane.cpp`)
-- **Languages:** C (`<topic>/c/`), C++ (`<topic>/cpp/`) — kebab-case file names in either language
-- **CI:** every push compiles all `.c` and `.cpp` files with `-Wall -Wextra -Wpedantic`
+- **Languages:** C (`<topic>/c/`), C++ (`<topic>/cpp/`), Python (`<topic>/python/`) — kebab-case file names in any language
+- **CI:** every push compiles all `.c` and `.cpp` files with `-Wall -Wextra -Wpedantic`; Python files are syntax-checked with `python -m py_compile`
 
 ---
 
@@ -252,9 +256,12 @@ g++ -std=c++17 -Wall -Wextra -Wpedantic -fsyntax-only <file>.cpp
 
 # Compile-check a single C solution
 gcc -std=c11 -Wall -Wextra -Wpedantic -fsyntax-only <file>.c
+
+# Syntax-check a single Python solution
+python -m py_compile <file>.py
 ```
 
-Requires `g++` / `gcc` (or any standards-compliant C/C++ compiler).
+Requires `g++` / `gcc` (or any standards-compliant C/C++ compiler) and Python 3.10+.
 
 ---
 
