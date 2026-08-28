@@ -1,49 +1,74 @@
-# Hi, I'm Madhan
+# Hi, I'm Madhan 👋
 
-**B.Tech — Artificial Intelligence & Data Science (Year 2)** · Building with C, C++, and Python — focused on strong fundamentals, consistent practice, and shipping in public.
-
----
-
-## What I'm focused on
-
-- **Data Structures & Algorithms** — daily practice in C and C++ in [`algorithms-and-data-structures`](https://github.com/madhan-x/algorithms-and-data-structures), with strict-warnings CI on every push (`-Wall -Wextra -Wpedantic`).
-- **LeetCode depth** — systematic coverage from Easy into Medium and Hard, tagged by topic and technique.
-- **AI foundations** — coursework and self-study in machine learning, NLP, and applied AI as part of the AI & DS degree.
+**B.Tech — Artificial Intelligence & Data Science · Year 2** · I build with C, C++, and Python — focused on strong fundamentals, consistent practice, and shipping in public.
 
 ---
 
-## Featured project
+## 🧭 About me
 
-### [algorithms-and-data-structures](https://github.com/madhan-x/algorithms-and-data-structures) — DSA in C / C++
+I'm a Year 2 AI & Data Science student who believes the best way to learn is to **build, break, and fix things in public**. My day-to-day looks like:
 
-From-first-principles implementations of core data structures (linked lists, BSTs, stacks, queues) and algorithms, plus LeetCode problems grouped by topic and difficulty. Every push runs through a CI build with strict warnings enabled.
-
-**By the numbers (auto-verified against the repo):**
-- 158 solutions · 135 C++ · 23 C
-- 57 LeetCode problems (33 Easy · 23 Medium · 1 Hard)
-- 10 topic areas: Arrays · Linked List · Trees · Stack · Queue · Recursion · Two Pointers · Sorting · Basics · Maths
+- Solving one DSA problem a day — in C/C++, with strict-warnings CI on every push (`-Wall -Wextra -Wpedantic`)
+- Working through LeetCode systematically, tagged by topic and technique
+- Studying AI/ML coursework (NLP, statistics, applied ML) and applying it in side projects
+- Documenting everything — every solution ships with problem, approach, complexity, and a worked example
 
 ---
 
-## Tech I work with
+## 🚀 Featured work
+
+### 📘 [algorithms-and-data-structures](https://github.com/madhan-x/algorithms-and-data-structures) — DSA in C / C++
+
+A from-first-principles DSA library: hand-rolled linked lists, BSTs, stacks, queues, recursion, sorting — plus LeetCode problems grouped by topic, difficulty, and technique. Every push runs through a CI build that fails on warnings.
+
+**By the numbers (verified against the repo):**
+| Metric | Count |
+|---|---:|
+| Total solutions | **179** |
+| C++ implementations | **156** |
+| C implementations | **23** |
+| LeetCode problems | **78** (45 Easy · 32 Medium · 1 Hard) |
+| Topic areas | **10** |
+
+`C++` `C` `Python` · `GitHub Actions CI` · `MIT License`
+
+---
+
+## 🛠️ Tech I work with
 
 | Area | Tools |
 |---|---|
 | **Languages** | C · C++ · Python |
-| **DSA / CS** | Data Structures · Algorithms · Recursion · STL · Complexity Analysis |
+| **DSA / CS** | Data Structures · Algorithms · Recursion · STL · Complexity analysis |
 | **AI / DS (coursework)** | Machine Learning · NLP · Statistics · Linear Algebra |
-| **Tools** | Git · GitHub · Linux · LeetCode |
+| **Developer tools** | Git · GitHub Actions · Linux · VS Code · LeetCode |
 
 ---
 
-## Current focus
+## 📈 What I'm focusing on right now
 
-Graphs (BFS / DFS / Topological Sort) · Dynamic Programming foundations · one new LeetCode solution per day.
+- **Graphs** — BFS, DFS, Topological Sort, shortest-path foundations
+- **Dynamic Programming** — building intuition through classic problems
+- **LeetCode Medium volume** — pushing into 100+ total solved
 
 ---
 
-## Connect
+## 📊 GitHub stats
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=madhan-x&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=madhan-x&layout=compact&theme=tokyonight&hide_border=true)
+
+![GitHub Streak](https://streak-stats.demolab.com?user=madhan-x&theme=tokyonight&hide_border=true)
+
+---
+
+## 🤝 Connect
 
 - **GitHub** — [@madhan-x](https://github.com/madhan-x)
 - **LeetCode** — [madhan-x](https://leetcode.com/u/madhan-x)
 - **LinkedIn** — [Madhan Thalloju](https://www.linkedin.com/in/madhan-thalloju-7a79903ab)
+- **Email** — madhanthalloju@gmail.com
+
+---
+
+<sub>⭐ If anything here is useful to you, consider starring a repo — it helps a lot.</sub>
