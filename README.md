@@ -17,8 +17,8 @@
 ## What this demonstrates
 
 - **From-first-principles implementations** of every core data structure (linked lists, BSTs, stacks, queues) — not just library calls.
-- **Pattern recognition across <!-- AUTO-LC-COUNT -->96<!-- /AUTO-LC-COUNT --> LeetCode solutions** — two pointers, slow & fast, sliding window, Kadane's, Dutch National Flag, Moore's Voting, XOR, monotonic stack, priority queue, binary search, frequency counting, overflow bounds check, digit reversal, prefix sum, stack-based deletion.
-- **Discipline & process** — <!-- AUTO-TOTAL-COUNT -->198<!-- /AUTO-TOTAL-COUNT --> solutions committed, CI-enforced strict-warnings compilation (`-Wall -Wextra -Wpedantic`) on every push, and stats auto-refreshed on every commit.
+- **Pattern recognition across <!-- AUTO-LC-COUNT -->97<!-- /AUTO-LC-COUNT --> LeetCode solutions** — two pointers, slow & fast, sliding window, Kadane's, Dutch National Flag, Moore's Voting, XOR, monotonic stack, priority queue, binary search, frequency counting, overflow bounds check, digit reversal, prefix sum, stack-based deletion.
+- **Discipline & process** — <!-- AUTO-TOTAL-COUNT -->199<!-- /AUTO-TOTAL-COUNT --> solutions committed, CI-enforced strict-warnings compilation (`-Wall -Wextra -Wpedantic`) on every push, and stats auto-refreshed on every commit.
 - **Readable, documented code** — every file documents problem, approach, time/space complexity, and worked example (see [`CONTRIBUTING.md`](./CONTRIBUTING.md)).
 
 ---
@@ -28,8 +28,8 @@
 <!-- AUTO-STATS:START -->
 | Metric              |  Count |
 |---------------------|-------:|
-| Total solutions     |   198 |
-| C++ implementations |   175 |
+| Total solutions     |   199 |
+| C++ implementations |   176 |
 | C implementations   |    23 |
 | Python implementations |   0 |
 
@@ -48,12 +48,12 @@
 | Sorting        |     2 |
 | Maths          |     1 |
 
-**LeetCode by difficulty** (96 solved on [LeetCode profile](https://leetcode.com/u/madhan-x))
+**LeetCode by difficulty** (97 solved on [LeetCode profile](https://leetcode.com/u/madhan-x))
 
 | Difficulty | Count |
 |------------|------:|
 | Easy       |    58 |
-| Medium     |    37 |
+| Medium     |    38 |
 | Hard       |     1 |
 <!-- AUTO-STATS:END -->
 
@@ -175,8 +175,8 @@
 **Easy (10)**
 - `backspace-string-compare.cpp` · `baseball-game-stack.cpp` · `clear-digits.cpp` · `implement-stack-using-queues.cpp` · `make-the-string-great.cpp` · `maximum-nesting-depth-of-the-parentheses.cpp` · `next-greater-element-i-monotonic-stack.cpp` · `remove-all-adjacent-duplicates-in-string.cpp` · `remove-outermost-parentheses.cpp` · `valid-parentheses-stack.cpp`
 
-**Medium (5)**
-- `evaluate-reverse-polish-notation.cpp` · `min-stack.cpp` · `next-greater-element-ii.cpp` · `removing-stars-from-a-string-stack.cpp` · `validate-stack-sequences.cpp`
+**Medium (6)**
+- `evaluate-reverse-polish-notation.cpp` · `min-stack.cpp` · `next-greater-element-ii.cpp` · `online-stock-span-monotonic-stack.cpp` · `removing-stars-from-a-string-stack.cpp` · `validate-stack-sequences.cpp`
 
 ### Strings
 
