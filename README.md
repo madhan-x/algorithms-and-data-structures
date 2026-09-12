@@ -17,8 +17,8 @@
 ## What this demonstrates
 
 - **From-first-principles implementations** of every core data structure (linked lists, BSTs, stacks, queues) — not just library calls.
-- **Pattern recognition across <!-- AUTO-LC-COUNT -->97<!-- /AUTO-LC-COUNT --> LeetCode solutions** — two pointers, slow & fast, sliding window, Kadane's, Dutch National Flag, Moore's Voting, XOR, monotonic stack, priority queue, binary search, frequency counting, overflow bounds check, digit reversal, prefix sum, stack-based deletion.
-- **Discipline & process** — <!-- AUTO-TOTAL-COUNT -->198<!-- /AUTO-TOTAL-COUNT --> solutions committed, CI-enforced strict-warnings compilation (`-Wall -Wextra -Wpedantic`) on every push, and stats auto-refreshed on every commit.
+- **Pattern recognition across <!-- AUTO-LC-COUNT -->98<!-- /AUTO-LC-COUNT --> LeetCode solutions** — two pointers, slow & fast, sliding window, Kadane's, Dutch National Flag, Moore's Voting, XOR, monotonic stack, priority queue, binary search, frequency counting, overflow bounds check, digit reversal, prefix sum, stack-based deletion.
+- **Discipline & process** — <!-- AUTO-TOTAL-COUNT -->199<!-- /AUTO-TOTAL-COUNT --> solutions committed, CI-enforced strict-warnings compilation (`-Wall -Wextra -Wpedantic`) on every push, and stats auto-refreshed on every commit.
 - **Readable, documented code** — every file documents problem, approach, time/space complexity, and worked example (see [`CONTRIBUTING.md`](./CONTRIBUTING.md)).
 
 ---
@@ -28,8 +28,8 @@
 <!-- AUTO-STATS:START -->
 | Metric              |  Count |
 |---------------------|-------:|
-| Total solutions     |   198 |
-| C++ implementations |   175 |
+| Total solutions     |   199 |
+| C++ implementations |   176 |
 | C implementations   |    23 |
 | Python implementations |   0 |
 
@@ -48,12 +48,12 @@
 | Sorting        |     2 |
 | Maths          |     1 |
 
-**LeetCode by difficulty** (97 solved on [LeetCode profile](https://leetcode.com/u/madhan-x))
+**LeetCode by difficulty** (98 solved on [LeetCode profile](https://leetcode.com/u/madhan-x))
 
 | Difficulty | Count |
 |------------|------:|
 | Easy       |    58 |
-| Medium     |    38 |
+| Medium     |    39 |
 | Hard       |     1 |
 <!-- AUTO-STATS:END -->
 
@@ -143,8 +143,8 @@
 **Easy (5)**
 - `kth-largest-element-in-a-stream.cpp` · `last-stone-weight-max-heap.cpp` · `relative-ranks.cpp` · `take-gifts-from-the-richest-pile.cpp` · `the-k-weakest-rows-in-a-matrix.cpp`
 
-**Medium (1)**
-- `kth-largest-element-in-an-array.cpp`
+**Medium (2)**
+- `kth-largest-element-in-an-array.cpp` · `kth-smallest-element-in-a-sorted-matrix-min-heap.cpp`
 
 ### Linked List
 
