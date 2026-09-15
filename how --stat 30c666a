@@ -1,0 +1,64 @@
+[33mfc0b3b7[m Merge remote-tracking branch 'origin/main' into main
+[33m30c666a[m Remove duplicate LeetCode solution files
+[33mfef8325[m Add delete node functionality in linked list
+[33m40b1e0e[m Add solution for intersection of two linked lists
+[33m27d6dae[m Add Floyd's Cycle Detection for linked list
+[33m04f555c[m Add solution for odd-even linked list problem
+[33m8f4de55[m Add function to sum two linked lists
+[33mcaa97af[m Add solution to remove duplicates from sorted list
+[33me59137a[m Add iterative reverse linked list solution
+[33m6c2aea7[m Add solution for product of array except self
+[33m3abe57b[m Fix LeetCode undercount from misnamed difficulty folder
+[33m394bab5[m Add rotate function for array rotation using reversal
+[33mba0dac1[m Add mergeTwoLists function for sorted linked lists
+[33m91152ad[m Add plusOne function for incrementing digits array
+[33m4230352[m Add solution for finding smallest divisor with threshold
+[33ma93694d[m Add solution for Koko Eating Bananas problem
+[33md199bf9[m Add solution for finding minimum in rotated sorted array
+[33m24019d8[m Add binary search for rotated sorted array
+[33m91ca9cd[m Add binary search solution for finding next greatest letter
+[33m049b9d6[m Add binary search solution for Sqrt(x) problem
+[33me190a27[m Implement binary search for first and last positions
+[33mffbaa8b[m Add Middle of the Linked List (LC 876) slow & fast solution and update README
+[33mf072440[m Add binary search implementation in C++
+[33m955dc4b[m Add intersection function for two arrays
+[33m8aa90e9[m Add Removing Stars From a String (LC 2390) stack solution and update README
+[33m91cd3d4[m Add subarray sum equals k solution using prefix sum
+[33m7e51bf4[m Add solution for finding max consecutive ones
+[33m1d88061[m Add solution for third maximum number in array
+[33m9951b33[m Add solution for longest repeating character replacement
+[33mf6bce63[m Add solution for longest substring without repeating characters
+[33m49028a3[m Create first-unique-character-in-a-string-hash-map.cpp
+[33m938d84e[m Add function to count max vowels in substring
+[33madc0659[m Add Maximum Average Subarray I (LC 643) sliding-window solution
+[33m789b5a1[m Add reverseString method to reverse a character vector
+[33m6e86fb1[m Add 3 new LeetCode solutions and update README
+[33m6a9d1ec[m Add pivot-index-prefixsum.cpp solution (LC 724)
+[33me1407f6[m Implement brute force solution for pivot index
+[33md942657[m Implement sortedSquares function to square and sort
+[33m171f3ce[m Add function to sort array by parity
+[33m27fc620[m Implement strStr function to find substring index
+[33m7ed39c1[m Delete leetcode/strings/easy directory
+[33m4d26e0f[m Add strStr function to find substring index
+[33mb86e28c[m Create remove-nth-node-from-end-of-list-two-pointers.cpp
+[33m2fa2df8[m Implement three-sum solution using two pointers
+[33m7b20d3e[m Add palindrome-number-reversal.cpp solution (LC 9)
+[33me5b1b90[m Add reverse-integer-overflowcheck.cpp solution (LC 7)
+[33meff9a55[m Add top-k-frequent-elements-priorityqueue.cpp solution (LC 347)
+[33ma2f3af7[m Add number-of-good-pairs-hashmap.cpp solution (LC 1512)
+[33m7c5e899[m Add majority-element-hashmap.cpp solution (LC 169)
+[33m0dbaebc[m Qualify vector with std:: in search-insert-position-linear
+[33md6075be[m Fix CI build: correct file extensions and missing include
+[33m1093013[m Add numeric prefixes to LeetCode difficulty folders
+[33mb1073b8[m Move Maximum Subarray from easy/ to medium/ folder
+[33m561001b[m Solve Move Zeroes using two pointers
+[33m5419cf8[m Solve Maximum Subarray using Kadane's algorithm
+[33m52d4a0f[m Create majority-element-bruteforce.cpp
+[33mffc936a[m Implement isAnagram function using hashmap
+[33mdd3b363[m Add containsDuplicate function for array checking
+[33mec7fde3[m Add merge function for merging sorted arrays
+[33m3af3589[m Add removeElement function to remove specified value
+[33m2c1c522[m Add removeDuplicates function in Solution class
+[33m881d840[m Implement searchInsert function for array
+[33mf6c56cd[m Implement median of two sorted arrays function
+[33m7130869[m Implement brute force solution for Two Sum problem
