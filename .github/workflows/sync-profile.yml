@@ -1,0 +1,58 @@
+name: Sync Profile README
+
+# Pushes profile-readme.md from this repo to the GitHub profile repo
+# (madhan-x/madhan-x) whenever the source file changes on main.
+#
+# Authored as Madhan Thalloju (per repo convention: no co-author trailers
+# on commits the user requests).
+#
+# Requires a fine-grained PAT scoped to the madhan-x/madhan-x repo with
+# `contents: write`. Store it as a repository secret named
+# `PROFILE_SYNC_TOKEN`. The default GITHUB_TOKEN cannot push cross-repo.
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - profile-readme.md
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Push profile-readme.md to madhan-x/madhan-x
+        env:
+          GH_TOKEN: ${{ secrets.PROFILE_SYNC_TOKEN }}
+        run: |
+          set -e
+          content_b64=$(base64 -w 0 profile-readme.md)
+          sha=$(gh api repos/madhan-x/madhan-x/contents/README.md --jq '.sha // empty')
+          args=(-f message="Sync profile README from algorithms-and-data-structures [skip hook]" \
+                -f content="$content_b64" \
+                -f branch="main")
+          if [ -n "$sha" ]; then
+            args+=(-f sha="$sha")
+          fi
+          gh api -X PUT repos/madhan-x/madhan-x/contents/README.md "${args[@]}" \
+            | tee /tmp/push.json >/dev/null
+          new_sha=$(jq -r '.commit.sha' /tmp/push.json)
+          echo "Pushed commit: $new_sha"
+
+          # Verify author identity — must be Madhan Thalloju, not github-actions[bot].
+          author_name=$(jq -r '.commit.author.name' /tmp/push.json)
+          author_email=$(jq -r '.commit.author.email' /tmp/push.json)
+          echo "Commit author: $author_name <$author_email>"
+
+          if [ "$author_name" != "Madhan" ] && [ "$author_name" != "Madhan Thalloju" ]; then
+            echo "::error::Unexpected commit author: $author_name <$author_email>"
+            exit 1
+          fi

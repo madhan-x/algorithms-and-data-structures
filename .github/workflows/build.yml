@@ -52,3 +52,33 @@ jobs:
             fi
           done < <(find . -type f -name "*.c" -not -path "./.git/*")
           exit $status
+
+  build-python:
+    name: Syntax-check Python Solutions
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Find and syntax-check all .py files
+        run: |
+          set -e
+          mkdir -p build
+          status=0
+          while IFS= read -r f; do
+            echo "Checking: $f"
+            if ! python -m py_compile "$f"; then
+              status=1
+            fi
+          done < <(find . -type f -name "*.py" \
+                   -not -path "./.git/*" \
+                   -not -path "./scripts/*" \
+                   -not -path "./build/*" \
+                   -not -path "./archive/*" \
+                   -not -path "./practice/*")
+          exit $status

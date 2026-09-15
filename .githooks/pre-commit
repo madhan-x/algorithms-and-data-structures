@@ -17,7 +17,7 @@ needs_update=0
 
 # Run when any source file changed, OR when the script itself changed,
 # OR when README.md itself was edited (so manual edits get refreshed too).
-if echo "$changed" | grep -qE '\.(cpp|c)$'; then
+if echo "$changed" | grep -qE '\.(cpp|c|py)$'; then
     needs_update=1
 fi
 if echo "$changed" | grep -q '^scripts/update-readme-stats\.py$'; then
