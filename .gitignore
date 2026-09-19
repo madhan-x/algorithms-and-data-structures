@@ -10,12 +10,14 @@ practice/
 *.so
 *.dll
 *.dylib
+*.lib
 
 # Build directories
 build/
 bin/
 obj/
 out/
+dist/
 
 # IDE / editor
 .idea/
@@ -38,11 +40,14 @@ desktop.ini
 *.gcno
 *.gcov
 
-# Python (for future)
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
+*.pyo
 .venv/
 venv/
+env/
+ENV/
 
 # Logs / temp
 *.log
@@ -50,45 +55,5 @@ venv/
 *.bak
 commits.txt
 
-# ==============================
-# Build artifacts / binaries
-# ==============================
-
-*.exe
-*.out
-*.o
-*.obj
-*.a
-*.lib
-
-build/
-bin/
-dist/
-
-
-# ==============================
-# Python
-# ==============================
-
-__pycache__/
-*.py[cod]
-*.pyo
-
-.venv/
-venv/
-env/
-ENV/
-
-
-# ==============================
-# IDE / Editor
-# ==============================
-
-.vscode/*.log
-
-
-# ==============================
 # Local Claude configuration
-# ==============================
-
 .claude/settings.local.json
