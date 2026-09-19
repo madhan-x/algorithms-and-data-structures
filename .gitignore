@@ -49,3 +49,46 @@ venv/
 *.tmp
 *.bak
 commits.txt
+
+# ==============================
+# Build artifacts / binaries
+# ==============================
+
+*.exe
+*.out
+*.o
+*.obj
+*.a
+*.lib
+
+build/
+bin/
+dist/
+
+
+# ==============================
+# Python
+# ==============================
+
+__pycache__/
+*.py[cod]
+*.pyo
+
+.venv/
+venv/
+env/
+ENV/
+
+
+# ==============================
+# IDE / Editor
+# ==============================
+
+.vscode/*.log
+
+
+# ==============================
+# Local Claude configuration
+# ==============================
+
+.claude/settings.local.json
