@@ -12,28 +12,12 @@ if git log -1 --pretty=%s HEAD 2>/dev/null | grep -q '\[skip hook\]'; then
     exit 0
 fi
 
-changed=$(git diff --cached --name-only)
-needs_update=0
-
-# Run when any source file changed, OR when the script itself changed,
-# OR when README.md itself was edited (so manual edits get refreshed too).
-if echo "$changed" | grep -qE '\.(cpp|c|py)$'; then
-    needs_update=1
-fi
-if echo "$changed" | grep -q '^scripts/update-readme-stats\.py$'; then
-    needs_update=1
-fi
-if echo "$changed" | grep -q '^README\.md$'; then
-    needs_update=1
-fi
-
-if [ "$needs_update" -eq 1 ]; then
-    python scripts/update-readme-stats.py
-    # On Windows Git-Bash, a freshly-rewritten README sometimes isn't picked
-    # up by `git add` (CRLF normalisation can race the index refresh).
-    # Refresh stat info first, and only stage if there is actually a diff.
-    git update-index --refresh README.md >/dev/null 2>&1 || true
-    if ! git diff --quiet README.md; then
-        git add README.md
-    fi
+# Always update because the script is cheap and idempotent.
+python scripts/update-readme-stats.py
+# On Windows Git-Bash, a freshly-rewritten README sometimes isn't picked
+# up by `git add` (CRLF normalisation can race the index refresh).
+# Refresh stat info first, and only stage if there is actually a diff.
+git update-index --refresh README.md >/dev/null 2>&1 || true
+if ! git diff --quiet README.md; then
+    git add README.md
 fi
