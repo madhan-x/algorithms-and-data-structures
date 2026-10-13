@@ -17,8 +17,8 @@
 ## What this demonstrates
 
 - **From-first-principles implementations** of every core data structure (linked lists, BSTs, stacks, queues) — not just library calls.
-- **Pattern recognition across <!-- AUTO-LC-COUNT -->123<!-- /AUTO-LC-COUNT --> LeetCode solutions** — two pointers, slow & fast, sliding window, Kadane's, Dutch National Flag, Moore's Voting, XOR, monotonic stack, priority queue, binary search, frequency counting, overflow bounds check, digit reversal, prefix sum, stack-based deletion.
-- **Discipline & process** — <!-- AUTO-TOTAL-COUNT -->224<!-- /AUTO-TOTAL-COUNT --> solutions committed, CI-enforced strict-warnings compilation (`-Wall -Wextra -Wpedantic`) on every push, and stats auto-refreshed on every commit.
+- **Pattern recognition across <!-- AUTO-LC-COUNT -->124<!-- /AUTO-LC-COUNT --> LeetCode solutions** — two pointers, slow & fast, sliding window, Kadane's, Dutch National Flag, Moore's Voting, XOR, monotonic stack, priority queue, binary search, frequency counting, overflow bounds check, digit reversal, prefix sum, stack-based deletion.
+- **Discipline & process** — <!-- AUTO-TOTAL-COUNT -->225<!-- /AUTO-TOTAL-COUNT --> solutions committed, CI-enforced strict-warnings compilation (`-Wall -Wextra -Wpedantic`) on every push, and stats auto-refreshed on every commit.
 - **Readable, documented code** — every file documents problem, approach, time/space complexity, and worked example (see [`CONTRIBUTING.md`](./CONTRIBUTING.md)).
 
 ---
@@ -28,8 +28,8 @@
 <!-- AUTO-STATS:START -->
 | Metric              |  Count |
 |---------------------|-------:|
-| Total solutions     |   224 |
-| C++ implementations |   201 |
+| Total solutions     |   225 |
+| C++ implementations |   202 |
 | C implementations   |    23 |
 | Python implementations |   0 |
 
@@ -48,11 +48,11 @@
 | Sorting        |     2 |
 | Maths          |     1 |
 
-**LeetCode by difficulty** (123 solved on [LeetCode profile](https://leetcode.com/u/madhan-x))
+**LeetCode by difficulty** (124 solved on [LeetCode profile](https://leetcode.com/u/madhan-x))
 
 | Difficulty | Count |
 |------------|------:|
-| Easy       |    69 |
+| Easy       |    70 |
 | Medium     |    52 |
 | Hard       |     2 |
 <!-- AUTO-STATS:END -->
@@ -180,8 +180,8 @@
 
 ### Strings
 
-**Easy (13)**
-- `divisor-substrings-string-sliding-window.cpp` · `faulty-keyboard.cpp` · `find-first-occurrence-stl.cpp` · `find-the-index-of-the-first-occurrence-in-a-string-stl.cpp` · `first-unique-character-in-a-string-hash-map.cpp` · `isomorphic-strings-two-way-hash-map.cpp` · `jewels-and-stones-hash-set.cpp` · `length-of-last-word.cpp` · `minimum-recolors-to-get-k-consecutive-black-blocks-sliding-window.cpp` · `reverse-string-two-pointers.cpp` · `reverse-vowels-of-a-string.cpp` · `substrings-of-size-three-with-distinct-characters.cpp` · `valid-anagram-hashmap.cpp`
+**Easy (14)**
+- `divisor-substrings-string-sliding-window.cpp` · `faulty-keyboard.cpp` · `find-first-occurrence-stl.cpp` · `find-the-index-of-the-first-occurrence-in-a-string-stl.cpp` · `first-unique-character-in-a-string-hash-map.cpp` · `isomorphic-strings-two-way-hash-map.cpp` · `jewels-and-stones-hash-set.cpp` · `length-of-last-word.cpp` · `maximum-score-after-splitting-a-string-greedy.cpp` · `minimum-recolors-to-get-k-consecutive-black-blocks-sliding-window.cpp` · `reverse-string-two-pointers.cpp` · `reverse-vowels-of-a-string.cpp` · `substrings-of-size-three-with-distinct-characters.cpp` · `valid-anagram-hashmap.cpp`
 
 **Medium (6)**
 - `find-all-anagrams-in-a-string-fixed-sliding-window.cpp` · `longest-repeating-character-replacement-sliding-window.cpp` · `longest-substring-without-repeating-characters-sliding-window.cpp` · `maximum-number-of-vowels-in-a-substring-of-given-length-sliding-window.cpp` · `permutation-in-string-fixed-sliding-window.cpp` · `top-k-frequent-words-priority-queue.cpp`
