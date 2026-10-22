@@ -17,8 +17,8 @@
 ## What this demonstrates
 
 - **From-first-principles implementations** of every core data structure (linked lists, BSTs, stacks, queues) — not just library calls.
-- **Pattern recognition across <!-- AUTO-LC-COUNT -->132<!-- /AUTO-LC-COUNT --> LeetCode solutions** — two pointers, slow & fast, sliding window, Kadane's, Dutch National Flag, Moore's Voting, XOR, monotonic stack, priority queue, binary search, frequency counting, overflow bounds check, digit reversal, prefix sum, stack-based deletion.
-- **Discipline & process** — <!-- AUTO-TOTAL-COUNT -->233<!-- /AUTO-TOTAL-COUNT --> solutions committed, CI-enforced strict-warnings compilation (`-Wall -Wextra -Wpedantic`) on every push, and stats auto-refreshed on every commit.
+- **Pattern recognition across <!-- AUTO-LC-COUNT -->133<!-- /AUTO-LC-COUNT --> LeetCode solutions** — two pointers, slow & fast, sliding window, Kadane's, Dutch National Flag, Moore's Voting, XOR, monotonic stack, priority queue, binary search, frequency counting, overflow bounds check, digit reversal, prefix sum, stack-based deletion.
+- **Discipline & process** — <!-- AUTO-TOTAL-COUNT -->234<!-- /AUTO-TOTAL-COUNT --> solutions committed, CI-enforced strict-warnings compilation (`-Wall -Wextra -Wpedantic`) on every push, and stats auto-refreshed on every commit.
 - **Readable, documented code** — every file documents problem, approach, time/space complexity, and worked example (see [`CONTRIBUTING.md`](./CONTRIBUTING.md)).
 
 ---
@@ -28,8 +28,8 @@
 <!-- AUTO-STATS:START -->
 | Metric              |  Count |
 |---------------------|-------:|
-| Total solutions     |   233 |
-| C++ implementations |   210 |
+| Total solutions     |   234 |
+| C++ implementations |   211 |
 | C implementations   |    23 |
 | Python implementations |   0 |
 
@@ -48,11 +48,11 @@
 | Sorting        |     2 |
 | Maths          |     1 |
 
-**LeetCode by difficulty** (132 solved on [LeetCode profile](https://leetcode.com/u/madhan-x))
+**LeetCode by difficulty** (133 solved on [LeetCode profile](https://leetcode.com/u/madhan-x))
 
 | Difficulty | Count |
 |------------|------:|
-| Easy       |    76 |
+| Easy       |    77 |
 | Medium     |    54 |
 | Hard       |     2 |
 <!-- AUTO-STATS:END -->
@@ -129,8 +129,8 @@
 <!-- AUTO-LEETCODE:START -->
 ### Arrays
 
-**Easy (33)**
-- `binary-search.cpp` · `can-place-flowers-greedy.cpp` · `contains-duplicate-hashset.cpp` · `find-pivot-index-bruteforce.cpp` · `find-smallest-letter-greater-than-target-binary-search.cpp` · `find-the-highest-altitude-prefix-sum.cpp` · `flipping-an-image-two-pointers-bit-manipulation.cpp` · `intersection-of-two-arrays-hash-set.cpp` · `intersection-of-two-arrays-ii-two-pointers.cpp` · `is-subsequence-two-pointers.cpp` · `longest-continuous-increasing-subsequence.cpp` · `majority-element-bruteforce.cpp` · `majority-element-hashmap.cpp` · `max-consecutive-ones.cpp` · `maximum-average-subarray-i-sliding-window.cpp` · `maximum-product-of-three-numbers-sorting.cpp` · `merge-sorted-array.cpp` · `merge-strings-alternately-two-pointers.cpp` · `minimum-difference-between-highest-and-lowest-of-k-scores-sorting.cpp` · `move-zeroes-two-pointers.cpp` · `number-of-good-pairs-hashmap.cpp` · `pivot-index-prefixsum.cpp` · `plus-one.cpp` · `range-sum-query-immutable-prefix-sum.cpp` · `remove-duplicates-from-sorted-array.cpp` · `remove-element.cpp` · `search-insert-position-linear.cpp` · `sort-array-by-parity-two-pointers.cpp` · `squares-of-a-sorted-array-sort.cpp` · `squares-of-sorted-array-sort.cpp` · `third-maximum-number-three-variables.cpp` · `two-sum-bruteforce.cpp` · `two-sum-ii-input-array-is-sorted-two-pointers.cpp`
+**Easy (34)**
+- `binary-search.cpp` · `can-place-flowers-greedy.cpp` · `contains-duplicate-hashset.cpp` · `find-pivot-index-bruteforce.cpp` · `find-smallest-letter-greater-than-target-binary-search.cpp` · `find-the-highest-altitude-prefix-sum.cpp` · `flipping-an-image-two-pointers-bit-manipulation.cpp` · `intersection-of-two-arrays-hash-set.cpp` · `intersection-of-two-arrays-ii-two-pointers.cpp` · `is-subsequence-two-pointers.cpp` · `longest-continuous-increasing-subsequence.cpp` · `majority-element-bruteforce.cpp` · `majority-element-hashmap.cpp` · `max-consecutive-ones.cpp` · `maximum-average-subarray-i-sliding-window.cpp` · `maximum-product-of-three-numbers-sorting.cpp` · `merge-sorted-array.cpp` · `merge-strings-alternately-two-pointers.cpp` · `minimum-difference-between-highest-and-lowest-of-k-scores-sorting.cpp` · `move-zeroes-two-pointers.cpp` · `number-of-good-pairs-hashmap.cpp` · `peak-index-in-a-mountain-array-binary-search.cpp` · `pivot-index-prefixsum.cpp` · `plus-one.cpp` · `range-sum-query-immutable-prefix-sum.cpp` · `remove-duplicates-from-sorted-array.cpp` · `remove-element.cpp` · `search-insert-position-linear.cpp` · `sort-array-by-parity-two-pointers.cpp` · `squares-of-a-sorted-array-sort.cpp` · `squares-of-sorted-array-sort.cpp` · `third-maximum-number-three-variables.cpp` · `two-sum-bruteforce.cpp` · `two-sum-ii-input-array-is-sorted-two-pointers.cpp`
 
 **Medium (25)**
 - `boats-to-save-people-two-pointers.cpp` · `container-with-most-water-two-pointers.cpp` · `contains-duplicate-ii-sliding-window-hash-set.cpp` · `find-first-and-last-position-of-element-binary-search.cpp` · `find-minimum-in-rotated-sorted-array-binary-search.cpp` · `find-the-smallest-divisor-given-a-threshold-binary-search-on-answer.cpp` · `fruit-into-baskets-sliding-window.cpp` · `grumpy-bookstore-owner-sliding-window.cpp` · `koko-eating-bananas-binary-search-on-answer.cpp` · `max-consecutive-ones-iii-sliding-window.cpp` · `maximum-points-you-can-obtain-from-cards-sliding-window.cpp` · `maximum-subarray-kadane.cpp` · `merge-intervals-sorting.cpp` · `non-decreasing-array-greedy.cpp` · `product-of-array-except-self-prefix-suffix.cpp` · `remove-duplicates-from-sorted-array-ii-two-pointers.cpp` · `rotate-array-reversal-algorithm.cpp` · `search-a-2d-matrix-binary-search.cpp` · `search-in-rotated-sorted-array-binary-search.cpp` · `sort-colors-dutch-national-flag.cpp` · `subarray-averages-greater-than-threshold-sliding-window.cpp` · `subarray-sum-equals-k-prefix-sum-hash-map.cpp` · `subarrays-divisible-by-k-prefix-sum-hash-map.cpp` · `three-sum-two-pointers.cpp` · `top-k-frequent-elements-priorityqueue.cpp`
